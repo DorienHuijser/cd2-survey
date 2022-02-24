@@ -1,0 +1,71 @@
+"","Instrument_name","Keywords","Keyword_count","Keyword_respondents","Categories","Priority_scores","Times_mentioned","Respondents"
+"1","1_Adolescent Social Connections and Coping during COVID-19 Questionnaire - Social connections and Prosocial Behavior","","",0,"NA","NaN","33",0
+"2","10_Children's Behavior Questionnaire - Discomfort, Fear, Perceptual sensitivity","","",0,"NA","NaN","33",0
+"3","11_Children's Behavior Questionnaire - Effortful control","","",0,"NA","NaN","33",0
+"4","12_Competentiebelevingsschaal voor Adolescenten","","",0,"NA","NaN","33",0
+"5","13_Confusion, Hubbub and Order Scale","environmental chaos,home environment","1,1",1,"environmental measures,NA","1,0","1,32",1
+"6","14_COVID-19 Open Questions","","",1,"pandemic,well-being,NA","0.67,0.33,0","1,1,31",1
+"7","15_Dictator Game","","",0,"NA","NaN","33",0
+"8","16_Dutch Reactive and Proactive aggression Questionnaire","","",0,"NA","NaN","33",0
+"9","17_Early Adolescent Temperament Questionnaire - Discomfort, Fear, Perceptual sensitivity","adolescence,discomfort,fearfulness,perceptual sensitivity,temperament","1,1,1,1,1",1,"Personality,NA","1,0","1,33",1
+"10","18_Early Adolescent Temperament Questionnaire - Effortful control","adolescence,effortful control,temperament","1,1,1",1,"Social cognition and behavior,Personality,NA","0.67,0.33,0","1,1,33",1
+"11","19_E-diary - Daily structure and activities of the children","","",0,"NA","NaN","33",0
+"12","2_Alabama Parenting Questionnaire","","",0,"NA","NaN","33",0
+"13","20_EEG during the Face Processing Task","","",0,"NA","NaN","33",0
+"14","21_Faces paradigm","","",0,"NA","NaN","33",0
+"15","22_Family Assessment Device","","",0,"NA","NaN","33",0
+"16","23_Family Interaction Task","family dynamics,parent-child interaction","1,1",1,"Parenting,family interaction,NA","0.67,0.33,0","1,1,32",1
+"17","24_Fear of Negative Evaluation",",sensitivity to evaluation,social anxiety","1,1,1",1,"Mental health,Social and emotional development,NA","0.67,0.33,0","1,1,33",1
+"18","25_Feeling and Thinking Questionnaire","","",0,"NA","NaN","33",0
+"19","26_Five-minute speech","","",0,"NA","NaN","33",0
+"20","27_fMRI during the Self-concept Task","fmri,neuroimaging,self-concept","1,1,1",1,"Social cognition and behavior,Social and emotional development,neurobiology,NA","0.4,0.4,0.2,0","1,1,1,32",1
+"21","28_Highly Sensitive Child Scale","","",0,"NA","NaN","33",0
+"22","29_Individual differences and preferences","individual differences,twins","1,1",1,"Personality,NA","1,0","1,33",1
+"23","3_Attachment Script Assessment","","",0,"NA","NaN","33",0
+"24","30_Interpersonal Reactivity Index","","",0,"NA","NaN","33",0
+"25","31_Inventory of Callous-Unemotional Traits","","",0,"NA","NaN","33",0
+"26","32_Investment Models Scale","","",0,"NA","NaN","33",0
+"27","33_Language Environment Analysis","environmental recording,lena","1,1",1,"environment,NA","1,0","1,32",1
+"28","34_Musical Training Questionnaire","","",0,"NA","NaN","33",0
+"29","35_MyChild - Empathy","empathy,prosocial behavior","1,1",1,"Social cognition and behavior,Social and emotional development,NA","0.5,0.5,0","1,1,33",1
+"30","36_MyChild - Guilt","","",0,"NA","NaN","33",0
+"31","37_MyChild - Obedience","","",0,"NA","NaN","33",0
+"32","38_Observation Evening meal","evening meal,natural environment,observation,parent-child interaction","1,1,1,1",1,"Parenting,family interaction,NA","0.67,0.33,0","1,1,32",1
+"33","39_Olweus Bully/Victim Questionnaire","","",0,"NA","NaN","33",0
+"34","4_Behavioral Inhibition and Activation System","behavioral drive,behavioral inhibition","1,1",1,"Social cognition and behavior,NA","1,0","1,33",1
+"35","40_Pandemic Questionnaire ","","",0,"NA","NaN","33",0
+"36","41_Parenting Attitudes Questionnaire","parenting,parenting attitudes","1,1",1,"Parenting,NA","1,0","1,33",1
+"37","42_Parenting Daily Hassles","daily hassles,parenting","1,1",1,"Parenting,Mental health,NA","0.67,0.33,0","1,1,33",1
+"38","43_Parenting Practices Questionnaire - Warmth/involvement","parental affection,parental attention,parental involvement,parental sensitivity,parental warmth,parenting","1,1,1,1,1,1",1,"Parenting,NA","1,0","1,33",1
+"39","44_Parenting Scale","parental aggression,parental laxness,parenting attitudes,parenting behavior","1,1,1,1",1,"Parenting,NA","1,0","1,33",1
+"40","45_Parenting Scale - Overreactivity","parental laxness,parental overreactivity,parenting behavior,self-report","1,1,1,1",1,"Parenting,NA","1,0","1,33",1
+"41","46_Perceived Stress Scale","","",0,"NA","NaN","33",0
+"42","47_Pregnancy and Birth","","",0,"NA","NaN","33",0
+"43","48_Previous Parenting Support","parenting,parenting support","1,1",1,"Parenting,NA","1,0","1,33",1
+"44","49_Purdue Home Stimulation Inventory - Observation, interview","","",0,"NA","NaN","33",0
+"45","5_Brief Symptom Inventory","","",0,"NA","NaN","33",0
+"46","50_Questionnaire home environment - Daily routines (Sleep, Eat, Care, Media, Work)","","",0,"NA","NaN","33",0
+"47","51_Questions about school-going of the twins","academic achievement,academic development,school","1,1,1",1,"Demographics,Cognition,Lifestyle,NA","0.5,0.33,0.17,0","1,1,1,33",1
+"48","52_Sally-Ann Task","","",0,"NA","NaN","33",0
+"49","53_Self-concept Task","","",0,"NA","NaN","33",0
+"50","54_Sensitive Discipline - Do","","",0,"NA","NaN","33",0
+"51","55_Sensitive Discipline - Don't","parental sensitive discipline,parenting","1,1",1,"Parenting,NA","1,0","1,33",1
+"52","56_Sensitivity - Etch-a-Sketch","parent-child collaboration,parent-child interaction,parental sensitivity","1,1,1",1,"Parenting,parent-child interaction,NA","0.67,0.33,0","1,1,32",1
+"53","57_Sensitivity - Family game (Familygame_quartet en Familygame_roach)","","",0,"NA","NaN","33",0
+"54","58_Sensitivity - Free play","","",0,"NA","NaN","33",0
+"55","59_Sensorimotor synchronization","","",0,"NA","NaN","33",0
+"56","6_Buitenschoolse activiteiten (out of school activities)","extracurricular activities,hobbies","1,1",1,"daily routines,Social cognition and behavior,NA","0.67,0.33,0","1,1,32",1
+"57","60_Social Contact","","",0,"NA","NaN","33",0
+"58","61_Social Media Questionnaire","","",0,"NA","NaN","33",0
+"59","62_Social Media Questionnaire","","",0,"NA","NaN","33",0
+"60","63_Social Wellbeing Questionnaire","","",0,"NA","NaN","33",0
+"61","64_Strength and Difficulties Questionnaire","","",0,"NA","NaN","33",0
+"62","65_Temperament in Middle Childhood Questionnaire - Discomfort, Fear, Perceptual sensitivity","","",0,"NA","NaN","33",0
+"63","66_Temperament in Middle Childhood Questionnaire - Effortful control","effortful control,middle childhood,temperament","1,1,1",1,"Personality,Social and emotional development,NA","0.67,0.33,0","1,1,33",1
+"64","67_Twin Social Interaction / Etch-a-Sketch among twins","","",0,"NA","NaN","33",0
+"65","68_Twin Social Skills or Differences","individual differences,social competence,twins","1,1,1",1,"Personality,Social and emotional development,NA","0.5,0.5,0","1,1,33",1
+"66","69_Visual Analogue Scale - Scanner related stress","scanner related stress,stress experience","1,1",1,"Mental health,neuroimaging,NA","0.67,0.33,0","1,1,32",1
+"67","7_Cheating - Ball throwing","","",0,"NA","NaN","33",0
+"68","70_Wildman items to screen for social desirability","","",0,"NA","NaN","33",0
+"69","8_Cheating - Dog task","","",0,"NA","NaN","33",0
+"70","9_Cheating - Word puzzle","","",0,"NA","NaN","33",0

@@ -1,0 +1,85 @@
+"","Instrument_name","Keywords","Keyword_count","Keyword_respondents","Categories","Priority_scores","Times_mentioned","Respondents"
+"1","1_Acculturation Scale (AC)","","",0,"NA","NaN","33",0
+"2","10_Child Behavior Checklist (CBCL)","","",0,"NA","NaN","33",0
+"3","11_Children's Depression Inventory (CDI)","","",0,"NA","NaN","33",0
+"4","12_Childhood Trauma Questionnaire (CTQ)","","",0,"NA","NaN","33",0
+"5","13_Children's Report of Parental Behavior Inventory (CRPBI)","","",0,"NA","NaN","33",0
+"6","14_Comprehensive Early Childhood Parenting Questionnaire (CECPAQ)","","",0,"NA","NaN","33",0
+"7","15_Conflict Awareness (CA)",",family relationships,parental conflict,relationship quality","1,1,1,1",1,"Parenting,Social cognition and behavior,NA","0.67,0.33,0","1,1,33",1
+"8","16_Conflict Resolution Style Inventory (CRSI)",",conflict,interpersonal conflict,interpersonal relationships,personal relationships","1,1,1,1,1",1,"Personality,Social cognition and behavior,Social and emotional development,NA","0.4,0.4,0.2,0","1,1,1,33",1
+"9","17_Conflict task",",family relationships,parent-adolescent conflict,parent-adolescent relationships,parent-child relationship quality,parent-child relationships","1,1,1,1,1,1",2,"Parenting,parent-child relationship quality,Personality,Social cognition and behavior,NA","0.42,0.33,0.12,0.12,0","2,1,1,1,32",2
+"10","18_Cortisol awakening response","","",0,"NA","NaN","33",0
+"11","19_Daily Hassles (DH)","","",0,"NA","NaN","33",0
+"12","2_Adult Self-Report (ASR)","","",0,"NA","NaN","33",0
+"13","20_Daily Mood Device (DMD)","","",1,"Mental health,Social and emotional development,NA","0.67,0.33,0","1,1,33",1
+"14","21_Delay of Gratification Task ","","",0,"NA","NaN","33",0
+"15","22_Delinquency - Self-Report of Delinquent Behavior (ZD)","","",0,"NA","NaN","33",0
+"16","23_Delinquent Friends/Basic Questionnaire Peers (BL)",",externalizing problems,interpersonal relationships,peer contact","1,1,1,1",1,"Lifestyle,Social cognition and behavior,Mental health,NA","0.4,0.4,0.2,0","1,1,1,33",1
+"17","24_Demographics","","",0,"NA","NaN","33",0
+"18","25_Diagnostic Interview Schedule for Children (DISC-IV)","","",0,"NA","NaN","33",0
+"19","26_Difficulties in Emotion Regulation Scale (DERS)","","",0,"NA","NaN","33",0
+"20","27_Direct and Indirect Aggression Scales","","",0,"NA","NaN","33",0
+"21","28_Disclosure/Secrecy (DS)",",parent-adolescent relationship quality,parenting,relationship quality","1,1,1,1",1,"Parenting,NA","1,0","1,33",1
+"22","29_Discussion task",",adolescent autonomy,family relationships,parent-adolescent relationship,parent-adolescent relationship quality,parenting","1,1,1,1,1,1",1,"Parenting,Personality,Social cognition and behavior,NA","0.5,0.25,0.25,0","1,1,1,33",1
+"23","3_Adult Temperament Questionnaire - Effortful Control (AT)",",personality; temperament,self-control,self-regulation","1,1,1,1",2,"Personality,Social and emotional development,NA","0.83,0.17,0","2,1,33",2
+"24","30_Empathy Task (EMP)","","",0,"NA","NaN","33",0
+"25","31_Free Observation (IT-HOME)","","",1,"household characteristics,NA","1,0","1,32",1
+"26","32_Free Play Observation","","",0,"NA","NaN","33",0
+"27","33_Identity Styles Inventory (IS)","","",0,"NA","NaN","33",0
+"28","34_Index of Empathy for Children and Adolescents (IECA)","","",0,"NA","NaN","33",0
+"29","35_Infant-Toddler Social and Emotional Assessment",",developmental tasks,infant temperament","1,1,1",1,"Personality,Social and emotional development,NA","0.5,0.5,0","1,1,33",1
+"30","36_Interpersonal Conflict Questionnaire (ICQ)","","",0,"NA","NaN","33",0
+"31","37_Interpersonal Reactivity Index (IRI)","","",0,"NA","NaN","33",0
+"32","38_Iowa Gambling Task","","",0,"NA","NaN","33",0
+"33","39_Level of Expressed Emotion (LEE)","","",1,"Parenting,NA","1,0","1,33",1
+"34","4_Ages and Stages Questionnaire - Social-Emotional (ASQ-SE)",",developmental tasks,milestones,socio-emotional development","1,1,1,1",2,"Social and emotional development,Social cognition and behavior,Personality,NA","0.7,0.2,0.1,0","2,1,1,33",2
+"35","40_Life events","","",0,"NA","NaN","33",0
+"36","41_Motor Development - Mijlpalen",",developmental tasks,motor development","1,1,1",2,"motor development,Physical health,Mental health,NA","0.5,0.25,0.25,0","1,1,1,32",2
+"37","42_Network of Relationships Inventory (NRI)","","",0,"NA","NaN","33",0
+"38","43_Nijmeegse Opvoedingsvragenlijst (NOV)",",parental behavior,parenting","1,1,1",1,"Parenting,NA","1,0","1,33",1
+"39","44_Nijmeegse Ouderlijke Stress Index - Acceptance (NOSI-acc)","parenting,,parental behavior","2,1,1",2,"Parenting,NA","1,0","2,33",2
+"40","45_Nijmeegse Ouderlijke Stress Index - Competence (NOSI-Com)","","",0,"NA","NaN","33",0
+"41","46_Nonverbal communication tasks ","","",0,"NA","NaN","33",0
+"42","47_Parental Care and Tenderness questionnaire (PCAT)",",parental behavior,parenting","1,1,1",1,"Parenting,NA","1,0","1,33",1
+"43","48_Parental Dimensions Inventory (PDI)","","",0,"NA","NaN","33",0
+"44","49_Parental Management of Peers Inventory (PMPI)","","",0,"NA","NaN","33",0
+"45","5_Antisocial Process Screening Device (AP)","","",0,"NA","NaN","33",0
+"46","50_Parenting Practices (PP)","","",1,"Parenting,NA","1,0","1,33",1
+"47","51_Patiënten Gezondsheidsvragenlijst","","",0,"NA","NaN","33",0
+"48","52_Pill Use (PG)","","",0,"NA","NaN","33",0
+"49","53_Police and Judicial Contact (PJ/PZ)","","",0,"NA","NaN","33",0
+"50","54_Postpartum Bonding Scale (PBS)","","",1,"Parenting,NA","1,0","1,33",1
+"51","55_Prenatal development","","",1,"pregnancy characteristics,Physical health,NA","0.67,0.33,0","1,1,32",1
+"52","56_Proactive/Reactive Aggression (PRA)",",aggressive behavior,interpersonal behavior,social behavior","1,1,1,1",1,"Social cognition and behavior,Personality,NA","0.67,0.33,0","1,1,33",1
+"53","57_Prosocial behavior","","",1,"Social cognition and behavior,Personality,prosocial behavior,NA","0.5,0.33,0.17,0","1,1,1,32",1
+"54","58_Psychological Control Scale (PCS-YSR)","parenting,,parent-adolescent relationship quality,parent-adolescent relationships","2,1,1,1",2,"Parenting,NA","1,0","2,33",2
+"55","59_Pubertal Development Scale (PU)","","",0,"NA","NaN","33",0
+"56","6_Balanced Relatedness (BR)","autonomy support; parenting; friendship quality; marital quality (etc,depends in which relationship it is assessed)","1,1",1,"relationship quality,autonomy support,Parenting,NA","0.5,0.33,0.17,0","1,1,1,31",1
+"57","60_Public speaking","","",1,"Mental health,Physiology,NA","0.67,0.33,0","1,1,33",1
+"58","61_Rejection Sensitivity Questionnaire (RSQ)","","",0,"NA","NaN","33",0
+"59","62_Religious belief","","",0,"NA","NaN","33",0
+"60","63_Reynolds Adolescent Depression Scale (RADS) ","","",0,"NA","NaN","33",0
+"61","64_Saliency importance of friends/Perception similarity friends (SA)",",friendship characteristics; friendship norms,peer relationships","1,1,1",2,"Social cognition and behavior,peer relationships,Social and emotional development,NA","0.5,0.33,0.17,0","1,1,1,32",2
+"62","65_Saliva to assess DNA and DNA methylation","","",0,"NA","NaN","33",0
+"63","66_School Performance (SV)","","",0,"NA","NaN","33",0
+"64","67_Screen for Child Anxiety Related Emotional Disorders (SCARED)","","",0,"NA","NaN","33",0
+"65","68_Self-concept Clarity Scale (SCC)","","",1,"identity,Personality,NA","0.67,0.33,0","1,1,32",1
+"66","69_Self-Efficacy in the Nurturing Role (SENR)",",beliefs,cognition,self-perceptions","1,1,1,1",1,"Cognition,Social cognition and behavior,Mental health,Personality,NA","0.33,0.33,0.17,0.17,0","1,1,1,1,33",1
+"67","7_Behavioral Inhibition Scale/Behavioral Activation Scale (BIS/BAS)",",personality,social relationships,temperament,temperament; personality","1,1,1,1,1",2,"Personality,Social cognition and behavior,NA","0.83,0.17,0","2,1,33",2
+"68","70_Sexuality (SX)",",intimate relationships,romantic relationships,sexual relationships","1,1,1,1",1,"Social and emotional development,Personality,Life history,Lifestyle,NA","0.38,0.25,0.25,0.12,0","1,1,1,1,33",1
+"69","71_Stop Signal Task","","",1,"Personality,NA","1,0","1,33",1
+"70","72_Strengths and Difficulties Questionnaire-Peer Relationships (SDQ-Peer)","","",0,"NA","NaN","33",0
+"71","73_Strengths and Difficulties Questionnaire-Prosocial (SDQ-Prosocial)","","",0,"NA","NaN","33",0
+"72","74_Substance Use (SU)",",drug use,externalizing behavior,substance use","1,1,1,1",2,"substance use,Mental health,Lifestyle,Physical health,NA","0.33,0.29,0.25,0.12,0","1,2,1,1,32",2
+"73","75_Substance Use during Pregnancy",",drug use,externalizing problems","1,1,1",1,"Physical health,Mental health,Lifestyle,NA","0.33,0.33,0.33,0","1,1,1,33",1
+"74","76_Temperament and Emotion Regulation (IBQ)","","",1,"Personality,NA","1,0","1,33",1
+"75","77_Temperament, Emotion Regulation, Impulsivity, Inhibitory Control (ECBQ-S, CBQ)","","",1,"Personality,NA","1,0","1,33",1
+"76","78_Time Spent with Others (TI)","depending on which relationship is assessed),friendships (etc,relationship quality; parent-child relationships","1,1,1",1,"relationship quality,Social and emotional development,Parenting,NA","0.5,0.33,0.17,0","1,1,1,32",1
+"77","79_Triangular Love Scale (TL)","","",0,"NA","NaN","33",0
+"78","8_Big Five (BF)","","",0,"NA","NaN","33",0
+"79","80_Utrecht-Management of Identity Committments Scale (U-MICS)",",adjustment,adolescent development,developmental tasks,identity,personal identity","1,1,1,1,1,1",1,"Social cognition and behavior,Social and emotional development,Personality,Lifestyle,NA","0.33,0.33,0.17,0.17,0","1,1,1,1,33",1
+"80","81_Victimization (Slachtofferschap, SS)","","",1,"Social and emotional development,NA","1,0","1,33",1
+"81","82_Wechsler Intelligence Scale for Children (WISC)","","",0,"NA","NaN","33",0
+"82","83_Workpresentation (WP)","adaptation,general functioning,social adjustment,social functioning","1,1,1,1",1,"Social cognition and behavior,Personality,Mental health,NA","0.5,0.33,0.17,0","1,1,1,33",1
+"83","84_Youth Self-Report (YSR) ","","",0,"NA","NaN","33",0
+"84","9_CHAOS Questionnaire","","",1,"household characteristics,NA","1,0","1,32",1

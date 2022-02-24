@@ -1,0 +1,86 @@
+"","Instrument_name","Keywords","Keyword_count","Keyword_respondents","Categories","Priority_scores","Times_mentioned","Respondents"
+"1","1_ADHD symptoms (SWAN) questionnaire","adhd,attention deficit disorder,behavioral control,developmental psychopathology,hyperactivity","1,1,1,1,1",1,"Mental health,developmental disorder,NA","0.67,0.33,0","1,1,32",1
+"2","10_Brief Symptom Inventory (BSI)","","",0,"NA","NaN","33",0
+"3","11_Buccal","","",0,"NA","NaN","33",0
+"4","12_Bullying behavior of/towards the child","","",0,"NA","NaN","33",0
+"5","13_Child Behavior Checklist (CBCL)","","",0,"NA","NaN","33",0
+"6","14_Child Gap Antisaccade","","",0,"NA","NaN","33",0
+"7","15_Child Gap Prosaccade","attention,(saccadic) eye movements,attention shifting,behavioral control,eye-tracking,frontal lobe,gap-overlap task,gap task,gaze,posner task,saccade,visual system","2,1,1,1,1,1,1,1,1,1,1,1",2,"Physiology,Cognition,NA","0.5,0.5,0","2,2,33",2
+"8","16_Childhood Trauma Questionnaire (CTQ)","","",0,"NA","NaN","33",0
+"9","17_Child's report on parental behavior inventory (CRPBI)","","",0,"NA","NaN","33",0
+"10","18_Communicative Development Inventories (N-CDI) - Dutch","","",1,"language development,Cognition,NA","0.67,0.33,0","1,1,32",1
+"11","19_Competentie belevingsschaal - Adolescent (CBSA)","","",1,"Social and emotional development,NA","1,0","1,33",1
+"12","2_Gender Identity (GI) questionnaire","gender,identity","1,1",1,"Social cognition and behavior,NA","1,0","1,33",1
+"13","20_Comprehensive Early Childhood Parenting Questionnaire (CECPAQ)","","",0,"NA","NaN","33",0
+"14","21_Cordblood","","",0,"NA","NaN","33",0
+"15","22_Cyberball","","",0,"NA","NaN","33",0
+"16","23_Daily care","","",0,"NA","NaN","33",0
+"17","24_Demographics","background,demographics","1,1",1,"Demographics,NA","1,0","1,33",1
+"18","25_Diffusion Tensor Imaging (DTI)","","",0,"NA","NaN","33",0
+"19","26_Discount (Delay Gratification)","behavioral control,inhibition,marshmallow task","1,1,1",1,"Cognition,development of behavioral control,NA","0.67,0.33,0","1,1,32",1
+"20","27_Early adolescent temperament questionnaire - revised (EATQ-R)","personality,problem behavior,psychopathology,social competence","1,1,1,1",1,"Personality,Mental health,Social and emotional development,NA","0.5,0.33,0.17,0","1,1,1,33",1
+"21","28_Echo/3D Ultrasound","","",0,"NA","NaN","33",0
+"22","29_Edinburgh Postnatal Depression Scale (EPDS)","","",0,"NA","NaN","33",0
+"23","3_Adult Self Report (ASR)","","",1,"Mental health,Personality,Social and emotional development,NA","0.5,0.33,0.17,0","1,1,1,33",1
+"24","30_EEG coherence","brain,eeg,neuroimaging,passive watching","1,1,1,1",1,"Physiology,brain activity,Cognition,Social cognition and behavior,Social and emotional development,NA","0.29,0.29,0.14,0.14,0.14,0","1,1,1,1,1,32",1
+"25","31_EEG Face Emotion","brain,eeg,emotion recognition,neuroimaging,social competence,task","1,1,1,1,1,1",1,"Physiology,brain activity,Social and emotional development,Social cognition and behavior,Cognition,NA","0.29,0.29,0.21,0.14,0.07,0","1,1,1,1,1,32",1
+"26","32_EEG Face House","","",0,"NA","NaN","33",0
+"27","33_Family illness - Medical & Psychiatric","","",0,"NA","NaN","33",0
+"28","34_Food Frequency Questionnaire (FFQ) - Pregnancy","eating,food,pregnancy","1,1,1",1,"Lifestyle,NA","1,0","1,33",1
+"29","35_Food Frequency Questionnaire (FFQ) - Youth","","",0,"NA","NaN","33",0
+"30","36_Functional MRI Inhibition experiment","","",0,"NA","NaN","33",0
+"31","37_General health","","",0,"NA","NaN","33",0
+"32","38_Hair","","",0,"Physiology,NA","1,0","1,33",1
+"33","39_Hand Game","behavioral control,inhibition","1,1",1,"Cognition,behavioral control,NA","0.67,0.33,0","1,1,32",1
+"34","4_Ages and Stages Questionnaire - Social Emotional (ASQ-SE)","","",1,"Social and emotional development,NA","1,0","1,33",1
+"35","40_Infant Behavior Questionnaire Revised (IBQ-R)","behavioral development,infant,temperament","1,1,1",1,"Personality,Social and emotional development,NA","0.67,0.33,0","1,1,33",1
+"36","41_Infant Face Popout","","",0,"NA","NaN","33",0
+"37","42_Infant Pro Gap","","",0,"NA","NaN","33",0
+"38","43_Infant Social Gaze","","",0,"NA","NaN","33",0
+"39","44_Inhibition experiment (mock scanner)","behavioral control,fmri,frontal lobe,functional mri,inhibition,practice,stop process","1,1,1,1,1,1,1",1,"Cognition,brain functioning,Physiology,NA","0.5,0.33,0.17,0","1,1,1,32",1
+"40","45_Interpersonal Reactivity Index (IRI)","","",0,"NA","NaN","33",0
+"41","46_Labour and birth","birth,childbirth,pregnancy","1,1,1",1,"Physiology,NA","1,0","1,33",1
+"42","47_Length, head circumference, weight and vaccinations","growth,physical characteristics,physical information","1,1,1",2,"Physiology,Physical health,NA","0.5,0.5,0","1,1,33",2
+"43","48_Lifestyle (DEMO, LFST).","addiction,adversity,alcohol,drugs,exposure,habits,lifestyle,medication use,pregnancy,smoking,substance abuse","1,1,1,1,1,1,1,1,1,1,1",1,"Physical health,Lifestyle,Mental health,NA","0.4,0.4,0.2,0","1,1,1,33",1
+"44","49_List of longterm stressful life events","","",1,"Life history,NA","1,0","1,33",1
+"45","5_Alabama Parenting Questionnaire (APQ)","discipline,parenting","1,1",1,"Parenting,NA","1,0","1,33",1
+"46","50_Looking While Listening","eye tracking,language development,looking behavior,saccades,visual processing","1,1,1,1,1",1,"Social cognition and behavior,Social and emotional development,NA","0.67,0.33,0","1,1,33",1
+"47","51_Major life events","life events,adversity,stress,trauma","2,1,1,1",2,"Life history,Mental health,environmental factors ,stress,NA","0.62,0.12,0.12,0.12,0","2,1,1,1,31",2
+"48","52_Media use","","",0,"NA","NaN","33",0
+"49","53_Movies and series (FVL-2)","","",0,"NA","NaN","33",0
+"50","54_NEO-Five Factor Inventory-3 (NEO-FFI-3)","big five (?),personality","1,1",1,"Personality,NA","1,0","1,33",1
+"51","55_Network Relationships Inventory - Short Form (NRI-SF)","parenting,relations,siblings,social relations","2,1,1,1",2,"Parenting,Social and emotional development,NA","0.67,0.33,0","2,2,33",2
+"52","56_Nijmeegse Opvoedvragenlijst (NOV)","","",0,"NA","NaN","33",0
+"53","57_Nijmeegse Ouderlijke Stress Index (NOSI)/Parental Stress Index (PSI)","parental competence,parental self-efficacy,parental stress","1,1,1",1,"Parenting,parental cognitions,NA","0.67,0.33,0","1,1,32",1
+"54","58_Parent child interaction (PCI)","","",0,"NA","NaN","33",0
+"55","59_Parental Control Scale (PCS)","","",0,"NA","NaN","33",0
+"56","6_Anatomy experiment (MRI)","anatomy,brain,brain development,brain structure,morphology,mri,neuroimaging,smri,strucutral mri","1,1,1,1,1,1,1,1,1",2,"neuroimaging,Physiology,brain development,NA","0.5,0.33,0.17,0","1,1,1,31",2
+"57","60_Parenting Dimensions Inventory (PDI)","","",0,"NA","NaN","33",0
+"58","61_Peabody Picture Vocabulary Task (PPVT)","language,vocabulary","1,1",1,"Social and emotional development,Social cognition and behavior,Cognition,NA","0.5,0.33,0.17,0","1,1,1,33",1
+"59","62_Penn Emotion Recognition test","emotion processing,emotion recognition,face processing","1,1,1",1,"Cognition,Social cognition and behavior,Social and emotional development,NA","0.5,0.33,0.17,0","1,1,1,33",1
+"60","63_Penn Motor Praxis test","","",0,"NA","NaN","33",0
+"61","64_Penn Word Memory test","cognitive control,language,memory,verbal","1,1,1,1",1,"Cognition,frontal lobe function,NA","0.67,0.33,0","1,1,32",1
+"62","65_Periconceptual health","birth,health,perinatal,pregnancy","1,1,1,1",1,"Physical health,Lifestyle,Life history,NA","0.5,0.25,0.25,0","1,1,1,33",1
+"63","66_Portrait values questionnaire - revised (PVQ-RR)","","",0,"NA","NaN","33",0
+"64","67_Pubertal development scale (PDS)","puberty,development,gender,hormones,physical health,pubertal development,sex,sexe","2,1,1,1,1,1,1,1",3,"Physiology, pubertal development ,Physical health,Social and emotional development,NA","0.33,0.33,0.22,0.11,0","1,1,1,1,32",3
+"65","68_Quick Big Five (QBF)","","",1,"Personality,Mental health,NA","0.67,0.33,0","1,1,33",1
+"66","69_Reading behavior (FVL-1)","","",0,"NA","NaN","33",0
+"67","7_Behavior Questionnaire (IBQ-R SF, ECBQ, CBQ, TMCQ)","self-regulation,temperament","1,1",1,"self-regulation,Social and emotional development,NA","0.67,0.33,0","1,1,32",1
+"68","70_Resting state experiment (rsMRI)","brain acitivity,brain connectivity,brain functioning,brain networks,functional mri,resting state","1,1,1,1,1,1",1,"Cognition,Physiology,brain functioning,NA","0.5,0.33,0.17,0","1,1,1,32",1
+"69","71_Sleep self report (SSR)","","",1,"Physiology,Lifestyle,NA","0.67,0.33,0","1,1,33",1
+"70","72_Social Responsiveness Scale for Adults (SRS-A)","","",0,"NA","NaN","33",0
+"71","73_Social Support List (SSL)","","",0,"NA","NaN","33",0
+"72","74_Spoken language in child's environment and Clinical Evaluation of Language Fundamentals (CELF-4 pragmatics)","","",0,"NA","NaN","33",0
+"73","75_Strengths and difficulties questionnaire (SDQ)","externalizing problems,internalizing problems,peer relations,personality,problem behavior,prosocial behavior,psychopathology,social competence","1,1,1,1,1,1,1,1",2,"Social and emotional development,psychosocial problems,Mental health,Personality,Social cognition and behavior,NA","0.42,0.25,0.17,0.08,0.08,0","2,1,1,1,1,32",2
+"74","76_Teacher Report Form (TRF)","externalizing problems,internalizing problems,psychopathology","1,1,1",1,"psychosocial problems,Mental health,psychopathology,NA","0.5,0.25,0.25,0","1,1,1,31",1
+"75","77_The Children's Behavior Questionnaire (CBQ)","","",0,"NA","NaN","33",0
+"76","78_The Early Childhood Behavior Questionnaire (ECBQ)","","",0,"NA","NaN","33",0
+"77","79_The Temperament in Middle Childhood Questionnaire (TMCQ)","personality,psychology","1,1",1,"Personality,Social cognition and behavior,Social and emotional development,NA","0.5,0.25,0.25,0","1,1,1,33",1
+"78","8_Behavioral inhibition scale (BIS) and risk behavior (substance (ab)use)","behavioral control,frontal lobe,inhibition,personality","1,1,1,1",1,"Mental health,Personality,NA","0.67,0.33,0","1,1,33",1
+"79","80_Trust game","","",0,"NA","NaN","33",0
+"80","81_Utrechtse Coping Lijst (UCL)","","",0,"NA","NaN","33",0
+"81","82_Wechsler Adult Intelligence Scale (WAIS) ","iq,cognition","2,1",2,"Cognition,iq,NA","0.67,0.33,0","2,1,32",2
+"82","83_Wechsler Intelligence Scale for Children (WISC-III) ","children,cognitive development,intelligence,iq","1,1,1,1",2,"Cognition,iq,NA","0.67,0.33,0","2,1,32",2
+"83","84_Wechsler Preschool and Primary Scale of Intelligence (WPPSI)","","",1,"iq,Cognition,NA","0.67,0.33,0","1,1,32",1
+"84","85_Work demographics","","",0,"NA","NaN","33",0
+"85","9_Blood","","",0,"Physiology,NA","1,0","1,33",1
