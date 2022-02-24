@@ -29,7 +29,7 @@ We perform the following steps:
 2. Read in the data
 3. Create mappings: lists of numbers and instrument names 
 4. Put the data from the Keyword question in a flat, usable format
-5. Put the data from the Category priority question in a flat, usable format **(not yet functional for all cohorts)**
+5. Put the data from the Category priority question in a flat, usable format
 
 
 Required files to run this script:  
@@ -104,9 +104,8 @@ Structure of the data file:
 How many participants are there for each cohort? What are their expertises and positions?
 
 ```{r exploration}
-# Relevant variables: cd2survey$Expertise, cd2survey$Position, 
+# WIP. Relevant variables: cd2survey$Expertise, cd2survey$Position, 
 # cd2survey$Cohort, cd2$`Duration (in seconds)`
-# Ask Lara if she can make nice visualisations here.
 
 cd2survey$Duration <- as.numeric(cd2survey$`Duration (in seconds)`)
 
@@ -165,10 +164,10 @@ for (cohort in 1:length(instrumentnrs)) {
 
 ## 4. The keywords question
 
-This code does the following:
+This code is meant to summarize the raw data from the Keywords question so that we can quickly see which keywords were used for each measure and how often, and how many people provided keywords for the measure. Concretely,the code below does the following:
 
 - In part 1, we select the keywords variables for each cohort and count the occurrences of each keyword given by all participants for each instrument and each cohort separately. The keyword counts belonging to each cohort are saved in a variable called `keywords_[cohortname]_count`.
-- In part 3, we save the list to a flat tabular format, with 1 column for the instrument name, 1 column for the keywords, 1 column for the frequencies of those keywords and 1 column with the number of respondents for that specific instrument. This is saved both in a separate variable for each cohort: `keywordcounts_[cohort]_flat` and in a combined list `keywordcounts_CD2`.
+- In part 2, we save the list to a flat tabular format, with 1 column for the instrument name, 1 column for the keywords, 1 column for the frequencies of those keywords and 1 column with the number of respondents for that specific instrument. This is saved both in a separate variable for each cohort: `keywordcounts_[cohort]_flat` and in a combined list `keywordcounts_CD2`.
 
 ```{r keywords-question, cache=TRUE}
 
@@ -256,6 +255,12 @@ for (cohort in 1:length(cohorts)) {
 ```
 
 ## 5. The Categories question
+
+The Categories question is the most problematic question, because it results in 17 separate variables for each measure in each cohort. The aim of the code below is therefore to process all these variables into a few more informative variables for each measure, namely: 
+
+- which categories were selected for this measure (in order of priority score)?
+- how often was each of the selected categories mentioned?
+- how many respondents scored this measure?
 
 ### Reasoning
 
@@ -443,7 +448,6 @@ for(cohort in 1:length(cohorts)){
           
         # Divide the sumpriority scores by the total nr of people who assessed the instrument
           # not the total nr of participants --> nrparticipants
-          #averagepriority[column] <- sumpriority/length(categoriesprior_rel[[instrument]][[column]])
           averagepriority[column] <- sumpriority/nrparticipants[instrument]
           
           columnnames[column] <- names(categoriesprior_rel[[instrument]])[column]
@@ -524,7 +528,6 @@ for(cohort in 1:length(cohorts)){
         
         # Divide by nr of people who assessed the instrument, 
         # not the total nr of participants
-        #uniquesaverages$averagepriority[uniqueitem] <- sumcustompriors/dim(customcols[[instrument]])[1]
         uniquesaverages$averagepriority[uniqueitem] <- sumcustompriors/nrparticipants[instrument]
         uniquesaverages$timesmentioned[uniqueitem] <- length(indices)
       } # end for each unique item
@@ -551,7 +554,8 @@ for(cohort in 1:length(cohorts)){
                                                                                      decreasing=TRUE), ]
     averageprioritieslist[[instrument]]$averagepriority <- round(averageprioritieslist[[instrument]]$averagepriority, 2)
     
-    # Remove rows in the dataframe when a category is mentioned 0 times: Find indices of rows where timementioned == 0 and remove them
+    # Remove rows in the dataframe when a category is mentioned 0 times: 
+    # Find indices of rows where timementioned == 0 and remove them
     zeroindices <- which(averageprioritieslist[[instrument]]$timesmentioned %in% 0)
     averageprioritieslist[[instrument]] <- averageprioritieslist[[instrument]][-zeroindices, ]
     
@@ -568,7 +572,6 @@ for(cohort in 1:length(cohorts)){
     
   } # End for each instrument
   
-  #print("Putting all category data in a cohort-specific dataframe...")
   categories <- data.frame(Instrument_name=names(averageprioritieslist),
                            Categories = as.character(instrumentcategories),
                            Priority_scores = as.character(priorityscores),
@@ -599,7 +602,7 @@ For easier exporting and studying the results, here we combine the output from t
 # Combine the variables into 1 dataframe for each cohort
 results_TRAILS <- merge(x = keywordcounts_TRAILS_flat, 
                         y = categories_TRAILS, 
-                        = "Instrument_name", 
+                        by = "Instrument_name", 
                         all = TRUE)
 
 results_GenR <- merge(x = keywordcounts_GenR_flat, 
