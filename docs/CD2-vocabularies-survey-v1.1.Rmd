@@ -42,9 +42,10 @@ First, we will set the parameters.
 
 ```{r parameters}
 # Files to be read in
-datafile <- "../data/raw/CD2_vocabularies_22020224.csv" # raw dataset from February 24th
+datafile <- "../data/raw/CD2_vocabularies_22020224.csv"
 
-cohorts <- c("TRAILS","GenR","RADAR","LCID","YOUth","NTR") # Needs to be in the same order as the instrument numbers files
+# Cohorts: same order as instrument numbers files
+cohorts <- c("TRAILS", "GenR", "RADAR", "LCID", "YOUth", "NTR")
 
 categorynames <- c("Parenting",
                    "Physiology",
@@ -62,14 +63,15 @@ categorynames <- c("Parenting",
 Download and load the necessary packages:
 
 ```{r packages}
-# Qualtrics package info: https://cran.r-project.org/web/packages/qualtRics/vignettes/qualtRics.html
-#install.packages("qualtRics")
-#library(qualtRics)
+# Qualtrics package info: 
+# https://cran.r-project.org/web/packages/qualtRics/vignettes/qualtRics.html
+install.packages("qualtRics")
+library(qualtRics)
 
-# install.packages("data.table")
+install.packages("data.table")
 library(data.table)
 
-#install.packages("stringr")
+install.packages("stringr")
 library(stringr)
 
 ```
@@ -79,11 +81,15 @@ library(stringr)
 We're using the `fread()` function from the `data.table` package, which is significantly faster than `read.csv()`, espcially with a large file like the one in this survey.
 
 ```{r data-read, cache=TRUE}
-cd2survey <- fread(datafile, na.strings = "")
-cd2survey <- cd2survey[-c(1,2),] # Skip the first 2 rows as they contain the question text
+cd2survey <- fread(datafile,
+                   na.strings = "")
+
+# Skip the first 2 rows as they contain the question text
+cd2survey <- cd2survey[-c(1, 2), ]
 
 # Skip the lines that were just for testing
-cd2survey <- cd2survey[-grep("preview",cd2survey$DistributionChannel),]
+cd2survey <- cd2survey[-grep("preview",
+                             cd2survey$DistributionChannel), ]
 ```
 
 Structure of the data file:  
@@ -98,7 +104,8 @@ Structure of the data file:
 How many participants are there for each cohort? What are their expertises and positions?
 
 ```{r exploration}
-# Relevant variables: cd2survey$Expertise, cd2survey$Position, cd2survey$Cohort, cd2$`Duration (in seconds)`
+# Relevant variables: cd2survey$Expertise, cd2survey$Position, 
+# cd2survey$Cohort, cd2$`Duration (in seconds)`
 # Ask Lara if she can make nice visualisations here.
 
 cd2survey$Duration <- as.numeric(cd2survey$`Duration (in seconds)`)
@@ -115,43 +122,44 @@ In order to make sense of the variable names and data, we need to make a mapping
 ```{r mappings, cache = TRUE}
 # Instrument names and numbers
 # Put all instrument number files in a list and name them correctly
-instrumentnrsfiles <- c("instrumentnrs/TRAILS_instrumentnrs.csv",# Needs to be in the same order as the cohorts in the data
-                        "instrumentnrs/GenR_instrumentnrs.csv",
-                        "instrumentnrs/RADAR_instrumentnrs.csv",
-                        "instrumentnrs/LCID_instrumentnrs.csv",
-                        "instrumentnrs/YOUth_instrumentnrs.csv",
+instrumentnrsfiles <- c("instrumentnrs/TRAILS_instrumentnrs.csv", 
+                        "instrumentnrs/GenR_instrumentnrs.csv", 
+                        "instrumentnrs/RADAR_instrumentnrs.csv", 
+                        "instrumentnrs/LCID_instrumentnrs.csv", 
+                        "instrumentnrs/YOUth_instrumentnrs.csv", 
                         "instrumentnrs/NTR_instrumentnrs.csv")
 
-instrumentnrs <- lapply(instrumentnrsfiles, read.csv,sep=";",header=TRUE)
-names(instrumentnrs) <- paste0("instrumentnrs_",cohorts)
+instrumentnrs <- lapply(instrumentnrsfiles, read.csv, sep= ";", header=TRUE)
+names(instrumentnrs) <- paste0("instrumentnrs_", cohorts)
 
-for(cohort in 1:length(instrumentnrs)){
+for (cohort in 1:length(instrumentnrs)) {
   # Turn into character (are automatically read in as factor)
-  instrumentnrs[[cohort]]$Instrument_name <- as.character(instrumentnrs[[cohort]]$Instrument_name)
+  instrumentnrs[[cohort]]$Instrument_name <- 
+    as.character(instrumentnrs[[cohort]]$Instrument_name)
   instrumentnrs[[cohort]]$Instrument_description <- as.character(instrumentnrs[[cohort]]$Instrument_description)
-  
+
   # Add rows for which there is no instrument number, to be complete
-  # This can happen in the Qualtrics Loop & Merge if a row is accidentally removed.
+  # This happens in the Qualtrics Loop & Merge if a row is accidentally removed.
   addrowlist <- list() 
   counter <- 0
-  
-  for(i in 1:tail(instrumentnrs[[cohort]]$Instrument_nr,1)){
+
+  for (i in 1:tail(instrumentnrs[[cohort]]$Instrument_nr, 1)) {
     # If there is no instrument numer corresponding to the loop index
-    if(!i %in% instrumentnrs[[cohort]]$Instrument_nr){
+    if (!i %in% instrumentnrs[[cohort]]$Instrument_nr) {
       counter <- counter + 1
-      vect <- c(i,NA,NA)
+      vect <- c(i, NA, NA)
       # Add the missing index number and NAs to the list that will be added to the instrument numbers list
       addrowlist[[counter]] <- vect
     }
   }
   
-  addrows <- do.call("rbind",addrowlist) # bind the list elements together in a matrix
-  addrowsdf <- data.frame(Instrument_nr = addrows[,1], # Turn matrix into dataframe
-                        Instrument_name = addrows[,2],
-                        Instrument_description=addrows[,3]) 
+  addrows <- do.call("rbind", addrowlist) # bind the list elements together in a matrix
+  addrowsdf <- data.frame(Instrument_nr = addrows[, 1], # Turn matrix into dataframe
+                        Instrument_name = addrows[, 2],
+                        Instrument_description=addrows[, 3]) 
   
-  instrumentnrs[[cohort]] <- rbind(addrowsdf,instrumentnrs[[cohort]])
-  instrumentnrs[[cohort]] <- instrumentnrs[[cohort]][order(instrumentnrs[[cohort]]$Instrument_nr),]
+  instrumentnrs[[cohort]] <- rbind(addrowsdf, instrumentnrs[[cohort]])
+  instrumentnrs[[cohort]] <- instrumentnrs[[cohort]][order(instrumentnrs[[cohort]]$Instrument_nr), ]
 }
 ```
 
@@ -167,22 +175,22 @@ This code does the following:
 keywordcounts_CD2 <- vector(mode = "list", length = length(cohorts)) 
 names(keywordcounts_CD2) <- cohorts
 
-for(cohort in 1:length(cohorts)){
+for (cohort in 1:length(cohorts)) {
 
   # PART 1: COUNT THE OCCURENCES OF EACH KEYWORD FOR EACH INSTRUMENT  
   # Select all keyword variables of this cohort
-  rawkeywords <- cd2survey[,grep(paste0(cohorts[cohort],"_Keywords"), names(cd2survey), value = TRUE),with=FALSE]
+  rawkeywords <- cd2survey[,grep(paste0(cohorts[cohort], "_Keywords"), names(cd2survey), value = TRUE),with=FALSE]
   
   # Create an empty list to put keyword counts for the current cohort (each list item = an instrument)
-  keywords_count_tempname <- vector(mode = "list", length = length(instrumentnrs[[cohort]][,1]))
+  keywords_count_tempname <- vector(mode = "list", length = length(instrumentnrs[[cohort]][, 1]))
   
   # For each instrument in the cohort, make a list item containing the keywords and their counts
-  for(instrument in 1:length(keywords_count_tempname)){
+  for (instrument in 1:length(keywords_count_tempname)) {
     # Initiate empty vector variable
     keyword <- character(0)
     
     # Put the contents of each instrument in 1 combined vector with spaces removed (trimmed)
-    if(!is.null(rawkeywords[[instrument]])){
+    if (!is.null(rawkeywords[[instrument]])) {
       keyword <- str_trim(unlist(str_split(rawkeywords[[instrument]], ","), use.names = FALSE))
     }
     
@@ -197,12 +205,13 @@ for(cohort in 1:length(cohorts)){
     keywords_count_tempname[[instrument]] <- y
     
     # Assign instrument names (not numbers) to the list items
-    tempname <- instrumentnrs[[cohort]][instrumentnrs[[cohort]]$Instrument_nr==instrument,"Instrument_name"]
-    names(keywords_count_tempname)[instrument] <- paste0(instrument,"_",tempname)
+    tempname <- instrumentnrs[[cohort]][instrumentnrs[[cohort]]$Instrument_nr == instrument, 
+                                        "Instrument_name"]
+    names(keywords_count_tempname)[instrument] <- paste0(instrument,"_", tempname)
   }
   
   # Save the keyword counts for each cohort in a cohort-count-list
-  assign(paste0("keywords_",cohorts[cohort],"_count"),keywords_count_tempname)
+  assign(paste0("keywords_", cohorts[cohort],"_count"), keywords_count_tempname)
     
   # PART 2: SAVE TO USABLE FORMAT
   # Initialize columns to put together in a dataframe
@@ -212,31 +221,34 @@ for(cohort in 1:length(cohorts)){
   numberofrespondents <- numeric(0)
   
   # Fill vectors with values for the flat dataframe
-  for(instrument in 1:length(keywords_count_tempname)){
-    instrumentkeywords[instrument] <- paste0(keywords_count_tempname[[instrument]]$keyword,collapse = ",", sep = "")
-    instrumentcounts[instrument] <- paste0(keywords_count_tempname[[instrument]]$Freq, collapse = ",", sep = "")
+  for (instrument in 1:length(keywords_count_tempname)) {
+    instrumentkeywords[instrument] <- paste0(keywords_count_tempname[[instrument]]$keyword, 
+                                             collapse = ",", sep = "")
+    instrumentcounts[instrument] <- paste0(keywords_count_tempname[[instrument]]$Freq, 
+                                           collapse = ",", sep = "")
     
     # Count the number of respondents for each instrument, ignoring NAs
-    if(length(rawkeywords[[instrument]] != 0)){
+    if (length(rawkeywords[[instrument]] != 0)) {
       instr <- rawkeywords[[instrument]]
       numberofrespondents[instrument] <- length(instr[!is.na(instr)])
-    } else{
+    } else {
       numberofrespondents[instrument] <- NA
     }
   }
   
   keywordcounts_temp <- data.frame(Instrument_name=instrumentnames,
-                                   Keywords = as.character(instrumentkeywords),
-                                   Keyword_count = as.character(instrumentcounts),
+                                   Keywords = as.character(instrumentkeywords), 
+                                   Keyword_count = as.character(instrumentcounts), 
                                    Keyword_respondents = numberofrespondents)
   
   # Remove the rows for which the Instrument_name is [#]_NA: these are nonexistent instruments
   if(sum(str_detect(keywordcounts_temp$Instrument_name,"_NA")) > 0){
-    keywordcounts_temp <- keywordcounts_temp[-grep("[0-9]_NA", keywordcounts_temp$Instrument_name),]
+    keywordcounts_temp <- keywordcounts_temp[-grep("[0-9]_NA", 
+                                                   keywordcounts_temp$Instrument_name), ]
   }
   
   # Save the counts for each cohort in a separate variable
-  assign(paste0("keywordcounts_",cohorts[cohort],"_flat"),keywordcounts_temp)
+  assign(paste0("keywordcounts_", cohorts[cohort], "_flat"), keywordcounts_temp)
   
   # Alternative: save each flat keywordcount dataframe in a place in the CD2-wide list
   keywordcounts_CD2[[cohort]] <- keywordcounts_temp
@@ -291,28 +303,37 @@ for(cohort in 1:length(cohorts)){
   ### PART 1: PREP THE DATA IN A USABLE FORMAT (SEPARATED BY COHORT AND INSTRUMENT) ###
   
   # Create empty variables which will be filled in the for-loops
-  categoriesprior_raw <- vector(mode = "list", length = length(instrumentnrs[[cohort]][,1]))
+  categoriesprior_raw <- vector(mode = "list", 
+                                length = length(instrumentnrs[[cohort]][, 1]))
   measurenames <- character(0)
-  customcategories <- vector(mode = "list", length = length(instrumentnrs[[cohort]][,1]))
-  noncustomaverage <- vector(mode = "list", length = length(instrumentnrs[[cohort]][,1]))
-  customcols <- vector(mode = "list", length = length(instrumentnrs[[cohort]][,1]))
-  customaverage <- vector(mode = "list", length = length(instrumentnrs[[cohort]][,1]))
-  averageprioritieslist <-  vector(mode = "list", length = length(instrumentnrs[[cohort]][,1]))
+  customcategories <- vector(mode = "list", 
+                             length = length(instrumentnrs[[cohort]][, 1]))
+  noncustomaverage <- vector(mode = "list", 
+                             length = length(instrumentnrs[[cohort]][, 1]))
+  customcols <- vector(mode = "list", 
+                       length = length(instrumentnrs[[cohort]][, 1]))
+  customaverage <- vector(mode = "list", 
+                          length = length(instrumentnrs[[cohort]][, 1]))
+  averageprioritieslist <-  vector(mode = "list",
+                                   length = length(instrumentnrs[[cohort]][, ]))
   
   instrumentcategories <- character(0)
   priorityscores <- numeric(0)
   nrrespondents <- numeric(0)
 
   # For each instrument number in the cohort, make a list item
-  for(listitem in 1:length(categoriesprior_raw)){
+  for (listitem in 1:length(categoriesprior_raw)) {
     
     # Save name of instrument in a vector for easier subsetting
-    measurenames[listitem] <- instrumentnrs[[cohort]][instrumentnrs[[cohort]]$Instrument_nr == listitem, "Instrument_name"]
+    measurenames[listitem] <- instrumentnrs[[cohort]][instrumentnrs[[cohort]]$Instrument_nr == listitem,
+                                                      "Instrument_name"]
     
-    print(paste0("Working on cohort: ", cohorts[cohort], ". Instrument: ", measurenames[listitem]))
+    print(paste0("Working on cohort: ", cohorts[cohort], 
+                 ". Instrument: ", measurenames[listitem]))
 
     # Select the category variables from the raw dataset for each cohort and list item
-    x <- cd2survey[,grep(paste0("^",listitem,"_",cohorts[cohort],"_",catvar), names(cd2survey), value = TRUE), with=FALSE]
+    x <- cd2survey[, grep(paste0("^", listitem, "_",cohorts[cohort], "_", catvar), 
+                          names(cd2survey), value = TRUE), with=FALSE]
     
     # Put the selected variables in the ith place in the categoriesprior_raw list
     categoriesprior_raw[[listitem]] <- x
@@ -321,75 +342,80 @@ for(cohort in 1:length(cohorts)){
     names(categoriesprior_raw)[listitem] <- paste0(listitem, "_",measurenames[listitem]) 
     
     # Assign variable names to the dataframe in each list item that are easier to understand
-    for(column in 1:dim(categoriesprior_raw[[listitem]])[2]){ # For each column in the df in the list
-      if(length(categoriesprior_raw[[listitem]][[column]]) != 0){ # If there are values in the column at all
-        if(!grepl("TEXT",names(categoriesprior_raw[[listitem]])[column], fixed = TRUE)){ # If the column is no TEXT column
+    # For each column in the df in the list
+    for (column in 1:dim(categoriesprior_raw[[listitem]])[2]) { 
+      # If there are values in the column at all
+      if (length(categoriesprior_raw[[listitem]][[column]]) != 0) { 
+         # If the column is no TEXT column
+        if(!grepl("TEXT",names(categoriesprior_raw[[listitem]])[column], fixed = TRUE)) {
           # Turn character data into numeric to be able to calculate relative priorities later on
           categoriesprior_raw[[listitem]][[column]] <- as.numeric(categoriesprior_raw[[listitem]][[column]])
         } # End if TEXT columns
         
         # Rename column in each list item's dataframe with category names
-        if(column <= length(categorynames)){ # Columns 1-9 are named with the category name
+        if (column <= length(categorynames)) { # Columns 1-9 are named with the category name
           names(categoriesprior_raw[[listitem]])[column] <- as.character(categorynames[column])
-        } else if(column > length(categorynames)){ # Columns 10 and over are named other_#
+        } else if(column > length(categorynames)) { # Columns 10 and over are named other_#
           names(categoriesprior_raw[[listitem]])[column] <- paste0("other_",
-                                                                   sub(paste0(".*", cohorts[cohort],"_",catvar), "",
+                                                                   sub(paste0(".*", cohorts[cohort],
+                                                                              "_",catvar), "",
                                                                        names(categoriesprior_raw[[listitem]])[column]))
         } # End column renaming if-else
       } # End if nr of cols
     } # End for each column
     
     # Put the TEXT variables (custom category names) in a separate list. 
-    textvars <- cd2survey[,grep(paste0("^",listitem,"_",cohorts[cohort],"_", catvar,"1[0-9]_TEXT"), names(cd2survey), value = TRUE), with=FALSE]
+    textvars <- cd2survey[, grep(paste0("^", listitem, "_",cohorts[cohort], 
+                                        "_", catvar,"1[0-9]_TEXT"), names(cd2survey), 
+                                 value = TRUE), with=FALSE]
+    
     customcategories[[listitem]] <- textvars
-    names(customcategories)[listitem] <- paste0(listitem, "_",measurenames[listitem])
+    names(customcategories)[listitem] <- paste0(listitem, "_", measurenames[listitem])
     
     # Remove the TEXT variables from categoriesprior_raw for easier calculation of relative priorities
-    categoriesprior_raw[[listitem]] <- categoriesprior_raw[[listitem]][, !grepl("TEXT",names(categoriesprior_raw[[listitem]])), with = FALSE]
+    categoriesprior_raw[[listitem]] <- categoriesprior_raw[[listitem]][,
+                                                                       !grepl("TEXT",names(categoriesprior_raw[[listitem]])), 
+                                                                       with = FALSE]
     
   } # End for each listitem in the cohort
-  
-  # Save the variables for each cohort separately
-  #assign(paste0("categoriesprior_",cohorts[cohort],"_raw"),categoriesprior_raw)
-  #assign(paste0("customcategories_",cohorts[cohort]),customcategories)
   
   
   ### PART 2: CALCULATE RELATIVE PRIORITIES FOR EACH PARTICIPANT AND INSTRUMENT SEPARATELY ###
   # Calculate the relative priorities and put them, for each instrument, in a dataframe in categoriesprior_rel
-  #print("Calculating relative priorities for each participant...")
-  
   # Copy raw list to replace raw values with relative values later on
   categoriesprior_rel <- categoriesprior_raw
   
   # Empty vector for nr of participants for each measure
   nrparticipants <- numeric(0)
   
-  for(instrument in 1:length(categoriesprior_rel)){ # For each instrument
+  for (instrument in 1:length(categoriesprior_rel)) { # For each instrument
     
     participantcount <- 0
     
-    for(row in 1:dim(categoriesprior_rel[[instrument]])[1]){ # For each participant
+    for (row in 1:dim(categoriesprior_rel[[instrument]])[1]) { # For each participant
       
       # Set -99 to NA, example: df[1][df[1]==2] <- NA
-      subset <- categoriesprior_rel[[instrument]][row,]
+      subset <- categoriesprior_rel[[instrument]][row, ]
       subset[subset == -99] <- NA # Doesn't seem to work
-      categoriesprior_rel[[instrument]][row,][categoriesprior_rel[[instrument]][row,]== -99] <- NA
+      categoriesprior_rel[[instrument]][row, ][categoriesprior_rel[[instrument]][row, ]== -99] <- NA
       
-      if(length(categoriesprior_rel[[instrument]] != 0)){ # if there are values in the column
+      # If there are values in the column
+      if (length(categoriesprior_rel[[instrument]] != 0)) {
         # Determine how many categories have been scored
         cats_scored <- max(subset, na.rm = TRUE)
         
-        if(cats_scored != -Inf){ # Calculate relative priorities only if not all values are NA
-          #print(paste0("Calculating relative priorities for: ",cohorts[cohort]," // Instrument: ",measurenames[instrument]))
-          # Reverse the scoring and calculate the relative priority score
+        # Calculate relative priorities only if not all values are NA
+        if(cats_scored != -Inf) { 
+         # Reverse the scoring and calculate the relative priority score
           reverse_scored <- ((cats_scored + 1) - subset)
-          categoriesprior_rel[[instrument]][row,] <- (reverse_scored)/sum(reverse_scored, na.rm = TRUE) 
+          categoriesprior_rel[[instrument]][row, ] <- (reverse_scored)/sum(reverse_scored, 
+                                                                           na.rm = TRUE) 
         } # End if not all values are NA
         
       } # End if there are values in the column
       
       # Count how many participants had to assess the instrument and put it nrparticipants (for group average)
-      if(length(na.omit(as.numeric(unlist(categoriesprior_rel[[instrument]][row,])))) > 0){
+      if (length(na.omit(as.numeric(unlist(categoriesprior_rel[[instrument]][row, ])))) > 0) {
         participantcount <- participantcount + 1
       }
       
@@ -398,8 +424,7 @@ for(cohort in 1:length(cohorts)){
     
     ### PART 3: CALCULATE AVERAGE PRIORITIES OVER ALL PARTICIPANTS ###
     ## PART 3A: CALCULATE AVERAGE PRIORITIES OF NON-CUSTOM CATEGORIES (I.E., THE GIVEN CATEGORIES)
-    #print("calculating average priorities for non-custom categories...")
-    
+
     #Initialize empty vectors for each instrument
     averagepriority <- numeric(0)
     columnnames <- character(0)
@@ -407,14 +432,17 @@ for(cohort in 1:length(cohorts)){
     nrparticipants[instrument] <- participantcount
 
     # For each non-custom column in the instrument  (i.e., the first 11 variables)
-    for(column in 1:length(categoriesprior_rel[[instrument]])){
-      if(length(categoriesprior_rel[[instrument]] != 0)){ # If there are any columns at all
-        if(!grepl("other",names(categoriesprior_rel[[instrument]])[column])){ # if colname does not contain "other"
+    for (column in 1:length(categoriesprior_rel[[instrument]])) {
+      # If there are any columns at all
+      if (length(categoriesprior_rel[[instrument]] != 0)) {
+        # If colname does not contain "other"
+        if (!grepl("other",names(categoriesprior_rel[[instrument]])[column])) { 
           
           # Calculate the average priority score for each column
           sumpriority <- sum(categoriesprior_rel[[instrument]][[column]], na.rm=TRUE)
           
-        # Divide the sumpriority scores by the total nr of people who assessed the instrument, not the total nr of participants --> nrparticipants
+        # Divide the sumpriority scores by the total nr of people who assessed the instrument
+          # not the total nr of participants --> nrparticipants
           #averagepriority[column] <- sumpriority/length(categoriesprior_rel[[instrument]][[column]])
           averagepriority[column] <- sumpriority/nrparticipants[instrument]
           
@@ -430,21 +458,31 @@ for(cohort in 1:length(cohorts)){
                      timesmentioned = timesmentioned)
     
     noncustomaverage[[instrument]] <- df
-    names(noncustomaverage)[instrument] <- paste0(instrument,"_",measurenames[instrument]) # assign usable names
+    
+    # Assign usable names
+    names(noncustomaverage)[instrument] <- paste0(instrument, "_",
+                                                  measurenames[instrument])
 
     ## PART 3B: CALCULATE AVERAGE PRIORITIES OF CUSTOM CATEGORIES (I.E., PROVIDED IN FREE TEXT, " OTHER" VARIABLES)
-    #print("Moving on to custom categories...")
+
+    # Add the 'other' columns from relative priorities list (scores) 
+    # to the customcategories (text) list
     
-    # Add the 'other' columns from relative priorities list (scores) to the customcategories (text) list
     # Find columns containing `other` and put them in a dataframe
-    otherscores <- categoriesprior_rel[[instrument]][,grepl("other",names(categoriesprior_rel[[instrument]])), with = FALSE]
+    otherscores <- categoriesprior_rel[[instrument]][,
+                                                     grepl("other", 
+                                                           names(categoriesprior_rel[[instrument]])), 
+                                                     with = FALSE]
     
-    # Combine the customcategories (text) and average priorities (numeric) dataframes in the customcols list 
-    customcols[[instrument]] <- cbind(customcategories[[instrument]],otherscores)
+    # Combine the customcategories (text) and average priorities (numeric) dataframes 
+    # in the customcols list 
+    customcols[[instrument]] <- cbind(customcategories[[instrument]], otherscores)
     
     # Look for same category names in the dataframe and average them
-    if(length(customcols[[instrument]] != 0)){ # If there are any columns at all
-      for(column in 1:length(customcols[[instrument]])){ # For each column
+    # If there are any columns at all
+    if (length(customcols[[instrument]] != 0)) { 
+      # For each column
+      for(column in 1:length(customcols[[instrument]])){ 
         # Set -99 to NA, example: df[1][df[1]==2] <- NA
         subset <- customcols[[instrument]][[column]]
         subset[subset == "-99"] <- NA
@@ -452,8 +490,12 @@ for(cohort in 1:length(cohorts)){
       } # end for each column
       
       # Select the text and number columns separately
-      textcolumns <- customcols[[instrument]][,grepl("TEXT",names(customcols[[instrument]])),with=FALSE]
-      numbercolumns <- customcols[[instrument]][,grepl("[0-9]$",names(customcols[[instrument]])),with=FALSE]
+      textcolumns <- customcols[[instrument]][, grepl("TEXT",
+                                                      names(customcols[[instrument]])),
+                                              with=FALSE]
+      numbercolumns <- customcols[[instrument]][, grepl("[0-9]$",
+                                                        names(customcols[[instrument]])),
+                                                with=FALSE]
       
       # Unlist both the values and the text into a vector
       categories <- unlist(textcolumns)
@@ -462,24 +504,26 @@ for(cohort in 1:length(cohorts)){
       priority <- unlist(numbercolumns)
       
       # Put the names and priorities into a dataframe
-      noncustomdf <- data.frame(categories,priority)
+      noncustomdf <- data.frame(categories, priority)
       
-      # For each unique categoryname, calculate the average priority and assign it to customaverage
+      # For each unique categoryname, calculate the average priority 
+      # and assign it to customaverage
       # Prepare variables and dataframe
       categoryname <- unique(noncustomdf$categories)
       averagepriority <- numeric(length(categoryname))
       timesmentioned <- numeric(length(categoryname))
-      uniquesaverages <- data.frame(categoryname,averagepriority,timesmentioned)
+      uniquesaverages <- data.frame(categoryname, averagepriority, timesmentioned)
       
       # Calculate the average priority for each unique category and put it into customaverage
-      for(uniqueitem in 1:length(categoryname)){
+      for (uniqueitem in 1:length(categoryname)) {
         # Find all indices of the unique category
         indices <- which(noncustomdf$categories %in% categoryname[uniqueitem])
         
         # Calculate the average priority and the nr. of times each category is mentioned
         sumcustompriors <- sum(noncustomdf$priority[indices], na.rm=TRUE)
         
-        # Divide by nr of people who assessed the instrument, not the total nr of participants
+        # Divide by nr of people who assessed the instrument, 
+        # not the total nr of participants
         #uniquesaverages$averagepriority[uniqueitem] <- sumcustompriors/dim(customcols[[instrument]])[1]
         uniquesaverages$averagepriority[uniqueitem] <- sumcustompriors/nrparticipants[instrument]
         uniquesaverages$timesmentioned[uniqueitem] <- length(indices)
@@ -487,29 +531,40 @@ for(cohort in 1:length(cohorts)){
       
       # Assign the averages dataframe to customaverage and give useful list item names
       customaverage[[instrument]] <- uniquesaverages
-      names(customaverage)[instrument] <- paste0(instrument,"_",measurenames[instrument]) # assign usable names
+      # assign usable names
+      names(customaverage)[instrument] <- paste0(instrument, "_",
+                                                 measurenames[instrument]) 
       
     } # End if there are columns at all
     
     
     ## PART 3C: COMBINE THE CUSTOM AND NONCUSTOM PRIORITY SCORES IN 1 LIST ITEM AND SAVE TO USABLE FORMAT
-    #print("Saving to usable format...")
-    
-    averageprioritieslist[[instrument]] <- rbind(noncustomaverage[[instrument]],customaverage[[instrument]])
-    names(averageprioritieslist)[instrument] <- paste0(instrument,"_",measurenames[instrument]) # assign usable names
+
+    averageprioritieslist[[instrument]] <- rbind(noncustomaverage[[instrument]],
+                                                 customaverage[[instrument]])
+    # assign usable names
+    names(averageprioritieslist)[instrument] <- paste0(instrument, "_",
+                                                       measurenames[instrument]) 
     
     # Sort each dataframe on averagepriority and round average priority to 2 decimals
-    averageprioritieslist[[instrument]] <- averageprioritieslist[[instrument]][order(averageprioritieslist[[instrument]]$averagepriority,decreasing=TRUE),]
-    averageprioritieslist[[instrument]]$averagepriority <- round(averageprioritieslist[[instrument]]$averagepriority,2)
+    averageprioritieslist[[instrument]] <- averageprioritieslist[[instrument]][order(averageprioritieslist[[instrument]]$averagepriority,
+                                                                                     decreasing=TRUE), ]
+    averageprioritieslist[[instrument]]$averagepriority <- round(averageprioritieslist[[instrument]]$averagepriority, 2)
     
     # Remove rows in the dataframe when a category is mentioned 0 times: Find indices of rows where timementioned == 0 and remove them
     zeroindices <- which(averageprioritieslist[[instrument]]$timesmentioned %in% 0)
-    averageprioritieslist[[instrument]] <- averageprioritieslist[[instrument]][-zeroindices,]
+    averageprioritieslist[[instrument]] <- averageprioritieslist[[instrument]][-zeroindices, ]
     
     # Fill vectors with values for the flat dataframe
-    instrumentcategories[instrument] <- paste0(averageprioritieslist[[instrument]]$categoryname,collapse=",",sep="")
-    priorityscores[instrument] <- paste0(averageprioritieslist[[instrument]]$averagepriority,collapse=",",sep="")
-    nrrespondents[instrument] <- paste0(averageprioritieslist[[instrument]]$timesmentioned,collapse=",",sep="")
+    instrumentcategories[instrument] <- paste0(averageprioritieslist[[instrument]]$categoryname,
+                                               collapse=",",
+                                               sep="")
+    priorityscores[instrument] <- paste0(averageprioritieslist[[instrument]]$averagepriority,
+                                         collapse=",",
+                                         sep="")
+    nrrespondents[instrument] <- paste0(averageprioritieslist[[instrument]]$timesmentioned,
+                                        collapse=",",
+                                        sep="")
     
   } # End for each instrument
   
@@ -521,15 +576,11 @@ for(cohort in 1:length(cohorts)){
                            Respondents = nrparticipants)
   
   # Remove the rows for which the Instrument_name is [#]_NA: these are nonexistent instruments
-  if(sum(str_detect(categories$Instrument_name,"_NA")) > 0){
-    categories <- categories[-grep("[0-9]_NA", categories$Instrument_name),]
+  if(sum(str_detect(categories$Instrument_name, "_NA")) > 0){
+    categories <- categories[-grep("[0-9]_NA", categories$Instrument_name), ]
   }
 
   # Save the relative priorities and non-custom categories for each cohort separately
-  #assign(paste0("categoriesprior_",cohorts[cohort],"_rel"),categoriesprior_rel)
-  #assign(paste0("noncustomaverage_",cohorts[cohort]),noncustomaverage)
-  #assign(paste0("customaverage_",cohorts[cohort]),customaverage)
-  #assign(paste0("averagepriorities_",cohorts[cohort]),averageprioritieslist)
   assign(paste0("categories_",cohorts[cohort]),categories)
   
 } # End for all cohorts
@@ -546,24 +597,55 @@ For easier exporting and studying the results, here we combine the output from t
 ```{r combine-data, cache = TRUE}
 
 # Combine the variables into 1 dataframe for each cohort
-results_TRAILS <- merge(x = keywordcounts_TRAILS_flat, y = categories_TRAILS, by = "Instrument_name", all = TRUE)
-results_GenR <- merge(x = keywordcounts_GenR_flat, y = categories_GenR, by = "Instrument_name", all = TRUE)
-results_RADAR <- merge(x = keywordcounts_RADAR_flat, y = categories_RADAR, by = "Instrument_name", all = TRUE)
-results_LCID <- merge(x = keywordcounts_LCID_flat, y = categories_LCID, by = "Instrument_name", all = TRUE)
-results_YOUth <- merge(x = keywordcounts_YOUth_flat, y = categories_YOUth, by = "Instrument_name", all = TRUE)
-results_NTR <- merge(x = keywordcounts_NTR_flat, y = categories_NTR, by = "Instrument_name", all = TRUE)
+results_TRAILS <- merge(x = keywordcounts_TRAILS_flat, 
+                        y = categories_TRAILS, 
+                        = "Instrument_name", 
+                        all = TRUE)
+
+results_GenR <- merge(x = keywordcounts_GenR_flat, 
+                      y = categories_GenR, 
+                      by = "Instrument_name", 
+                      all = TRUE)
+
+results_RADAR <- merge(x = keywordcounts_RADAR_flat, 
+                       y = categories_RADAR, 
+                       by = "Instrument_name",
+                       all = TRUE)
+
+results_LCID <- merge(x = keywordcounts_LCID_flat, 
+                      y = categories_LCID, 
+                      by = "Instrument_name", 
+                      all = TRUE)
+
+results_YOUth <- merge(x = keywordcounts_YOUth_flat,
+                       y = categories_YOUth,
+                       by = "Instrument_name",
+                       all = TRUE)
+
+results_NTR <- merge(x = keywordcounts_NTR_flat, 
+                     y = categories_NTR, 
+                     by = "Instrument_name", 
+                     all = TRUE)
 
 todaysdate <- as.character(Sys.Date())
-results_folder <- file.path(paste0("../data/processed/",todaysdate,"_results/"))
+results_folder <- file.path(paste0("../data/processed/",
+                                   todaysdate,
+                                   "_results/"))
 #results_folder <- file.path(paste0("results/processed/",todaysdate, "_results"))
 dir.create(results_folder)
 
 # Write each dataframe to a .csv file
-write.csv(results_TRAILS,file.path(paste0(results_folder,"/",todaysdate,"_results_TRAILS.csv")),row.names = TRUE)
-write.csv(results_GenR,file.path(paste0(results_folder,"/",todaysdate,"_results_GenR.csv")),row.names = TRUE)
-write.csv(results_RADAR,file.path(paste0(results_folder,"/",todaysdate,"_results_RADAR.csv")),row.names = TRUE)
-write.csv(results_LCID,file.path(paste0(results_folder,"/",todaysdate,"_results_LCID.csv")),row.names = TRUE)
-write.csv(results_YOUth,file.path(paste0(results_folder,"/",todaysdate,"_results_YOUth.csv")),row.names = TRUE)
-write.csv(results_NTR,file.path(paste0(results_folder,"/",todaysdate, "_results_NTR.csv")),row.names = TRUE)
+write.csv(results_TRAILS, file.path(paste0(results_folder, "/", todaysdate, 
+                                           "_results_TRAILS.csv")), row.names = TRUE)
+write.csv(results_GenR, file.path(paste0(results_folder, "/", todaysdate,
+                                         "_results_GenR.csv")), row.names = TRUE)
+write.csv(results_RADAR, file.path(paste0(results_folder, "/", todaysdate, 
+                                          "_results_RADAR.csv")), row.names = TRUE)
+write.csv(results_LCID,file.path(paste0(results_folder, "/", todaysdate,
+                                        "_results_LCID.csv")), row.names = TRUE)
+write.csv(results_YOUth,file.path(paste0(results_folder, "/", todaysdate,
+                                         "_results_YOUth.csv")), row.names = TRUE)
+write.csv(results_NTR,file.path(paste0(results_folder, "/", todaysdate, 
+                                       "_results_NTR.csv")), row.names = TRUE)
 
 ```
