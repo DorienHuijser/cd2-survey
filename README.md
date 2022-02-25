@@ -4,6 +4,18 @@ Hello! This repository contains the code to process raw data from the CD2 vocabu
 
 Below you will find what this survey is about and how the data are processed.
 
+**Table of contents**
+  * [About the CD2 project](#about-the-cd2-project)
+  * [About the CD2 vocabularies survey](#about-the-cd2-vocabularies-survey)
+  * [Structure of the survey](#structure-of-the-survey)
+  * [Structure of the datafile](#structure-of-the-datafile)
+  * [Functionality of this code](#functionality-of-this-code)
+  * [Dependencies](#dependencies)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing and contact](#contributing-and-contact)
+
 ## About the CD2 project
 Connecting Data in Child Development (CD2) is an infrastructure project funded by the Platform Digitale Infrastructuur - Social Sciences and Humanities. The project aims to harmonize the metadata from 6 Dutch developmental child cohort studies within the <a href="https://individualdevelopment.nl/" target="_blank">Consortium on Individual Development (CID)</a>. The end result of this harmonization will consist of an online portal where one can find, among others, what data was collected in these cohort studies and how to get access to them (of note, the portal will not contain actual data). Additionally, the metadata underlying this web portal will be findable not only through the web portal itself, but also through existing infrastructures such as ODISSEI (for the social scientific metadata) and HEALTH-RI (for the biomedical metadata). You can read the <a href="https://pdi-ssh.nl/nl/funded-projects-2/gehonoreerde-projecten/connecting-data-in-child-development-cd2/" target="_blank">project description here</a>.
 
