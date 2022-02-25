@@ -11,13 +11,7 @@ Connecting Data in Child Development (CD2) is an infrastructure project funded b
 As part of making the CID metadata findable, data will be labeled with **keywords** and **categories**. Because there is no fully suitable controlled vocabulary available that fits the wealth of data in CID, we plan to complement existing vocabularies with our own. To create such a vocabulary, input from the entire CID community is needed to help us determine the relevant keywords and categories that researchers use to search for all the different types of data within CID. The CD2 vocabularies survey therefore asks the respondent (CID researcher) to 1) provide keywords and 2) choose relevant categories for a subset of experiments within their own cohort.
 
 ## Structure of the survey
-For reusability purposes, here is a description of the structure of the survey:
-
-1. Demographic information (not analyzed here), where respondents also indicate in which cohort they are active.
-2. Based on the cohort that was selected in part 1, respondents are led to the question block about their cohort (see below)
-3. Room for comments
-
-Each cohort block consists of the following 2 questions, which are **repeated for 25 measures/instruments** (e.g., experiments, questionnaires, etc.) using Qualtrics's Loop and Merge functionality:
+The full survey can be found in `CD2_vocabularies_survey_qusetions.pdf` in the `docs` folder. Importantly, depending on their cohort, respondents answer 2 questions which are **repeated for 25 measures/instruments of their cohort** (e.g., experiments, questionnaires, etc.) using Qualtrics's Loop and Merge functionality:
 - `Which keywords would you assign to this measure? Please separate your keywords with a comma` (open text question)
 - `Choose one or multiple categories that you think fit best and rank them according to their relevance using numbers (1 = most relevant, 2 = second most relevant, etc.).` (ranking question with 3 additional custom fields)
 
@@ -38,19 +32,22 @@ The code can be found in `docs` and does the following:
 5. For each cohort, put the data from the Category rankinkg question in a flat, usable format.
 6. For each cohort, combine the procesed data from the Keywords and Category ranking questions into one processed datafile. These can be found in `data/processed`
 
+## Dependencies
+Dependencies used can be found in the `renv.lock` file.
+
 ## Installation
 Feel free to reuse this code by <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository" target="_blank">cloning the repository</a>. Warning: you will most likely have to adapt the code tremendously, since the code is currently tailored towards this specific use case. 
 
-## Running the code
-You need the following to run the code:
+## Usage
+The code is located in the `CD2-vocabularies-survey-v1.1.Rmd` file located in the `docs` folder. You need the following to run the code:
 - R or R Studio
-- The raw datafile
-- The instrument number files as used during the survey
+- The raw datafile (not included in this public repository)
+- The instrument number files as used during the survey (located in `docs/instrumentnrs`)
 
 All relevant files are read in by the code. Because the code is R Markdown, you can find a lot of explanation about how the code works in there as well.
 
 ## License
 This project is licensed under the terms of the [MIT License](/LICENSE.md)
 
-## Contact
-Please email <a href="https://www.uu.nl/staff/DCHuijser" target="_blank">Dorien Huijser</a> for comments or questions about this code. Alternatively, open an issue or a Pull Request in this repository!
+## Contributing and contact
+To contribute, feel free to open an issue or a pull request in this repository. Alternatively, you can email <a href="https://www.uu.nl/staff/DCHuijser" target="_blank">Dorien Huijser</a> for comments or questions.
