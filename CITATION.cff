@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: CD2 vocabularies survey code
+message: 'When reusing this work, please cite as folows.'
+type: software
+authors:
+  - given-names: Dorien
+    name-particle: D.C.
+    family-names: Huijser
+    email: d.c.huijser@uu.nl
+    affiliation: Utrecht University
+    orcid: 'https://orcid.org/0000-0003-3282-8083'
+url: >-
+  https://pdi-ssh.nl/nl/funded-projects-2/gehonoreerde-projecten/connecting-data-in-child-development-cd2/
+abstract: >-
+  This repository contains the code to process raw
+  data from the Connecting Data in Child Development
+  (CD2) project's vocabularies survey for each
+  participating cohort study into a much more
+  readable and useful format. The goal of this survey
+  is to develop a harmonized vocabulary that can be
+  used in the to be built CD2 metadata portal, where
+  the data from 6 developmental child cohorts will be
+  represented.
+keywords:
+  - vocabularies
+  - metadata
+  - survey
+license: MIT
