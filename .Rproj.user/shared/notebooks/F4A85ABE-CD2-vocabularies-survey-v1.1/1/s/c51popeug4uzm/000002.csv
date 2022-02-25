@@ -1,7 +1,0 @@
-"0","# Qualtrics package info: https://cran.r-project.org/web/packages/qualtRics/vignettes/qualtRics.html"
-"0","#install.packages(""qualtRics"")"
-"0","#library(qualtRics)"
-"0","# install.packages(""data.table"")"
-"0","library(data.table)"
-"0","#install.packages(""stringr"")"
-"0","library(stringr)"

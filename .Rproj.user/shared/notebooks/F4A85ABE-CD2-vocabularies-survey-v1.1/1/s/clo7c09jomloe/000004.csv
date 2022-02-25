@@ -1,4 +1,0 @@
-"0","cd2survey <- fread(datafile, na.strings = """")"
-"0","cd2survey <- cd2survey[-c(1,2),] # Skip the first 2 rows as they contain the question text"
-"0","# Skip the lines that were just for testing"
-"0","cd2survey <- cd2survey[-grep(""preview"",cd2survey$DistributionChannel),]"
