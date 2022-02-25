@@ -48,7 +48,7 @@ current_dir <- dirname(current_path)
 setwd(current_dir)
 
 # Files to be read in
-datafile <- "CD2_vocabularies_22020224.csv" # raw dataset from February 24th
+datafile <- "../data/CD2_vocabularies_20220224.csv" # raw dataset from February 24th
 
 cohorts <- c("TRAILS","GenR","RADAR","LCID","YOUth","NTR") # Needs to be in the same order as the instrument numbers files
 
@@ -85,7 +85,8 @@ library(stringr)
 We're using the `fread()` function from the `data.table` package, which is significantly faster than `read.csv()`, espcially with a large file like the one in this survey.
 
 ```{r data-read, cache=TRUE}
-cd2survey <- fread(datafile, na.strings = "")
+#cd2survey <- fread(datafile, na.strings = "")
+cd2survey <- fread(file.path("../data/raw/CD2_vocabularies_20220224.csv"), na.strings = "")
 cd2survey <- cd2survey[-c(1,2),] # Skip the first 2 rows as they contain the question text
 
 # Skip the lines that were just for testing
