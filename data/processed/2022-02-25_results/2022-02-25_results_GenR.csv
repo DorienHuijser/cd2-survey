@@ -1,0 +1,208 @@
+"","Instrument_name","Keywords","Keyword_count","Keyword_respondents","Categories","Priority_scores","Times_mentioned","Respondents"
+"1","1_Abbreviated Parent Report Children’s Abilities (PARCA) ","","",0,"NA","NaN","111",0
+"2","10_Autism-spectrum quotient (AQ-short)","asd,autism,autism quotient,autistic traits,neurodevelopmental disorder","1,1,1,1,1",1,"Mental health,NA","1,0","1,111",1
+"3","100_Interpersonal conflict questionnaire","","",0,"NA","NaN","111",0
+"4","101_Intima-media thickness","","",0,"NA","NaN","111",0
+"5","102_Inventory of Callous-Unemotional Traits","antisocial personality disorder,callous-unemotional,callous traits,conduct disorder,cu traits,lack of empathy,personality","1,1,1,1,1,1,1",2,"Social and emotional development,Personality,Social cognition and behavior,Mental health,NA","0.34,0.24,0.22,0.19,0","2,2,2,2,111",2
+"6","103_Kidney development","","",1,"Physiology,Physical health,NA","0.67,0.33,0","1,1,111",1
+"7","104_Language","bilingual,language,multilingual","1,1,1",1,"Demographics,Life history,NA","0.67,0.33,0","1,1,111",1
+"8","105_Language development survey. LDS","language,speech,language development,vocabulary","2,2,1,1",2,"Cognition,Physical health,NA","0.83,0.17,0","2,1,111",2
+"9","106_Leisure time ","physical activities,social behavior,social relationships","1,1,1",1,"Lifestyle,Mental health,Physical health,NA","0.5,0.33,0.17,0","1,1,1,111",1
+"10","107_Life event interview","adverse events,environmental exposures,stress","1,1,1",1,"Parenting,Mental health,Life history,Social and emotional development,NA","0.4,0.3,0.2,0.1,0","1,1,1,1,111",1
+"11","108_Life events","adverse experiences,early life stress,life events interview,trauma","1,1,1,1",1,"Life history,Lifestyle,NA","0.67,0.33,0","1,1,111",1
+"12","109_Lifestyle","alcohol,caffeine,cannabis,coffee,drug,eating,gambling,lifestyle,physical activity","1,1,1,1,1,1,1,1,1",1,"Lifestyle,Physical health,NA","0.67,0.33,0","1,1,111",1
+"13","11_Background information of you and your family ","demographics,education level,ethnicity,origin","1,1,1,1",1,"Demographics,NA","1,0","1,111",1
+"14","110_Living conditions (GLOBE)","","",0,"NA","NaN","111",0
+"15","111_Loneliness scale ","","",0,"NA","NaN","111",0
+"16","112_Lung function (through airway resistance)","","",0,"NA","NaN","111",0
+"17","113_Lung: fractional exhaled nitric ocide (feno) - airway inflammation","airway inflammation,fractional exhaled nitric oxide,lung","1,1,1",1,"Physiology,Physical health,NA","0.67,0.33,0","1,1,111",1
+"18","114_Lungs: Allergy test","allergy,lung problems","1,1",1,"Physical health,NA","1,0","1,111",1
+"19","115_Lungs: Exercise test (Steep Ramp Test)","biological measures,lung capacity","1,1",2,"Physiology,Physical health,NA","0.67,0.33,0","2,1,111",2
+"20","116_Macarthur Communicative Development Inventory (MCDI)","communication,language development,social interaction","1,1,1",1,"Social cognition and behavior,Social and emotional development,Personality,Parenting,Cognition,NA","0.33,0.27,0.2,0.13,0.07,0","1,1,1,1,1,111",1
+"21","117_Marital status and relationship quality ","family,marital status,parenting","1,1,1",1,"Demographics,Lifestyle,Parenting,NA","0.5,0.33,0.17,0","1,1,1,111",1
+"22","118_Matching, building with blocks, folding paper, copying; playing (non-verbal cognition) (PARCA)","executive functioning,motor development","1,1",1,"Cognition,behavior,NA","0.67,0.33,0","1,1,110",1
+"23","119_Maternity blues symptoms","birth,depression,maternal depression,maternal mental health,maternity blues,mental health,mood disorders,postpartum,postpartum depression,psychopathology","1,1,1,1,1,1,1,1,1,1",3,"Mental health,Parenting,Personality,Social and emotional development,NA","0.72,0.11,0.11,0.06,0","3,1,1,1,111",3
+"24","12_Behaviour Rating Inventory of Executive Function in Preschool Children (BRIEF-P)","","",0,"NA","NaN","111",0
+"25","120_McKnight Risk Factor Survey (MRFS-III)","body image,self-esteem","1,1",1,"Mental health,NA","1,0","1,111",1
+"26","121_Medical history of family","","",0,"NA","NaN","111",0
+"27","122_Moral Development/Conscience","moral development,conscience","3,2",3,"Social and emotional development,Social cognition and behavior,moral development ,Mental health,NA","0.56,0.28,0.11,0.06,0","3,2,1,1,110",3
+"28","123_Mother and Baby Scale (MABS)","feeding,infant alertness,mother-child interaction,sleeping","1,1,1,1",1,"Parenting,infant behaviour,NA","0.67,0.33,0","1,1,110",1
+"29","124_Mother-child interaction","attachment,behavior problems,etch-a-sketch,mother-child interaction,mother-child relationship,observational measure,observations,oversensitivity,parent-child interaction,parental sensitivity,parenting","2,1,1,1,1,1,1,1,1,1,1",3,"Parenting,Social and emotional development,Mental health,Personality,NA","0.69,0.18,0.1,0.03,0","3,2,1,1,111",3
+"30","125_Motor development","","",1,"Parenting,Physiology,NA","0.67,0.33,0","1,1,111",1
+"31","126_Movement (exercise)","","",0,"NA","NaN","111",0
+"32","127_MRI","body mri,magnetic resonance imaging,mri","1,1,1",1,"Physical health,Physiology,Lifestyle,NA","0.5,0.33,0.17,0","1,1,1,111",1
+"33","128_MRI brain imaging","brain function,brain functional connectivity,brain imaging,brain morphology,brain size,brain structure,brain volume,connectivity,imaging,magnetic resonance imaging,microstructural integrity,mri,neurimaging,neurology,resting-state functional mri,white matter microstructure","1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",2,"Physiology,neurobiology,Physical health,Mental health,NA","0.5,0.25,0.17,0.08,0","2,1,1,1,110",2
+"34","129_Multidimensional Scale of Perceived Social Support","","",0,"NA","NaN","111",0
+"35","13_Behavioural inhibition and behavioural activation (BIS/BAS).","","",0,"NA","NaN","111",0
+"36","130_Nasal and nasalpharyngeal swabs for examination of bacterial carriage","","",0,"NA","NaN","111",0
+"37","131_Neonatal Perception Inventory, perception of own infant","","",0,"NA","NaN","111",0
+"38","132_Neuropsychological development (NEPSY-II)","attention,cognition,cognitive functions,executive function,executive functioning,inhibitory control,intelligence,memory,neurocognitive performance,neuropsychological domains,self-regulation,shifting","1,1,1,1,1,1,1,1,1,1,1,1",3,"Cognition,Social cognition and behavior,cognitive functions,cognitive functioning,NA","0.5,0.22,0.17,0.11,0","3,2,1,1,109",3
+"39","133_Nijmeegse parental stress index","parental stress,parenthood stress","1,1",2,"Mental health,Parenting,Social and emotional development,Personality,NA","0.65,0.2,0.1,0.05,0","2,1,1,1,111",2
+"40","134_Non-verbal IQ: Snijders-Oomen Niet-verbale intelligentie Test–Revisie (SON-R 2 1?2-7)","","",0,"NA","NaN","111",0
+"41","135_Obstructive Sleep Apnea (OSA) questionnaire","obstructive sleep apnea,sleep problems","1,1",1,"Lifestyle,Physical health,Mental health,NA","0.5,0.25,0.25,0","1,1,1,111",1
+"42","136_Opportunity for Prosocial Actions","","",1,"Social cognition and behavior,Social and emotional development,Mental health,NA","0.4,0.4,0.2,0","1,1,1,111",1
+"43","137_Parental bonding inventory","","",0,"NA","NaN","111",0
+"44","138_Parental sensitivity","parent-child interaction,parental sensitivity,parenting","1,1,1",1,"Parenting,Social cognition and behavior,Social and emotional development,NA","0.5,0.33,0.17,0","1,1,1,111",1
+"45","139_Parenting practices","parental monitoring,parenting,monitoring,parental control,parenting practices","2,2,1,1,1",2,"Parenting,NA","1,0","2,111",2
+"46","14_Berkeley Puppet interview","anxiety,bullying,conduct,depression,diagnostic interview,externalizing,hostility,internalizing,interview,oppositional defiant,peer acceptance,psychiatric interview","1,1,1,1,1,1,1,1,1,1,1,1",1,"Mental health,Social and emotional development,NA","0.67,0.33,0","1,1,111",1
+"47","140_Pediatric daytime sleepiness scale (PDSS)","","",0,"NA","NaN","111",0
+"48","141_Perceived parental rearing","maternal perceived parenting,maternal perceived rearing,parental history,parenting,perceived parenting","1,1,1,1,1",2,"parental history,Parenting,parental life history,Life history,NA","0.33,0.25,0.25,0.17,0","1,2,1,1,109",2
+"49","142_Perceived stress.","stress,perceived stress,lifestyle,maternal stress","4,2,1,1",4,"Mental health,Parenting,maternal mental health,Lifestyle,NA","0.67,0.12,0.12,0.08,0","4,2,1,1,110",4
+"50","143_Personal circumstances (incl. income) - GLOBE","","",0,"NA","NaN","111",0
+"51","144_Physical appearance","3d picture,bmi,body morphology,looks,physical appearance","1,1,1,1,1",2,"body morphology,Physical health,Lifestyle,NA","0.5,0.33,0.17,0","1,1,1,110",2
+"52","145_Physical characteristics (hair, eye, skin color mother and child)","physical characteristics,ancestry,cortisol,ethnicity,external characteristics,physical","2,1,1,1,1,1",4,"Physiology,Demographics,physical characteristics,NA","0.5,0.25,0.25,0","2,1,1,110",4
+"53","146_Physical exercise ","","",0,"NA","NaN","111",0
+"54","147_Physical health (chronic somatic diseases)","physical health,chronic disease,somatic complaints,chronic diseases,disease,health,somatic development,somatic diseases,somatic symptoms","3,2,2,1,1,1,1,1,1",5,"Physical health,Physiology,Life history,somatic diseases,development,NA","0.73,0.1,0.07,0.07,0.03,0","5,2,1,1,1,109",5
+"55","148_Pittsburgh Sleep Quality Index (PSQI), 9 items","circadian rhythm,sleep,sleep duration,sleep problems","1,1,1,1",1,"sleep,sleep problems,circadian rhythm,Lifestyle,NA","0.4,0.3,0.2,0.1,0","1,1,1,1,108",1
+"56","149_Placental haeomynamics including resistance indices of the uterine and umbilical arteries","","",0,"NA","NaN","111",0
+"57","15_Block Child Rearing Practices Report, abbreviated","parenting,parent-child interaction,parent-child relationship","2,1,1",2,"Parenting,NA","1,0","2,111",2
+"58","150_Playing outside","exercise,outdoor psychical activity,physical activity,sedentary behaviors","1,1,1,1",1,"Lifestyle,Physical health,Personality,Social and emotional development,NA","0.4,0.3,0.2,0.1,0","1,1,1,1,111",1
+"59","151_Postnatal emotional problems and treatment","","",0,"NA","NaN","111",0
+"60","152_Pregnancy complications and outcomes ","","",1,"pregnancy,NA","1,0","1,110",1
+"61","153_Pregnancy outcome list","","",0,"NA","NaN","111",0
+"62","154_Pre-school, after-school and out-of school care","","",0,"NA","NaN","111",0
+"63","155_Previous pregnancies","","",0,"NA","NaN","111",0
+"64","156_Prosocial behavior - SDQ","","",0,"NA","NaN","111",0
+"65","157_Prosocial Tendencies Measures","helping others,prosocial behavior,prosocial behaviour","1,1,1",2,"prosocial behavior,Personality,Social cognition and behavior,NA","0.5,0.33,0.17,0","1,1,1,110",2
+"66","158_Psychological assistence ","mental health,treatment,mental health care,psychological disorder,psychological problems","2,2,1,1,1",2,"Mental health,Lifestyle,care use,NA","0.67,0.17,0.17,0","2,1,1,110",2
+"67","159_Pubertal development","development of secondary sexual characteristics,pubertal development,puberty","1,1,1",1,"Physiology,Physical health,NA","0.67,0.33,0","1,1,111",1
+"68","16_Blood pressure","","",2,"Physiology,Physical health,blood pressure,Lifestyle,NA","0.5,0.25,0.17,0.08,0","2,1,1,1,110",2
+"69","160_Ravens advanced progressive matrices test. Set I","cognition,iq,maternal iq","1,1,1",1,"Cognition,Social cognition and behavior,NA","0.67,0.33,0","1,1,111",1
+"70","161_Referred for treatment for emotional or behavioral problems","","",0,"NA","NaN","111",0
+"71","162_Religion","christian,jewish,muslim,religion,religious practices","1,1,1,1,1",1,"Demographics,NA","1,0","1,111",1
+"72","163_Risk taking","","",0,"NA","NaN","111",0
+"73","164_Rosenberg scale","","",1,"Personality,Mental health,Social cognition and behavior,Social and emotional development,NA","0.4,0.2,0.2,0.2,0","1,1,1,1,111",1
+"74","165_Scale of Van der Wal  ","maternal sensitivity,parent-child relationship","1,1",1,"Parenting,Mental health,Personality,Social and emotional development,NA","0.4,0.3,0.2,0.1,0","1,1,1,1,111",1
+"75","166_School (conditions to study at home)","education during covid,home education facilities,online education,studying from home","1,1,1,1",2,"education,Demographics,Cognition,Lifestyle,Parenting,Physical health,Mental health,NA","0.33,0.17,0.14,0.14,0.07,0.07,0.07,0","1,1,1,1,1,1,1,110",2
+"76","167_School career","","",0,"NA","NaN","111",0
+"77","168_School enjoyment","joy at school,school enjoyment","1,1",1,"Social and emotional development,Mental health,NA","0.67,0.33,0","1,1,111",1
+"78","169_School of child","cognition,education,educational level,school","1,1,1,1",1,"Cognition,Social cognition and behavior,Mental health,Social and emotional development,NA","0.43,0.29,0.14,0.14,0","1,1,1,1,111",1
+"79","17_Blood sample","dna methylation,genetics","1,1",1,"Physiology,Physical health,NA","0.67,0.33,0","1,1,111",1
+"80","170_Screen for child anxiety related disorders (SCARED)","anxiety,child,mental health,psychological disorders,psychopathology","3,1,1,1,1",3,"Mental health,anxiety,psychopathology,Personality,Social and emotional development,Life history,NA","0.41,0.28,0.11,0.1,0.07,0.03,0","3,2,1,1,1,1,108",3
+"81","171_Screentime (tv, video, dvd, pc)","gaming,parental supervision,parenting,physical heath,screen time,tv watching,use of screens","1,1,1,1,1,1,1",2,"Parenting,Physical health,Lifestyle,activities in free time,NA","0.33,0.33,0.25,0.08,0","2,1,1,1,110",2
+"82","172_Short big five inventory (BFI-s)","big 5 personalities,personality","1,1",1,"Personality,NA","1,0","1,111",1
+"83","173_Short Ruminative Response Scale (RRS) questionnaire","","",1,"Mental health,Personality,NA","0.67,0.33,0","1,1,111",1
+"84","174_Situation at home (ISAAC)","","",0,"NA","NaN","111",0
+"85","175_Skin color analysis","","",1,"Demographics,ethnicity,NA","0.67,0.33,0","1,1,110",1
+"86","176_Skin swab (head, elbow)","","",0,"NA","NaN","111",0
+"87","177_Sleep diary","","",0,"NA","NaN","111",0
+"88","178_Sleep habits survey (SHS)","","",1,"Lifestyle,NA","1,0","1,111",1
+"89","179_Sleeping and toilet training","","",0,"NA","NaN","111",0
+"90","18_Bone mineral density and related measures","","",0,"NA","NaN","111",0
+"91","180_Sleeping regulatory problems","circadian rhythm,sleep,sleep problems,sleeping","1,1,1,1",2,"Physiology,sleep,Physical health,sleep problems,brain development,circadian rhythm,NA","0.25,0.25,0.17,0.17,0.08,0.08,0","1,1,1,1,1,1,107",2
+"92","181_Smoking, alcohol, and drug use (cannabis/hashish, laughing gas)","","",0,"NA","NaN","111",0
+"93","182_Social media, chatting and gaming","","",0,"NA","NaN","111",0
+"94","183_Social readjusting rating scale","","",0,"NA","NaN","111",0
+"95","184_Social Responsiveness Scale ","","",0,"NA","NaN","111",0
+"96","185_Social stress (social circumstances)","","",0,"NA","NaN","111",0
+"97","186_Social support list","social support,mental health,mother,ses,social network","2,1,1,1,1",2,"Demographics,Social cognition and behavior,Mental health,Lifestyle,Personality,Parenting,NA","0.33,0.2,0.17,0.15,0.1,0.05,0","1,1,1,1,1,1,111",2
+"98","187_Somatic complaints and use of medication","","",0,"NA","NaN","111",0
+"99","188_Stability of Acitivities in the Family Environment-Revised (SAFE-R)","","",0,"NA","NaN","111",0
+"100","189_Stanford feeding questionnaire","eating behaviour,eating disorder,eating problems,feeding,picky eating","1,1,1,1,1",2,"Lifestyle,nutrition,NA","0.67,0.33,0","2,1,110",2
+"101","19_Bones","","",0,"NA","NaN","111",0
+"102","190_Strange Situation Procedure","attachment,attachment style,parent-child attachment,strange situation procedure","2,1,1,1",2,"Parenting,Social and emotional development,Social cognition and behavior,NA","0.5,0.42,0.08,0","2,2,1,111",2
+"103","191_Substance use","alcohol use,drugs use,smoking,substance use","1,1,1,1",1,"Lifestyle,Social cognition and behavior,NA","0.5,0.5,0","1,1,111",1
+"104","192_Tanner","puberty,tanner","1,1",1,"Physical health,Physiology,NA","0.67,0.33,0","1,1,111",1
+"105","193_Taste experience","","",0,"NA","NaN","111",0
+"106","194_Teacher Report Form (TRF) ","","",0,"NA","NaN","111",0
+"107","195_The first days","","",0,"NA","NaN","111",0
+"108","196_The Parenting Scale: dysfunctional parenting in discipline situations","discipline,parenting","1,1",1,"Parenting,NA","1,0","1,111",1
+"109","197_The Perception of Teasing Scale (POTS)","","",0,"NA","NaN","111",0
+"110","198_The pregnancy and childbirth","birth characteristics,pregnancy characteristics","1,1",1,"Physiology,Physical health,NA","0.67,0.33,0","1,1,111",1
+"111","199_The short obsessive compulsive disorder screener (SOCS)","obsessive compulsive disorder,compulsions,mental health,obsessions,obsessive compulsive symptoms,ocd,ocd symptoms,psychology","2,1,1,1,1,1,1,1",3,"Mental health,psychiatric health,Personality,psychiatry,NA","0.61,0.22,0.11,0.06,0","3,1,1,1,109",3
+"112","2_Abdominal fat","","",1,"Physical health,Lifestyle,NA","0.67,0.33,0","1,1,111",1
+"113","20_Borderline Personality Features Scale for Children","borderline personality,borderline,children","2,1,1",2,"Mental health,Personality,Social and emotional development,NA","0.42,0.42,0.17,0","2,2,2,111",2
+"114","200_The three-factor eating questionnaire","eating behavior,food intake","2,1",2,"Lifestyle,food intake,eating behavior,NA","0.67,0.25,0.08,0","2,1,1,109",2
+"115","201_Heart","ecography,heart,ultrasound","1,1,1",1,"Physiology,Physical health,NA","0.67,0.33,0","1,1,111",1
+"116","202_Urine sample","","",0,"NA","NaN","111",0
+"117","203_Utrechtse coping lijst (UCL)","coping,coping styles,proactive,problem handling,reaction,reactive","1,1,1,1,1,1",1,"Cognition,Mental health,NA","0.67,0.33,0","1,1,111",1
+"118","204_Wechsler Intelligence Scale (WISC-V subsets)","intelligence,iq,wisc-v","1,1,1",1,"Cognition,NA","1,0","1,111",1
+"119","205_Wellbeing (affective and cognitive)","emotional development,mental health","1,1",1,"Social and emotional development,Social cognition and behavior,Mental health,NA","0.5,0.33,0.17,0","1,1,1,111",1
+"120","206_Work and working conditions","dangerous work environment,occupation,toxic exposure,work,working conditions","1,1,1,1,1",1,"parental physical health,Physical health,Lifestyle,NA","0.5,0.33,0.17,0","1,1,1,110",1
+"121","207_Youth self report (YSR)","","",0,"NA","NaN","111",0
+"122","21_Brain structure","brain structure,brain volume","1,1",1,"Physiology,Physical health,NA","0.67,0.33,0","1,1,111",1
+"123","22_Breastfeeding","","",0,"NA","NaN","111",0
+"124","23_Brief problem monitor-youth form (BMP-p)","emotional development,problem behavior,psychopathology","1,1,1",1,"Mental health,Personality,Life history,NA","0.5,0.33,0.17,0","1,1,1,111",1
+"125","24_Brief symptom inventory (BSI)","parental mental health,parental mood disorders,parental psychopathology","1,1,1",1,"Mental health,Personality,Life history,Social and emotional development,NA","0.4,0.3,0.2,0.1,0","1,1,1,1,111",1
+"126","25_Bullying and Victimization","","",1,"bullying,NA","1,0","1,110",1
+"127","26_Cannabis Experiences Questionnaire - Intoxication effects checklist (CEQ-I)","","",0,"NA","NaN","111",0
+"128","27_Cardiac and renal structure","cardiac and renal structure,heart,imaging,kidney","1,1,1,1",2,"Physiology,Physical health,NA","0.83,0.17,0","2,1,111",2
+"129","28_Cardiac development","","",0,"NA","NaN","111",0
+"130","29_CBCL 6-18-Competence scales","activities,child behaviour,child behaviour problems,competence,friends,friendships,hobbies","1,1,1,1,1,1,1",2,"Social cognition and behavior,Social and emotional development,Mental health,NA","0.5,0.33,0.17,0","2,1,1,111",2
+"131","3_Accidents","accidents,injuries","1,1",1,"Physical health,NA","1,0","1,111",1
+"132","30_Child Behavior Checklist (CBCL)","behavior problems,child mental health,externalizing problems,internalizing problems","1,1,1,1",1,"Mental health,Social and emotional development,NA","0.67,0.33,0","1,1,111",1
+"133","31_Child Behavior Questionnaire (CBQ)","child behavior,child temperament,personality,temperament","1,1,1,1",2,"Personality,temperament,Social cognition and behavior,Social and emotional development,Mental health,NA","0.53,0.17,0.15,0.1,0.05,0","2,1,1,1,1,110",2
+"134","32_Child Behaviour Conflicts Scale","family conflict,harsh parenting,parenting","1,1,1",1,"Parenting,Social cognition and behavior,NA","0.67,0.33,0","1,1,111",1
+"135","33_Child care","","",0,"NA","NaN","111",0
+"136","34_Child caregiving involvement scale","","",0,"NA","NaN","111",0
+"137","35_Child Feeding Questionnaire (CFQ).","","",1,"Physical health,Parenting,NA","0.67,0.33,0","1,1,111",1
+"138","36_Child-care attitude and emotional disturbance among mothers of young children","","",0,"NA","NaN","111",0
+"139","37_Childhood trauma questionnaire (CTQ)","child abuse and neglect,early life stress","1,1",1,"Mental health,Life history,Lifestyle,Social and emotional development,NA","0.4,0.3,0.2,0.1,0","1,1,1,1,111",1
+"140","38_Children’s body image scale","","",0,"NA","NaN","111",0
+"141","39_Children’s Eating Behaviour Questionnaire (CEBQ)","","",0,"NA","NaN","111",0
+"142","4_Actigraphy ","","",0,"NA","NaN","111",0
+"143","40_Children’s worry management scale","emotional development,mood,mood disorders,psychopathology,self-regulation,temperament","1,1,1,1,1,1",2,"Mental health,Social and emotional development,mood (disorders),Social cognition and behavior,psychopathology,NA","0.5,0.17,0.17,0.08,0.08,0","2,1,1,1,1,109",2
+"144","41_Child's health","","",0,"NA","NaN","111",0
+"145","42_Child's perception of neighborhood","","",0,"NA","NaN","111",0
+"146","43_CITO score","academic performance,intelligence","1,1",1,"Cognition,NA","1,0","1,111",1
+"147","44_Compliance and active resistance","","",0,"NA","NaN","111",0
+"148","45_Composite International Diagnostic Interview (CIDI)","intergenerational psychopathology,psychopathology","1,1",1,"psychopathology,Mental health,NA","0.67,0.33,0","1,1,110",1
+"149","46_Conners rating scale","adhd,conners,psychopathology","1,1,1",1,"Mental health,Social cognition and behavior,Social and emotional development,NA","0.5,0.25,0.25,0","1,1,1,111",1
+"150","47_Cord blood sample at birth","","",0,"NA","NaN","111",0
+"151","48_COVID-19 specific items ","covid-19,adherence,behavior,behaviour related to covid-19/corona,concerns,corona,corona virus,crisis,health behaviour,infection,pandemic,symptoms","2,1,1,1,1,1,1,1,1,1,1,1",2,"Physical health,Lifestyle,NA","0.67,0.33,0","2,2,111",2
+"152","49_Criticism and Emotional Overinvolvement (EO)","","",0,"NA","NaN","111",0
+"153","5_Adapted children’s sleep habits questionnaire – sleep self report","sleep,sleep duration,sleep habits","1,1,1",1,"Life history,Physical health,Mental health,NA","0.5,0.33,0.17,0","1,1,1,111",1
+"154","50_Crying","","",1,"Physical health,NA","1,0","1,111",1
+"155","51_Culture, social contacts","","",0,"NA","NaN","111",0
+"156","52_Delinquent behaviour","criminal behaviour,delinquency,delinquent behavior,offences","1,1,1,1",1,"externalizing behaviour,Mental health,NA","0.67,0.33,0","1,1,110",1
+"157","53_Delusions -  Derived from K-SADS","delusions,mental health,psychiatry","1,1,1",1,"Mental health,psychiatry,NA","0.67,0.33,0","1,1,110",1
+"158","54_Demographics (education, age, living situation)","","",1,"Demographics,NA","1,0","1,111",1
+"159","55_Dental status and development","","",0,"NA","NaN","111",0
+"160","56_Development and behavior (Motor, language and skills - IDI'94, ISAAC)","","",0,"NA","NaN","111",0
+"161","57_Drive for Muscularity Scale","","",0,"NA","NaN","111",0
+"162","58_Dutch Eating Behaviour Questionnaire (DEBQ)","eating,eating behavior,anorexia,binge eating,bulimia,eating behaviour,eating disorder,eating disorders,nutrition","2,2,1,1,1,1,1,1,1",3,"Mental health,Lifestyle,Physical health,nutrition,Life history,NA","0.33,0.22,0.17,0.17,0.11,0","3,2,1,1,1,110",3
+"163","59_Early Adolescent Temperament Questionnaire ","temperament,children,personality disorder","3,1,1",3,"Personality,temperament,Social and emotional development,NA","0.44,0.33,0.22,0","2,1,2,110",3
+"164","6_Air pollution and  road traffic noise ","air pollution,environmental exposure","1,1",1,"Demographics,NA","1,0","1,111",1
+"165","60_Eating behavior and watching tv","","",0,"NA","NaN","111",0
+"166","61_Edinburgh postnatal depression scale (EPDS)","depression,depressive disorder,maternity blues,postnatal depression,postpartum depression","1,1,1,1,1",1,"Mental health,NA","1,0","1,111",1
+"167","62_Education and work","","",1,"Demographics,NA","1,0","1,111",1
+"168","63_Electro cardiography (ECG)","ecg,electro cardiography,electrocardigraphy,heart,heart rate,heart rate variability,rhythym","2,1,1,1,1,1,1",3,"Physiology,Physical health,heart,NA","0.78,0.17,0.06,0","3,1,1,110",3
+"169","64_Emotional complaints","mental health,psychiatric history,psychological disorder","1,1,1",1,"Mental health,psychiatric history,NA","0.67,0.33,0","1,1,110",1
+"170","65_Emotional regulation/temperament (4 Lab-TAB tasks)","","",0,"NA","NaN","111",0
+"171","66_Empathy for children and adolescents (IECA)","adolescents,children,empathy,social interaction","1,1,1,1",1,"Social and emotional development,Personality,Mental health,NA","0.5,0.33,0.17,0","1,1,1,111",1
+"172","67_Endothelial function","","",0,"NA","NaN","111",0
+"173","68_Eye level (app)","","",0,"NA","NaN","111",0
+"174","69_Eyes, retinal vasculature, refraction (retinal imaging)","?,eye measurements,ophthalmic measurements","1,1,1",2,"Physical health,NA","1,0","1,111",1
+"175","7_Alabama Parenting Questionnaire","discipline,involvement,parenting,positive parenting,punishment,rearing,supervision","1,1,1,1,1,1,1",1,"Parenting,NA","1,0","1,111",1
+"176","70_Eyes: visual acuity, retinal picture, refraction, IOL master, OCT","","",1,"NA","NaN","111",0
+"177","71_Face development","","",0,"NA","NaN","111",0
+"178","72_Faeces sample for microbiota","faeces,microbiome","1,1",1,"Physical health,NA","1,0","1,111",1
+"179","73_Family Assessment Device (FAD), general functioning subscale (GF)","family dynamics,family functioning,family interaction,parenting","1,1,1,1",3,"Parenting,Life history,Social and emotional development,NA","0.78,0.11,0.11,0","3,1,1,111",3
+"180","74_Family in which you grew up (CBS GE, GLOBE)","","",1,"Demographics,NA","1,0","1,111",1
+"181","75_Family situation (incl. Marital status, composition)","marital status,family composition,family situation,house crowding,household,household information","2,1,1,1,1,1",3,"Demographics,social class,Parenting,NA","0.83,0.11,0.06,0","3,1,1,110",3
+"182","76_Feeding (nutrition)","eating behavior,feeding","1,1",1,"Parenting,Physical health,Lifestyle,NA","0.33,0.33,0.33,0","1,1,1,111",1
+"183","77_Feeding your child","breast feeding,eating behaviour,nutrition","1,1,1",1,"nutrition,Parenting,Lifestyle,NA","0.5,0.25,0.25,0","1,1,1,110",1
+"184","78_Fetal brain development","fetal development,prenatal environment,programming","1,1,1",1,"Physiology,Physical health,Mental health,NA","0.5,0.33,0.17,0","1,1,1,111",1
+"185","79_Fetal growth patterns (head circumference, biparietal diameter, abdominal circumference, femur length)","biometrics,gestation,growth,imaging","1,1,1,1",1,"Physiology,Physical health,NA","0.67,0.33,0","1,1,111",1
+"186","8_Arc’s self-determination scale","","",0,"NA","NaN","111",0
+"187","80_Food frequency questionnaire. FFQ ","","",0,"NA","NaN","111",0
+"188","81_Friendship quality questionnaire","","",0,"NA","NaN","111",0
+"189","82_Gender experiences (GIDYQ)","","",0,"NA","NaN","111",0
+"190","83_General health of parents","medical history,parental health,parental somatic health","1,1,1",2,"Demographics,Physical health,medical history,NA","0.5,0.33,0.17,0","2,1,1,110",2
+"191","84_Hair sample","biological measures (not sure what this measures,cortisol??)","1,1",1,"biological measure,NA","1,0","1,110",1
+"192","85_Handedness","","",1,"handedness,NA","1,0","1,110",1
+"193","86_Harter’s Self-Perception Profile for Children ","competence,self-perception","1,1",1,"Social and emotional development,Social cognition and behavior,NA","0.67,0.33,0","1,1,111",1
+"194","87_Health Behaviour in School-aged Children (HBSC)","bmi,health,healty eating practices,lifestyle","1,1,1,1",1,"Lifestyle,Physiology,Physical health,bmi,NA","0.4,0.3,0.2,0.1,0","1,1,1,1,110",1
+"195","88_Health during this pregnancy","health,physical health,pregnancy,pregnancy health","1,1,1,1",2,"Physical health,prenatal measures,pregnancy,NA","0.5,0.33,0.17,0","1,1,1,109",2
+"196","89_Health related quality of-life","","",1,"quality of life,NA","1,0","1,110",1
+"197","9_Arterial stiffness","cardiovascular disease,cvd,ecg,heart","1,1,1,1",1,"Physiology,Physical health,NA","0.67,0.33,0","1,1,111",1
+"198","90_Hearing","audiometry,hearing,hearing performance","1,1,1",2,"Physical health,Life history,NA","0.83,0.17,0","2,1,111",2
+"199","91_Height, weight, head circumference, skinfold thickness (subcutaneous fat mass), waist-hip ratio, referal to doctor, and vaccinations","","",0,"NA","NaN","111",0
+"200","92_Home (damp, stains, smoking, pets, noise)","damp,home environment,pets,smoking,bugs,cleanliness home,home,noice,noise,stains","2,2,2,2,1,1,1,1,1,1",2,"environmental characteristics,Demographics,Lifestyle,Physical health,NA","0.33,0.25,0.25,0.17,0","1,2,1,1,110",2
+"201","93_Home and family situation","","",1,"Parenting,Physiology,NA","0.67,0.33,0","1,1,111",1
+"202","94_Home environment assessment ","attachment,parent-child relationship,parenting behavior","1,1,1",1,"Parenting,Social and emotional development,Social cognition and behavior,Mental health,NA","0.4,0.3,0.2,0.1,0","1,1,1,1,111",1
+"203","95_Home situation","","",0,"NA","NaN","111",0
+"204","96_Income and expenses","adolescent income,child expenses,child income,ses,spending behavior","1,1,1,1,1",2,"Demographics,Lifestyle,NA","0.5,0.5,0","1,1,111",2
+"205","97_Infant Behavior Questionnaire - Revised (IBQ)","","",1,"Mental health,Parenting,Life history,NA","0.5,0.25,0.25,0","1,1,1,111",1
+"206","98_Interaction with friends and family","cbcl,competence scale,getting along,playing outside,social interaction,social relationships","1,1,1,1,1,1",1,"Social cognition and behavior,Social and emotional development,NA","0.67,0.33,0","1,1,111",1
+"207","99_International physical activity questionnaire (IPAQ)","physical activity,mental health,moving,parental activity","2,1,1,1",2,"Physical health,parental physical health,Mental health,Parenting,Lifestyle,NA","0.48,0.2,0.17,0.1,0.05,0","2,1,1,1,1,110",2
