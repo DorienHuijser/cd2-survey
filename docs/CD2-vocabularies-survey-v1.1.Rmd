@@ -42,7 +42,7 @@ First, we will set the parameters.
 
 ```{r parameters}
 # Files to be read in
-datafile <- "../data/raw/CD2_vocabularies_20220225.csv"
+datafile <- "../data/raw/CD2_vocabularies_20220310.csv"
 
 # Cohorts: same order as instrument numbers files
 cohorts <- c("TRAILS", "GenR", "RADAR", "LCID", "YOUth", "NTR")
