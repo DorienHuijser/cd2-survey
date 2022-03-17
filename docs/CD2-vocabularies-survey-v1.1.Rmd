@@ -42,7 +42,7 @@ First, we will set the parameters.
 
 ```{r parameters}
 # Files to be read in
-datafile <- "../data/raw/CD2_vocabularies_20220310.csv"
+datafile <- "../data/raw/CD2_vocabularies_20220317.csv"
 
 # Cohorts: same order as instrument numbers files
 cohorts <- c("TRAILS", "GenR", "RADAR", "LCID", "YOUth", "NTR")
@@ -103,7 +103,7 @@ How many participants are there for each cohort? What are their expertises and p
 
 cd2survey$Duration <- as.numeric(cd2survey$`Duration (in seconds)`)
 
-table(cd2survey$Cohort, cd2survey$Position)
+table(cd2survey$Cohort) #, cd2survey$Position)
 median(cd2survey$Duration)/60
 
 ```
