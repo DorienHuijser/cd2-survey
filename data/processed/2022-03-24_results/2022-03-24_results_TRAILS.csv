@@ -1,138 +1,138 @@
-"","Instrument_name","Keywords","Keyword_count","Keyword_respondents","Categories","Priority_scores","Times_mentioned","Respondents"
-"1","1_Socio-demographics","age,demographics,education,ethnicity,family composition,income,living conditions,religiosity,sci-fi-economic status,ses,sex,socio-demographics,work","1,1,1,1,1,1,1,1,1,1,1,1,1",1,"Demographics,NA","1,0","1,210",1
-"2","10_Cannabis Use Problems Identification Test (CUPIT)","","",0,"NA","NaN","210",0
-"3","100_Career and family planning","family,planning,work","1,1,1",1,"Social and emotional development,Personality,Demographics,NA","0.5,0.33,0.17,0","1,1,1,210",1
-"4","101_Short trips","","",1,"leisure time activities,NA","1,0","1,209",1
-"5","102_Internet use","social media,internet,internet use,online,virtual","2,1,1,1,1",2,"daily activities,internet use,Lifestyle,NA","0.5,0.33,0.17,0","1,1,1,208",2
-"6","103_Social media use","","",1,"social interaction,time spending,Lifestyle,NA","0.5,0.33,0.17,0","1,1,1,208",1
-"7","104_Gaming","gaming,addiction,leisure","2,1,1",2,"Lifestyle,behavior,Mental health,activity,NA","0.42,0.25,0.17,0.17,0","2,1,1,1,208",2
-"8","105_Social Production Functions Questionnaire","","",0,"NA","NaN","210",0
-"9","106_Social support","family support,friends,neighbourhood support,social support,support network","1,1,1,1,1",1,"Social cognition and behavior,social functioning,social network,Social and emotional development,NA","0.5,0.2,0.2,0.1,0","1,1,1,1,208",2
-"10","107_Motives for Behaviour Questionnaire","","",0,"NA","NaN","210",0
-"11","108_Discrimination ","","",1,"social environment,NA","1,0","1,209",1
-"12","109_Noise disturbance","","",0,"NA","NaN","210",0
-"13","11_Eating Disorder Diagnostic Scale (EDDS)","anorexia nervosa,binge-eating disorder,bulimia nervosa,eating disorder,eating disorder diagnostic scale,edds","1,1,1,1,1,1",1,"Physical health,Mental health,Social and emotional development,NA","0.4,0.4,0.2,0","1,1,1,210",1
-"14","110_Financial debts","","",0,"NA","NaN","210",0
-"15","111_Care responsibilities","","",0,"care responsibilities ,NA","1,0","1,209",1
-"16","112_Confusion, Hubbub, and Order Scale (CHAOS)","","",0,"NA","NaN","210",0
-"17","113_Infant/Toddler Home Observation for Measurement of the Environment (IT-HOME)","","",0,"NA","NaN","210",0
-"18","114_Pregnancy stress","","",0,"NA","NaN","210",0
-"19","115_Pregnancy history","perinatal,pregnancy","1,1",1,"Life history,NA","1,0","1,210",1
-"20","116_Ages and Stages Questionnaires: Social-Emotional (ASQ:SE)","emotional development,social-emotional development,social development","1,1,1",1,"Social and emotional development,NA","1,0","1,210",1
-"21","117_Sleep and Settle Questionnaire (SSQ)","crying,parental distress,sleep,temperament","1,1,1,1",1,"Parenting,Personality,Social and emotional development,NA","0.5,0.25,0.25,0","1,1,1,210",1
-"22","118_Developmental milestones","","",1,"Social and emotional development,Physical health,Mental health,Cognition,NA","0.55,0.2,0.15,0.1,0","2,1,1,1,210",2
-"23","119_Food Frequency Questionnaire","","",0,"NA","NaN","210",0
-"24","12_Community Assessment of Psychic Experiences (CAPE)","delusion,hallucination,psychosis,schizophrenia","1,1,1,1",1,"Mental health,NA","1,0","1,210",1
-"25","120_Lifestyle","alcohol use,diet,physical activity,smoking","1,1,1,1",1,"Lifestyle,health behavior,NA","0.67,0.33,0","1,1,209",1
-"26","121_ALSPAC positivity/negativity","","",0,"NA","NaN","210",0
-"27","122_Postpartum Bonding Scale","","",0,"parent-child relation,Parenting,NA","0.67,0.33,0","1,1,209",1
-"28","123_Parent Behavior Checklist (PBC)","discipline,nurturing,parental expectations,parenting,upbringing","1,1,1,1,1",1,"Parenting,NA","1,0","1,210",1
-"29","124_Parental overprotection","parental overprotection,parenting","1,1",1,"Parenting,NA","1,0","2,210",2
-"30","125_Self-Efficacy for Parenting Tasks Index (SEPTI-TS)","","",0,"NA","NaN","210",0
-"31","126_Nijmeegse Ouderlijke Stress Index Kort (NOSI-K)","","",0,"NA","NaN","210",0
-"32","127_Parental involvement","parental behavior scaffolding,parental involvement,parental support,parenting,upbringing","1,1,1,1,1",2,"Parenting,NA","1,0","2,210",2
-"33","128_Adult Responses to Children's Symptoms (ARCS)","","",0,"NA","NaN","210",0
-"34","129_Emotion Dysregulation Inventory (EDI)","","",0,"NA","NaN","210",0
-"35","13_Children’s Social Behavior Questionnaire (CSBQ)","autism,autism spectrum disorders; social cognition; social behavior,social cognition,social contact,stereotyped behavior","1,1,1,1,1",2,"Mental health,Social cognition and behavior,NA","0.58,0.42,0","2,2,210",2
-"36","130_Negative Marital Interaction Scale","","",0,"NA","NaN","210",0
-"37","131_Parent-child interaction","observation,parent-child interaction","1,1",1,"parent-child relation,Parenting,Social and emotional development,social environment,NA","0.4,0.3,0.2,0.1,0","1,1,1,1,208",1
-"38","132_Raisin task","observation,raisin task,self-control","1,1,1",1,"Personality,Social and emotional development,NA","0.67,0.33,0","1,1,210",1
-"39","133_Disruptive Behavior Diagnostic Observation Schedule (DB-DOS)","","",0,"NA","NaN","210",0
-"40","134_Baby movements","infants,movements","1,1",1,"physical activity,Physical health,NA","0.67,0.33,0","1,1,209",1
-"41","135_Motor activity","accelerometer,motor activity,physical activity","1,1,1",1,"physical activity,NA","1,0","1,209",1
-"42","136_Early Social Communication Scales (ESCS)","social behavior,social communication,social interaction","1,1,1",1,"Social and emotional development,NA","1,0","1,210",1
-"43","137_Interactive Drawing Test","","",0,"NA","NaN","210",0
-"44","14_Happiness","","",0,"NA","NaN","210",0
-"45","15_Social Media Disorder Scale","","",1,"Mental health,Social cognition and behavior,NA","0.5,0.5,0","2,2,210",2
-"46","16_Internet Gaming Disorder Scale","","",0,"NA","NaN","210",0
-"47","17_ADHD DSM-IV Questionnaire ","adhd,attention,dsm,hyperactivity","1,1,1,1",1,"Social and emotional development,Mental health,NA","0.67,0.33,0","1,1,210",1
-"48","18_Perfectionism","perfectionism,personality","1,1",1,"Personality,Mental health,NA","0.83,0.17,0","2,1,210",2
-"49","19_Common health problems","","",0,"NA","NaN","210",0
-"50","2_Child Behaviour Checklist (CBCL/6-18)","","",0,"NA","NaN","210",0
-"51","20_Asthma","","",0,"NA","NaN","210",0
-"52","21_Chronic conditions","functional somatic disorders,physical health","1,1",1,"Physical health,Mental health,NA","0.67,0.33,0","3,2,210",3
-"53","22_Pain","","",0,"NA","NaN","210",0
-"54","23_Columbia Impairment Scale (CIS)","","",0,"NA","NaN","210",0
-"55","24_Absenteeism","school absenteeism,sickness leave,work absenteeism","1,1,1",1,"work,school,Demographics,NA","0.4,0.4,0.2,0","1,1,1,208",1
-"56","25_Medical aids","","",0,"NA","NaN","210",0
-"57","26_WHO Disability Assessment Schedule 2.0 (WHODAS 2.0)","","",0,"NA","NaN","210",0
-"58","27_Health Worries Questionnaire","excessive worrying,health,hypochondria,worrying","1,1,1,1",1,"Mental health,NA","1,0","1,210",1
-"59","28_Health services utilization","","",0,"NA","NaN","210",0
-"60","29_Need for care","mental health,need for care","1,1",1,"care utilization,Mental health,NA","0.67,0.33,0","1,1,209",1
-"61","3_Psychiatric diagnoses","dsm,[list of the fifteen individual disorders],mental disorders,mental health,mental problems,psychiatric classification,psychiatric disorders,psychiatric problems,psychopathology","2,1,1,1,1,1,1,1,1",2,"Mental health,clinical assessment,NA","0.83,0.17,0","2,1,209",2
-"62","30_Medication use","","",0,"medication use,NA","1,0","1,209",1
-"63","31_Length and weight","","",0,"Physical health,NA","1,0","1,210",1
-"64","32_Waist and hip circumference","","",0,"NA","NaN","210",0
-"65","33_Bio-electrical impedance","","",0,"NA","NaN","210",0
-"66","34_Shuttle run test","","",0,"NA","NaN","210",0
-"67","35_Tanner Scale","","",0,"NA","NaN","210",0
-"68","36_Developmental history","","",0,"NA","NaN","210",0
-"69","37_Life events","","",0,"NA","NaN","210",0
-"70","38_Long-term Difficulties Questionnaire","","",0,"NA","NaN","210",0
-"71","39_Traumatic childhood events","","",0,"NA","NaN","210",0
-"72","4_Revised Child Anxiety and Depression Scale (RCADS)","","",0,"NA","NaN","210",0
-"73","40_Perceived stress","","",0,"NA","NaN","210",0
-"74","41_DNA","","",0,"NA","NaN","210",0
-"75","42_DNA methylation","","",0,"NA","NaN","210",0
-"76","43_Early Adolescent Temperament Questionnaire Revised (EATQ-R)","adolescence,personality,temperament","1,1,1",1,"Personality,NA","1,0","1,210",1
-"77","44_NEO Personality Inventory Revised (NEO-PI-R)","","",1,"Personality,NA","1,0","1,210",1
-"78","45_BIS/BAS Scale","","",0,"NA","NaN","210",0
-"79","46_Derryberry and Reed Task","","",0,"NA","NaN","210",0
-"80","47_Bangor Gambling Task","","",0,"NA","NaN","210",0
-"81","48_Approach-Avoidance Test (AAT)","","",0,"NA","NaN","210",0
-"82","49_Self-Perception Profile for Children (SPPC)","","",0,"NA","NaN","210",0
-"83","5_Positive and Negative Affect Scale (PANAS)","","",0,"NA","NaN","210",0
-"84","50_Fear of Negative Social Evaluation Scale","","",0,"NA","NaN","210",0
-"85","51_Generalized Self-Efficacy (GSE)","self-efficacy,coping,generalized self-efficacy,gse,personality","2,1,1,1,1",2,"Personality,NA","1,0","2,210",2
-"86","52_Body Perception Questionnaire","","",0,"NA","NaN","210",0
-"87","53_Wechsler Intelligence Scale for Children (WISC-R)","","",1,"Cognition,Social and emotional development,NA","0.67,0.33,0","1,1,210",1
-"88","54_Amsterdam Neuropsychological Tasks (ANT)","","",0,"NA","NaN","210",0
-"89","55_Rey’s Verbal Learning Test","","",0,"NA","NaN","210",0
-"90","56_Rey-Osterrieth Complex Figure test","","",0,"NA","NaN","210",0
-"91","57_Verbal Fluency Test","cognition,executive control,language,verbal ability,verbal fluency","1,1,1,1,1",1,"Cognition,NA","1,0","1,210",1
-"92","58_Self-Ordered Pointing Task (SOPT)","","",0,"NA","NaN","210",0
-"93","59_Adolescent Cognitive Style Questionnaire (ACSQ)","adolescents,cognitive style,depression,vulnerability","1,1,1,1",1,"Personality,Mental health,NA","0.67,0.33,0","1,1,210",1
-"94","6_Antisocial Behaviour Questionnaire (ASBQ)","antisocial behaviour,delinquency,delinquent behaviour,offending,rule-breaking","1,1,1,1,1",1,"externalizing problems,Mental health,NA","0.67,0.33,0","1,1,209",1
-"95","60_School records","abilities,educational achievement,school performance,skills","1,1,1,1",1,"intellectual abilities,physical abilities,NA","0.5,0.5,0","1,1,208",1
-"96","61_Social Skills Rating System","","",0,"NA","NaN","210",0
-"97","62_Revised Class Play","","",0,"NA","NaN","210",0
-"98","63_Relational Aggression Questionnaire","","",0,"NA","NaN","210",0
-"99","64_Time spending patterns","","",0,"NA","NaN","210",0
-"100","65_Physical activity",",leisure time physical activity,occupational physical activity","1,1,1",1,"physical activity,Lifestyle,NA","0.67,0.33,0","1,1,209",1
-"101","66_Achievement Goals and Beliefs about Success in Sport","","",0,"NA","NaN","210",0
-"102","67_Cardiovascular measures","blood pressure,cardiovascular,heart rate,hrv","2,1,1,1",2,"Physiology,Physical health,NA","0.5,0.5,0","1,1,210",2
-"103","68_Cortisol","","",0,"NA","NaN","210",0
-"104","69_Physiological stress-reactivity","baroreflex sensitivity,blood pressure,brs,cortisol,eyeblink reflex,heart rate,heart rate variability,hr,hrv,orthostatic stress,pep,pre-ejection period,respiratory sinus arrhythmia,rss,salivary cortisol,startle,stress reactivity,trier social stress test","1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",1,"Physiology,stress reactivity,NA","0.67,0.33,0","1,1,209",1
-"105","7_Substance use","alcohol,cannabis,drugs,smoking,substance use","1,1,1,1,1",1,"substance use,Mental health,Lifestyle,NA","0.5,0.33,0.17,0","1,1,1,209",1
-"106","70_Subjective stress-reactivity","social stress,stress,anxiety,mood,orthostatic stress,self-report,startle,stress-reactivity,stress perception,stress response","2,2,1,1,1,1,1,1,1,1",2,"stress,stress reactivity,stress response,Personality,experiment,NA","0.33,0.2,0.2,0.17,0.1,0","1,1,1,1,1,206",2
-"107","71_Biomarkers","","",0,"NA","NaN","210",0
-"108","72_Familial psychopathology","addiction,adhd,antisocial behaviour,anxiety,depression,family assessment,family mental health,mental health,mental health; psychopathology; familial high risk,pdd-nos,psychosis","1,1,1,1,1,1,1,1,1,1,1",2,"Mental health,family assessment,Life history,NA","0.58,0.25,0.17,0","2,1,1,209",2
-"109","73_Familial pathology","","",0,"Demographics,Life history,NA","0.67,0.33,0","1,1,210",1
-"110","74_Inventory of Attitudes towards Seeking Mental Health Services (IASMHS)","health care use,help-seeking,stigma","1,1,1",1,"health care,Mental health,NA","0.67,0.33,0","1,1,209",1
-"111","75_Family Assessment Device (FAD)","","",0,"NA","NaN","210",0
-"112","76_Parenting Stress Index (PSI)","","",0,"NA","NaN","210",0
-"113","77_Egna Minnen Betraffande Uppfostran Child (EMBU-C)","emotional warmth,overprotection,parent-child interaction,rejection,upbringing","1,1,1,1,1",1,"Parenting,family functioning,Social and emotional development,NA","0.5,0.33,0.17,0","1,1,1,209",1
-"114","78_Parental knowledge","parental knowledge,parental monitoring,parenting","1,1,1",1,"parent-child relation,Parenting,NA","0.67,0.33,0","1,1,209",1
-"115","79_Parent-child relationship","","",0,"NA","NaN","210",0
-"116","8_Drinking Motive Questionnaire Revised (DMQ-R)","","",0,"NA","NaN","210",0
-"117","80_Conflict Tactics Scale","","",0,"NA","NaN","210",0
-"118","81_Peer status","peer nominations,peer status","1,1",1,"social environment,Social and emotional development,NA","0.67,0.33,0","1,1,209",1
-"119","82_Friendships","","",0,"NA","NaN","210",0
-"120","83_Intimate relationships ","","",1,"Social and emotional development,emotional attachment,NA","0.67,0.33,0","1,1,209",1
-"121","84_Investment Model Scale","","",0,"NA","NaN","210",0
-"122","85_Intrasexual Competition Scale","competitiveness,female,gender,male,sex","1,1,1,1,1",1,"Personality,Social cognition and behavior,NA","0.5,0.5,0","1,1,210",1
-"123","86_Sexuality","","",0,"NA","NaN","210",0
-"124","87_Partner support","partner relation,partner support,romantic relation","1,1,1",1,"romantic relation,family functioning,NA","0.67,0.33,0","1,1,208",1
-"125","88_Conflict in Adolescent Dating Relationships Inventory (CADRI)","","",0,"NA","NaN","210",0
-"126","89_Copenhagen Psychosocial Questionnaire (COPSOQ)","job characteristics,work,job control","2,2,1",2,"work,work-related factors,social environment,NA","0.5,0.33,0.17,0","1,1,1,207",2
-"127","9_Alcohol Use Disorders Identification Test (AUDIT)","addiction,alcohol,substance use","1,1,1",1,"Mental health,substance use,Lifestyle,NA","0.43,0.43,0.14,0","1,1,1,209",1
-"128","90_Danish Psychosocial Questionnaire (DPQ)","job control,psychosocial work factors,workplace social support","1,1,1",1,"work environment,NA","1,0","1,209",1
-"129","91_Work and health","employment,job,occupation,psychosocial work environment,work,work functioning","1,1,1,1,1,1",2,"work,employment ,Physical health,Demographics,NA","0.33,0.33,0.17,0.17,0","1,1,1,1,208",2
-"130","92_Utrecht Work Engagement Scale (UWES)","","",0,"NA","NaN","210",0
-"131","93_Professional ambition","ambitions,expectations,work","1,1,1",1,"work-related factors,NA","1,0","1,209",1
-"132","94_Survey Work-Home Interaction Nijmegen (SWING)","","",0,"NA","NaN","210",0
-"133","95_Work health balance","","",0,"NA","NaN","210",0
-"134","96_Work Role Functioning Questionnaire 2.0 (WRFQ 2.0)","","",0,"NA","NaN","210",0
-"135","97_The Capability Set for Work","income,job control,knowledge,skills,work environment,work relations,work values","1,1,1,1,1,1,1",1,"work,NA","1,0","1,209",1
-"136","98_Utrechtse Burn-Out Schaal (UBOS)","","",0,"NA","NaN","210",0
-"137","99_Unemployment","unemployment,work,benefits,employment,job,labor market,participation","2,2,1,1,1,1,1",2,"Demographics,work-related factors,stress,NA","0.5,0.33,0.17,0","1,1,1,208",2
+"","Instrument_name","Keywords","Keyword_count","Keyword_respondents","Categories","Priority_scores","Times_mentioned","Respondents","Cohort"
+"1","1_Socio-demographics","age,demographics,education,ethnicity,family composition,income,living conditions,religiosity,sci-fi-economic status,ses,sex,socio-demographics,work","1,1,1,1,1,1,1,1,1,1,1,1,1",1,"Demographics,NA","1,0","1,210",1,"TRAILS"
+"2","10_Cannabis Use Problems Identification Test (CUPIT)","","",0,"NA","NaN","210",0,"TRAILS"
+"3","100_Career and family planning","family,planning,work","1,1,1",1,"Social and emotional development,Personality,Demographics,NA","0.5,0.33,0.17,0","1,1,1,210",1,"TRAILS"
+"4","101_Short trips","","",1,"leisure time activities,NA","1,0","1,209",1,"TRAILS"
+"5","102_Internet use","social media,internet,internet use,online,virtual","2,1,1,1,1",2,"daily activities,internet use,Lifestyle,NA","0.5,0.33,0.17,0","1,1,1,208",2,"TRAILS"
+"6","103_Social media use","","",1,"social interaction,time spending,Lifestyle,NA","0.5,0.33,0.17,0","1,1,1,208",1,"TRAILS"
+"7","104_Gaming","gaming,addiction,leisure","2,1,1",2,"Lifestyle,behavior,Mental health,activity,NA","0.42,0.25,0.17,0.17,0","2,1,1,1,208",2,"TRAILS"
+"8","105_Social Production Functions Questionnaire","","",0,"NA","NaN","210",0,"TRAILS"
+"9","106_Social support","family support,friends,neighbourhood support,social support,support network","1,1,1,1,1",1,"Social cognition and behavior,social functioning,social network,Social and emotional development,NA","0.5,0.2,0.2,0.1,0","1,1,1,1,208",2,"TRAILS"
+"10","107_Motives for Behaviour Questionnaire","","",0,"NA","NaN","210",0,"TRAILS"
+"11","108_Discrimination ","","",1,"social environment,NA","1,0","1,209",1,"TRAILS"
+"12","109_Noise disturbance","","",0,"NA","NaN","210",0,"TRAILS"
+"13","11_Eating Disorder Diagnostic Scale (EDDS)","anorexia nervosa,binge-eating disorder,bulimia nervosa,eating disorder,eating disorder diagnostic scale,edds","1,1,1,1,1,1",1,"Physical health,Mental health,Social and emotional development,NA","0.4,0.4,0.2,0","1,1,1,210",1,"TRAILS"
+"14","110_Financial debts","","",0,"NA","NaN","210",0,"TRAILS"
+"15","111_Care responsibilities","","",0,"care responsibilities ,NA","1,0","1,209",1,"TRAILS"
+"16","112_Confusion, Hubbub, and Order Scale (CHAOS)","","",0,"NA","NaN","210",0,"TRAILS"
+"17","113_Infant/Toddler Home Observation for Measurement of the Environment (IT-HOME)","","",0,"NA","NaN","210",0,"TRAILS"
+"18","114_Pregnancy stress","","",0,"NA","NaN","210",0,"TRAILS"
+"19","115_Pregnancy history","perinatal,pregnancy","1,1",1,"Life history,NA","1,0","1,210",1,"TRAILS"
+"20","116_Ages and Stages Questionnaires: Social-Emotional (ASQ:SE)","emotional development,social-emotional development,social development","1,1,1",1,"Social and emotional development,NA","1,0","1,210",1,"TRAILS"
+"21","117_Sleep and Settle Questionnaire (SSQ)","crying,parental distress,sleep,temperament","1,1,1,1",1,"Parenting,Personality,Social and emotional development,NA","0.5,0.25,0.25,0","1,1,1,210",1,"TRAILS"
+"22","118_Developmental milestones","","",1,"Social and emotional development,Physical health,Mental health,Cognition,NA","0.55,0.2,0.15,0.1,0","2,1,1,1,210",2,"TRAILS"
+"23","119_Food Frequency Questionnaire","","",0,"NA","NaN","210",0,"TRAILS"
+"24","12_Community Assessment of Psychic Experiences (CAPE)","delusion,hallucination,psychosis,schizophrenia","1,1,1,1",1,"Mental health,NA","1,0","1,210",1,"TRAILS"
+"25","120_Lifestyle","alcohol use,diet,physical activity,smoking","1,1,1,1",1,"Lifestyle,health behavior,NA","0.67,0.33,0","1,1,209",1,"TRAILS"
+"26","121_ALSPAC positivity/negativity","","",0,"NA","NaN","210",0,"TRAILS"
+"27","122_Postpartum Bonding Scale","","",0,"parent-child relation,Parenting,NA","0.67,0.33,0","1,1,209",1,"TRAILS"
+"28","123_Parent Behavior Checklist (PBC)","discipline,nurturing,parental expectations,parenting,upbringing","1,1,1,1,1",1,"Parenting,NA","1,0","1,210",1,"TRAILS"
+"29","124_Parental overprotection","parental overprotection,parenting","1,1",1,"Parenting,NA","1,0","2,210",2,"TRAILS"
+"30","125_Self-Efficacy for Parenting Tasks Index (SEPTI-TS)","","",0,"NA","NaN","210",0,"TRAILS"
+"31","126_Nijmeegse Ouderlijke Stress Index Kort (NOSI-K)","","",0,"NA","NaN","210",0,"TRAILS"
+"32","127_Parental involvement","parental behavior scaffolding,parental involvement,parental support,parenting,upbringing","1,1,1,1,1",2,"Parenting,NA","1,0","2,210",2,"TRAILS"
+"33","128_Adult Responses to Children's Symptoms (ARCS)","","",0,"NA","NaN","210",0,"TRAILS"
+"34","129_Emotion Dysregulation Inventory (EDI)","","",0,"NA","NaN","210",0,"TRAILS"
+"35","13_Children’s Social Behavior Questionnaire (CSBQ)","autism,autism spectrum disorders; social cognition; social behavior,social cognition,social contact,stereotyped behavior","1,1,1,1,1",2,"Mental health,Social cognition and behavior,NA","0.58,0.42,0","2,2,210",2,"TRAILS"
+"36","130_Negative Marital Interaction Scale","","",0,"NA","NaN","210",0,"TRAILS"
+"37","131_Parent-child interaction","observation,parent-child interaction","1,1",1,"parent-child relation,Parenting,Social and emotional development,social environment,NA","0.4,0.3,0.2,0.1,0","1,1,1,1,208",1,"TRAILS"
+"38","132_Raisin task","observation,raisin task,self-control","1,1,1",1,"Personality,Social and emotional development,NA","0.67,0.33,0","1,1,210",1,"TRAILS"
+"39","133_Disruptive Behavior Diagnostic Observation Schedule (DB-DOS)","","",0,"NA","NaN","210",0,"TRAILS"
+"40","134_Baby movements","infants,movements","1,1",1,"physical activity,Physical health,NA","0.67,0.33,0","1,1,209",1,"TRAILS"
+"41","135_Motor activity","accelerometer,motor activity,physical activity","1,1,1",1,"physical activity,NA","1,0","1,209",1,"TRAILS"
+"42","136_Early Social Communication Scales (ESCS)","social behavior,social communication,social interaction","1,1,1",1,"Social and emotional development,NA","1,0","1,210",1,"TRAILS"
+"43","137_Interactive Drawing Test","","",0,"NA","NaN","210",0,"TRAILS"
+"44","14_Happiness","","",0,"NA","NaN","210",0,"TRAILS"
+"45","15_Social Media Disorder Scale","","",1,"Mental health,Social cognition and behavior,NA","0.5,0.5,0","2,2,210",2,"TRAILS"
+"46","16_Internet Gaming Disorder Scale","","",0,"NA","NaN","210",0,"TRAILS"
+"47","17_ADHD DSM-IV Questionnaire ","adhd,attention,dsm,hyperactivity","1,1,1,1",1,"Social and emotional development,Mental health,NA","0.67,0.33,0","1,1,210",1,"TRAILS"
+"48","18_Perfectionism","perfectionism,personality","1,1",1,"Personality,Mental health,NA","0.83,0.17,0","2,1,210",2,"TRAILS"
+"49","19_Common health problems","","",0,"NA","NaN","210",0,"TRAILS"
+"50","2_Child Behaviour Checklist (CBCL/6-18)","","",0,"NA","NaN","210",0,"TRAILS"
+"51","20_Asthma","","",0,"NA","NaN","210",0,"TRAILS"
+"52","21_Chronic conditions","functional somatic disorders,physical health","1,1",1,"Physical health,Mental health,NA","0.67,0.33,0","3,2,210",3,"TRAILS"
+"53","22_Pain","","",0,"NA","NaN","210",0,"TRAILS"
+"54","23_Columbia Impairment Scale (CIS)","","",0,"NA","NaN","210",0,"TRAILS"
+"55","24_Absenteeism","school absenteeism,sickness leave,work absenteeism","1,1,1",1,"work,school,Demographics,NA","0.4,0.4,0.2,0","1,1,1,208",1,"TRAILS"
+"56","25_Medical aids","","",0,"NA","NaN","210",0,"TRAILS"
+"57","26_WHO Disability Assessment Schedule 2.0 (WHODAS 2.0)","","",0,"NA","NaN","210",0,"TRAILS"
+"58","27_Health Worries Questionnaire","excessive worrying,health,hypochondria,worrying","1,1,1,1",1,"Mental health,NA","1,0","1,210",1,"TRAILS"
+"59","28_Health services utilization","","",0,"NA","NaN","210",0,"TRAILS"
+"60","29_Need for care","mental health,need for care","1,1",1,"care utilization,Mental health,NA","0.67,0.33,0","1,1,209",1,"TRAILS"
+"61","3_Psychiatric diagnoses","dsm,[list of the fifteen individual disorders],mental disorders,mental health,mental problems,psychiatric classification,psychiatric disorders,psychiatric problems,psychopathology","2,1,1,1,1,1,1,1,1",2,"Mental health,clinical assessment,NA","0.83,0.17,0","2,1,209",2,"TRAILS"
+"62","30_Medication use","","",0,"medication use,NA","1,0","1,209",1,"TRAILS"
+"63","31_Length and weight","","",0,"Physical health,NA","1,0","1,210",1,"TRAILS"
+"64","32_Waist and hip circumference","","",0,"NA","NaN","210",0,"TRAILS"
+"65","33_Bio-electrical impedance","","",0,"NA","NaN","210",0,"TRAILS"
+"66","34_Shuttle run test","","",0,"NA","NaN","210",0,"TRAILS"
+"67","35_Tanner Scale","","",0,"NA","NaN","210",0,"TRAILS"
+"68","36_Developmental history","","",0,"NA","NaN","210",0,"TRAILS"
+"69","37_Life events","","",0,"NA","NaN","210",0,"TRAILS"
+"70","38_Long-term Difficulties Questionnaire","","",0,"NA","NaN","210",0,"TRAILS"
+"71","39_Traumatic childhood events","","",0,"NA","NaN","210",0,"TRAILS"
+"72","4_Revised Child Anxiety and Depression Scale (RCADS)","","",0,"NA","NaN","210",0,"TRAILS"
+"73","40_Perceived stress","","",0,"NA","NaN","210",0,"TRAILS"
+"74","41_DNA","","",0,"NA","NaN","210",0,"TRAILS"
+"75","42_DNA methylation","","",0,"NA","NaN","210",0,"TRAILS"
+"76","43_Early Adolescent Temperament Questionnaire Revised (EATQ-R)","adolescence,personality,temperament","1,1,1",1,"Personality,NA","1,0","1,210",1,"TRAILS"
+"77","44_NEO Personality Inventory Revised (NEO-PI-R)","","",1,"Personality,NA","1,0","1,210",1,"TRAILS"
+"78","45_BIS/BAS Scale","","",0,"NA","NaN","210",0,"TRAILS"
+"79","46_Derryberry and Reed Task","","",0,"NA","NaN","210",0,"TRAILS"
+"80","47_Bangor Gambling Task","","",0,"NA","NaN","210",0,"TRAILS"
+"81","48_Approach-Avoidance Test (AAT)","","",0,"NA","NaN","210",0,"TRAILS"
+"82","49_Self-Perception Profile for Children (SPPC)","","",0,"NA","NaN","210",0,"TRAILS"
+"83","5_Positive and Negative Affect Scale (PANAS)","","",0,"NA","NaN","210",0,"TRAILS"
+"84","50_Fear of Negative Social Evaluation Scale","","",0,"NA","NaN","210",0,"TRAILS"
+"85","51_Generalized Self-Efficacy (GSE)","self-efficacy,coping,generalized self-efficacy,gse,personality","2,1,1,1,1",2,"Personality,NA","1,0","2,210",2,"TRAILS"
+"86","52_Body Perception Questionnaire","","",0,"NA","NaN","210",0,"TRAILS"
+"87","53_Wechsler Intelligence Scale for Children (WISC-R)","","",1,"Cognition,Social and emotional development,NA","0.67,0.33,0","1,1,210",1,"TRAILS"
+"88","54_Amsterdam Neuropsychological Tasks (ANT)","","",0,"NA","NaN","210",0,"TRAILS"
+"89","55_Rey’s Verbal Learning Test","","",0,"NA","NaN","210",0,"TRAILS"
+"90","56_Rey-Osterrieth Complex Figure test","","",0,"NA","NaN","210",0,"TRAILS"
+"91","57_Verbal Fluency Test","cognition,executive control,language,verbal ability,verbal fluency","1,1,1,1,1",1,"Cognition,NA","1,0","1,210",1,"TRAILS"
+"92","58_Self-Ordered Pointing Task (SOPT)","","",0,"NA","NaN","210",0,"TRAILS"
+"93","59_Adolescent Cognitive Style Questionnaire (ACSQ)","adolescents,cognitive style,depression,vulnerability","1,1,1,1",1,"Personality,Mental health,NA","0.67,0.33,0","1,1,210",1,"TRAILS"
+"94","6_Antisocial Behaviour Questionnaire (ASBQ)","antisocial behaviour,delinquency,delinquent behaviour,offending,rule-breaking","1,1,1,1,1",1,"externalizing problems,Mental health,NA","0.67,0.33,0","1,1,209",1,"TRAILS"
+"95","60_School records","abilities,educational achievement,school performance,skills","1,1,1,1",1,"intellectual abilities,physical abilities,NA","0.5,0.5,0","1,1,208",1,"TRAILS"
+"96","61_Social Skills Rating System","","",0,"NA","NaN","210",0,"TRAILS"
+"97","62_Revised Class Play","","",0,"NA","NaN","210",0,"TRAILS"
+"98","63_Relational Aggression Questionnaire","","",0,"NA","NaN","210",0,"TRAILS"
+"99","64_Time spending patterns","","",0,"NA","NaN","210",0,"TRAILS"
+"100","65_Physical activity",",leisure time physical activity,occupational physical activity","1,1,1",1,"physical activity,Lifestyle,NA","0.67,0.33,0","1,1,209",1,"TRAILS"
+"101","66_Achievement Goals and Beliefs about Success in Sport","","",0,"NA","NaN","210",0,"TRAILS"
+"102","67_Cardiovascular measures","blood pressure,cardiovascular,heart rate,hrv","2,1,1,1",2,"Physiology,Physical health,NA","0.5,0.5,0","1,1,210",2,"TRAILS"
+"103","68_Cortisol","","",0,"NA","NaN","210",0,"TRAILS"
+"104","69_Physiological stress-reactivity","baroreflex sensitivity,blood pressure,brs,cortisol,eyeblink reflex,heart rate,heart rate variability,hr,hrv,orthostatic stress,pep,pre-ejection period,respiratory sinus arrhythmia,rss,salivary cortisol,startle,stress reactivity,trier social stress test","1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",1,"Physiology,stress reactivity,NA","0.67,0.33,0","1,1,209",1,"TRAILS"
+"105","7_Substance use","alcohol,cannabis,drugs,smoking,substance use","1,1,1,1,1",1,"substance use,Mental health,Lifestyle,NA","0.5,0.33,0.17,0","1,1,1,209",1,"TRAILS"
+"106","70_Subjective stress-reactivity","social stress,stress,anxiety,mood,orthostatic stress,self-report,startle,stress-reactivity,stress perception,stress response","2,2,1,1,1,1,1,1,1,1",2,"stress,stress reactivity,stress response,Personality,experiment,NA","0.33,0.2,0.2,0.17,0.1,0","1,1,1,1,1,206",2,"TRAILS"
+"107","71_Biomarkers","","",0,"NA","NaN","210",0,"TRAILS"
+"108","72_Familial psychopathology","addiction,adhd,antisocial behaviour,anxiety,depression,family assessment,family mental health,mental health,mental health; psychopathology; familial high risk,pdd-nos,psychosis","1,1,1,1,1,1,1,1,1,1,1",2,"Mental health,family assessment,Life history,NA","0.58,0.25,0.17,0","2,1,1,209",2,"TRAILS"
+"109","73_Familial pathology","","",0,"Demographics,Life history,NA","0.67,0.33,0","1,1,210",1,"TRAILS"
+"110","74_Inventory of Attitudes towards Seeking Mental Health Services (IASMHS)","health care use,help-seeking,stigma","1,1,1",1,"health care,Mental health,NA","0.67,0.33,0","1,1,209",1,"TRAILS"
+"111","75_Family Assessment Device (FAD)","","",0,"NA","NaN","210",0,"TRAILS"
+"112","76_Parenting Stress Index (PSI)","","",0,"NA","NaN","210",0,"TRAILS"
+"113","77_Egna Minnen Betraffande Uppfostran Child (EMBU-C)","emotional warmth,overprotection,parent-child interaction,rejection,upbringing","1,1,1,1,1",1,"Parenting,family functioning,Social and emotional development,NA","0.5,0.33,0.17,0","1,1,1,209",1,"TRAILS"
+"114","78_Parental knowledge","parental knowledge,parental monitoring,parenting","1,1,1",1,"parent-child relation,Parenting,NA","0.67,0.33,0","1,1,209",1,"TRAILS"
+"115","79_Parent-child relationship","","",0,"NA","NaN","210",0,"TRAILS"
+"116","8_Drinking Motive Questionnaire Revised (DMQ-R)","","",0,"NA","NaN","210",0,"TRAILS"
+"117","80_Conflict Tactics Scale","","",0,"NA","NaN","210",0,"TRAILS"
+"118","81_Peer status","peer nominations,peer status","1,1",1,"social environment,Social and emotional development,NA","0.67,0.33,0","1,1,209",1,"TRAILS"
+"119","82_Friendships","","",0,"NA","NaN","210",0,"TRAILS"
+"120","83_Intimate relationships ","","",1,"Social and emotional development,emotional attachment,NA","0.67,0.33,0","1,1,209",1,"TRAILS"
+"121","84_Investment Model Scale","","",0,"NA","NaN","210",0,"TRAILS"
+"122","85_Intrasexual Competition Scale","competitiveness,female,gender,male,sex","1,1,1,1,1",1,"Personality,Social cognition and behavior,NA","0.5,0.5,0","1,1,210",1,"TRAILS"
+"123","86_Sexuality","","",0,"NA","NaN","210",0,"TRAILS"
+"124","87_Partner support","partner relation,partner support,romantic relation","1,1,1",1,"romantic relation,family functioning,NA","0.67,0.33,0","1,1,208",1,"TRAILS"
+"125","88_Conflict in Adolescent Dating Relationships Inventory (CADRI)","","",0,"NA","NaN","210",0,"TRAILS"
+"126","89_Copenhagen Psychosocial Questionnaire (COPSOQ)","job characteristics,work,job control","2,2,1",2,"work,work-related factors,social environment,NA","0.5,0.33,0.17,0","1,1,1,207",2,"TRAILS"
+"127","9_Alcohol Use Disorders Identification Test (AUDIT)","addiction,alcohol,substance use","1,1,1",1,"Mental health,substance use,Lifestyle,NA","0.43,0.43,0.14,0","1,1,1,209",1,"TRAILS"
+"128","90_Danish Psychosocial Questionnaire (DPQ)","job control,psychosocial work factors,workplace social support","1,1,1",1,"work environment,NA","1,0","1,209",1,"TRAILS"
+"129","91_Work and health","employment,job,occupation,psychosocial work environment,work,work functioning","1,1,1,1,1,1",2,"work,employment ,Physical health,Demographics,NA","0.33,0.33,0.17,0.17,0","1,1,1,1,208",2,"TRAILS"
+"130","92_Utrecht Work Engagement Scale (UWES)","","",0,"NA","NaN","210",0,"TRAILS"
+"131","93_Professional ambition","ambitions,expectations,work","1,1,1",1,"work-related factors,NA","1,0","1,209",1,"TRAILS"
+"132","94_Survey Work-Home Interaction Nijmegen (SWING)","","",0,"NA","NaN","210",0,"TRAILS"
+"133","95_Work health balance","","",0,"NA","NaN","210",0,"TRAILS"
+"134","96_Work Role Functioning Questionnaire 2.0 (WRFQ 2.0)","","",0,"NA","NaN","210",0,"TRAILS"
+"135","97_The Capability Set for Work","income,job control,knowledge,skills,work environment,work relations,work values","1,1,1,1,1,1,1",1,"work,NA","1,0","1,209",1,"TRAILS"
+"136","98_Utrechtse Burn-Out Schaal (UBOS)","","",0,"NA","NaN","210",0,"TRAILS"
+"137","99_Unemployment","unemployment,work,benefits,employment,job,labor market,participation","2,2,1,1,1,1,1",2,"Demographics,work-related factors,stress,NA","0.5,0.33,0.17,0","1,1,1,208",2,"TRAILS"
