@@ -42,7 +42,7 @@ First, we will set the parameters.
 
 ```{r parameters}
 # Files to be read in
-datafile <- "../data/raw/CD2_vocabularies_20220317.csv"
+datafile <- "../data/raw/CD2_vocabularies_20220324.csv"
 
 # Cohorts: same order as instrument numbers files
 cohorts <- c("TRAILS", "GenR", "RADAR", "LCID", "YOUth", "NTR")
@@ -63,10 +63,10 @@ categorynames <- c("Parenting",
 Download and load the necessary packages:
 
 ```{r packages}
-install.packages("data.table")
+#install.packages("data.table")
 library(data.table)
 
-install.packages("stringr")
+#install.packages("stringr")
 library(stringr)
 ```
 
