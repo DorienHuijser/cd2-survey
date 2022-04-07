@@ -144,7 +144,6 @@ expertise <-
 expertisecounts <- as.data.frame(sort(table(expertise), decreasing=TRUE))
 wordcloudexpertise <- wordcloud2(data=expertisecounts, size=1.6, color=rep_len(UU_pallette, nrow(expertisecounts)),
             minRotation = 0, maxRotation = 0, rotateRatio = 1)
-wordcloudexpertise
 
 # Save the wordcloud as png
 # Code copied from https://r-graph-gallery.com/196-the-wordcloud2-library.html#export
@@ -159,8 +158,6 @@ saveWidget(wordcloudexpertise,"tmp.html",selfcontained = F)
 # and in png or pdf
 webshot("tmp.html","wordcloud_expertise.png", delay =5, vwidth = 480, vheight=480)
 ```
-
-![](wordcloud_expertise.png)
 
 Export the email addresses for the prize competition:
 
