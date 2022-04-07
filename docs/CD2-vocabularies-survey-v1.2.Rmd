@@ -142,8 +142,31 @@ expertise <-
   str_to_lower()
 
 expertisecounts <- as.data.frame(sort(table(expertise), decreasing=TRUE))
-wordcloud2(data=expertisecounts, size=1.6, color=rep_len(UU_pallette, nrow(expertisecounts)),
+wordcloudexpertise <- wordcloud2(data=expertisecounts, size=1.6, color=rep_len(UU_pallette, nrow(expertisecounts)),
             minRotation = 0, maxRotation = 0, rotateRatio = 1)
+wordcloudexpertise
+
+# Save the wordcloud as png
+# Code copied from https://r-graph-gallery.com/196-the-wordcloud2-library.html#export
+# install.packages("webshot")
+library(webshot)
+webshot::install_phantomjs()
+
+# save it in html
+library("htmlwidgets")
+saveWidget(wordcloudexpertise,"tmp.html",selfcontained = F)
+
+# and in png or pdf
+webshot("tmp.html","wordcloud_expertise.png", delay =5, vwidth = 480, vheight=480)
+```
+
+![](wordcloud_expertise.png)
+
+Export the email addresses for the prize competition:
+
+```{r emailaddresses}
+emails <- cd2survey$Email[!is.na(cd2survey$Email)]
+write.csv(emails, "../../cd2survey_emailaddresses.csv", row.names = FALSE)
 ```
 
 ## 3. Create reference lists
