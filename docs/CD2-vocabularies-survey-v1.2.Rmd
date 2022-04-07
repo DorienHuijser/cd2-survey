@@ -1,8 +1,10 @@
 ---
 title: "CD2-vocabularies-survey"
 author: "Dorien Huijser"
-date: "24 February 2021"
-output: html_document
+date: "7 April 2021"
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -10,27 +12,17 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(results = FALSE)
 ```
 
-## Script progress
-
-Yet to do:
-
-- Explore the demographic variables in the dataset
-- Instead of the instrument number file which is manually created, create it using the actual data (less human error)
-- Instead of the list of categories, create the list of categories using the actual data (less human error)
-- Make Qualtrics API work so that no manual download is necessary
-
 ## About this document
 
-In this R markdown document, we analyze input from the CID-community (Consortium on Individual Development) on the vocabularies that we will use in the data portal as developed during the CD2 project (Connecting Data in Child Development).
+In this R markdown document, we analyze input from the CID community (Consortium on Individual Development) on the vocabularies that we will use in the data portal as developed during the CD2 project (Connecting Data in Child Development).
 
 We perform the following steps:
 
-1. Manual step: set the parameters (e.g., working directory, filenames, etc.)
+1. Set the parameters and load packages
 2. Read in the data
 3. Create mappings: lists of numbers and instrument names 
 4. Put the data from the Keyword question in a flat, usable format
 5. Put the data from the Category priority question in a flat, usable format
-
 
 Required files to run this script:  
 - Data file (located in `data/raw` as a .csv file)
@@ -42,7 +34,7 @@ First, we will set the parameters.
 
 ```{r parameters}
 # Files to be read in
-datafile <- "../data/raw/CD2_vocabularies_20220324.csv"
+datafile <- "../data/raw/CD2_vocabularies_20220407.csv"
 
 # Cohorts: same order as instrument numbers files
 cohorts <- c("TRAILS", "GenR", "RADAR", "LCID", "YOUth", "NTR")
@@ -66,13 +58,16 @@ Download and load the necessary packages:
 #install.packages("data.table")
 library(data.table)
 
-#install.packages("stringr")
-library(stringr)
+# install.package("tidyverse")
+library(tidyverse)
+
+# install.packages("wordcloud2")
+library(wordcloud2)
 ```
 
-## 1. Read in the data file
+## 1. Read in the data file and select relevant data
 
-We're using the `fread()` function from the `data.table` package, which is significantly faster than `read.csv()`, espcially with a large file like the one in this survey.
+To read in the data, we're using the `fread()` function from the `data.table` package, which is significantly faster than `read.csv()`, espcially with a large file like the one in this survey. Additionally, we're filtering out irrelevant responses (previews, non-consented, no cohort provided) and automatic variables (e.g., "StartDate", "ResponseId") and turning character variables into numeric. 
 
 ```{r data-read, cache=TRUE}
 cd2survey <- fread(datafile,
@@ -84,28 +79,71 @@ cd2survey <- cd2survey[-c(1, 2), ]
 # Skip the lines that were just for testing
 cd2survey <- cd2survey[-grep("preview",
                              cd2survey$DistributionChannel), ]
+
+# Select only the responses where consent was provided
+cd2survey <- cd2survey[cd2survey$Consent == "Yes",]
+
+# Select only the responses where Cohort is not NA
+cd2survey <- cd2survey[!is.na(cd2survey$Cohort),]
+
+# Make variables numeric to allow calculations
+cd2survey$Duration <- as.numeric(cd2survey$`Duration (in seconds)`)
+cd2survey$Progress <- as.numeric(cd2survey$Progress)
+
+# Remove irrelevant variables
+cd2survey <- cd2survey[,-c("StartDate","EndDate","Status", 
+                           "Duration (in seconds)", "Finished", "RecordedDate", 
+                           "ResponseId", "DistributionChannel", "UserLanguage")]
 ```
 
-Structure of the data file:  
+### Structure of the data file
 
-1. Keywords: `[instrument_number]_[cohort]_Keywords`: Keywords string response separated by commas.
-2. Category rankings: `[instrument_number]_[cohort]_Cat_[category-number]`: the response is a number delineanating the priority given to the category.
-3. Category custom categories: `[instrument_number]_[cohort]_Cat_1[2/3/4]_TEXT`: string indicating the custom category.
+The data file consists of roughly 3 types of variables that are repeated for all cohorts and measures in that cohort, using Qualtrics's Loop and Merge functionality:
+
+1. Keywords question: which keywords would the respondent apply to the measure in question? <br>Format: `[instrument_number]_[cohort]_Keywords`: Keywords string response separated by commas.
+2. Category rankings: how would the respondent rank the categories provided for the measure in question? <br>Format: `[instrument_number]_[cohort]_Cat_[category-number]`: the response is a number delineanating the priority given to the category.
+3. Category custom categories:if the respondent thinks a category for the measure in question, they can provide up to 3 custom categories that are in turn ranked. <br>Format: `[instrument_number]_[cohort]_Cat_1[2/3/4]_TEXT`: string indicating the custom category.
 
 
-## 2. Data exploration (TO DO)
+## 2. Data exploration
 
-How many participants are there for each cohort? What are their expertises and positions?
+There are `r dim(cd2survey)[1]` respondents for this survey. It took them a median of `r round(median(cd2survey$Duration)/60,1)` minutes to complete the survey (ranging from `r round(min(cd2survey$Duration)/60,1)` to `r round(max(cd2survey$Duration)/60,1)` minutes). This large range is possibly due to the fact that not all respondents finished the survey: the completion rate is on average `r mean(cd2survey$Progress)`% (SD = `r sd(cd2survey$Progress)`).
 
-```{r exploration}
-# WIP. Relevant variables: cd2survey$Expertise, cd2survey$Position, 
-# cd2survey$Cohort, cd2$`Duration (in seconds)`
+Below you can find a visualization of the amount of respondents for each cohort and their positions:
 
-cd2survey$Duration <- as.numeric(cd2survey$`Duration (in seconds)`)
+```{r cohortpositionplot}
+# R color brewers palettes: http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/
+# UU colors: https://www.uu.nl/organisatie/huisstijl/huisstijlelementen/kleur
 
-table(cd2survey$Cohort) #, cd2survey$Position)
-median(cd2survey$Duration)/60
+UU_pallette <- c("#FFCD00", "#FFE6AB", "#F3965E", "#AA1555", "#6E3B23", "#24A793", "#5287C6", "#001240", "#5B2182")
 
+ggplot(cd2survey, aes(x = Cohort, fill = Position)) +
+  geom_bar(stat = "count") + 
+  stat_count(geom = "text", aes(label = ..count..), position = position_stack(vjust=0.5)) + 
+  coord_flip() + 
+  theme_classic() +
+  theme(legend.position = "bottom") +
+  #scale_fill_brewer(palette = "Paired") +
+  scale_fill_manual(values = UU_pallette) +
+  labs(x = "", y = "Count", title = "Respondents per cohort and position")
+```
+
+Researchers with different expertises participated in the survey. Below you can find a word cloud of the expertises in the sample:
+
+```{r wordcloudexpertise}
+# URL: https://r-graph-gallery.com/196-the-wordcloud2-library.html
+
+# Prereqs: separate all words in a list from the Expertise column, count each occurrence. Result should be: dataframe with columns word and freq
+expertise <- 
+  cd2survey$Expertise[!is.na(cd2survey$Expertise)] %>%
+  str_split(",") %>%
+  unlist() %>%
+  str_trim() %>%
+  str_to_lower()
+
+expertisecounts <- as.data.frame(sort(table(expertise), decreasing=TRUE))
+wordcloud2(data=expertisecounts, size=1.6, color=rep_len(UU_pallette, nrow(expertisecounts)),
+            minRotation = 0, maxRotation = 0, rotateRatio = 1)
 ```
 
 ## 3. Create reference lists
@@ -358,13 +396,17 @@ for(cohort in 1:length(cohorts)){
     } # End for each column
     
     # Put the TEXT variables (custom category names) in a separate list. 
-    textvars <- cd2survey[, grep(paste0("^", listitem, "_", cohorts[cohort], "_", catvar,"1[0-9]_TEXT"),
+    textvars <- cd2survey[, grep(paste0("^", listitem, "_", cohorts[cohort], 
+                                        "_", catvar,"1[0-9]_TEXT"),
                                  names(cd2survey), value = TRUE), with=FALSE]
     customcategories[[listitem]] <- textvars
-    names(customcategories)[listitem] <- paste0(listitem, "_", measurenames[listitem])
+    names(customcategories)[listitem] <- paste0(listitem, "_", 
+                                                measurenames[listitem])
     
     # Remove the TEXT variables from categoriesprior_raw for easier calculation of relative priorities
-    categoriesprior_raw[[listitem]] <- categoriesprior_raw[[listitem]][, !grepl("TEXT", names(categoriesprior_raw[[listitem]])), with = FALSE]
+    categoriesprior_raw[[listitem]] <- categoriesprior_raw[[listitem]][, 
+                                                                       !grepl("TEXT", names(categoriesprior_raw[[listitem]])), 
+                                                                       with = FALSE]
     
   } # End for each listitem in the cohort
   
@@ -398,12 +440,14 @@ for(cohort in 1:length(cohorts)){
         if(cats_scored != -Inf){
           # Reverse the scoring and calculate the relative priority score
           reverse_scored <- ((cats_scored + 1) - subset)
-          categoriesprior_rel[[instrument]][row, ] <- (reverse_scored)/sum(reverse_scored, na.rm = TRUE) 
+          categoriesprior_rel[[instrument]][row, ] <- (reverse_scored)/sum(reverse_scored, 
+                                                                           na.rm = TRUE) 
         } # End if not all values are NA
         
       } # End if there are values in the column
       
-      # Count how many participants had to assess the instrument and put it nrparticipants (for group average)
+      # Count how many participants had to assess the instrument and put it
+      # nrparticipants (for group average)
       if(length(na.omit(as.numeric(unlist(categoriesprior_rel[[instrument]][row, ])))) > 0){
         participantcount <- participantcount + 1
       }
@@ -428,10 +472,11 @@ for(cohort in 1:length(cohorts)){
         if(!grepl("other",names(categoriesprior_rel[[instrument]])[column])){
           
           # Calculate the average priority score for each column
-          sumpriority <- sum(categoriesprior_rel[[instrument]][[column]], na.rm=TRUE)
+          sumpriority <- sum(categoriesprior_rel[[instrument]][[column]], 
+                             na.rm=TRUE)
           
-          # Divide the sumpriority scores by the total nr of people who assessed the instrument, 
-          # not the total nr of participants --> nrparticipants
+          # Divide the sumpriority scores by the total nr of people 
+          # who assessed the instrument, not the total nr of participants
           averagepriority[column] <- sumpriority/nrparticipants[instrument]
           
           columnnames[column] <- names(categoriesprior_rel[[instrument]])[column]
@@ -447,18 +492,24 @@ for(cohort in 1:length(cohorts)){
     
     noncustomaverage[[instrument]] <- df
     # Assign usable names
-    names(noncustomaverage)[instrument] <- paste0(instrument, "_", measurenames[instrument])
+    names(noncustomaverage)[instrument] <- paste0(instrument, "_", 
+                                                  measurenames[instrument])
     
     
     ## PART 3B: CALCULATE AVERAGE PRIORITIES OF CUSTOM CATEGORIES 
     ## (I.E., PROVIDED IN FREE TEXT, " OTHER" VARIABLES)
     
-    # Add the 'other' columns from relative priorities list (scores) to the customcategories (text) list
+    # Add the 'other' columns from relative priorities list (scores) 
+    # to the customcategories (text) list
     # Find columns containing `other` and put them in a dataframe
-    otherscores <- categoriesprior_rel[[instrument]][, grepl("other", names(categoriesprior_rel[[instrument]])), with = FALSE]
+    otherscores <- categoriesprior_rel[[instrument]][, grepl("other", 
+                                                             names(categoriesprior_rel[[instrument]])), 
+                                                     with = FALSE]
     
-    # Combine the customcategories (text) and average priorities (numeric) dataframes in the customcols list 
-    customcols[[instrument]] <- cbind(customcategories[[instrument]], otherscores)
+    # Combine the customcategories (text) and average priorities (numeric) 
+    # dataframes in the customcols list 
+    customcols[[instrument]] <- cbind(customcategories[[instrument]], 
+                                      otherscores)
     
     # Look for same category names in the dataframe and average them
     # If there are any columns at all
@@ -473,9 +524,11 @@ for(cohort in 1:length(cohorts)){
       
       # Select the text and number columns separately
       textcolumns <- customcols[[instrument]][, grepl("TEXT", 
-                                                      names(customcols[[instrument]])), with=FALSE]
+                                                      names(customcols[[instrument]])), 
+                                              with=FALSE]
       numbercolumns <- customcols[[instrument]][, grepl("[0-9]$", 
-                                                        names(customcols[[instrument]])), with=FALSE]
+                                                        names(customcols[[instrument]])), 
+                                                with=FALSE]
       
       # Unlist both the values and the text into a vector
       categories <- unlist(textcolumns)
@@ -611,7 +664,6 @@ todaysdate <- as.character(Sys.Date())
 results_folder <- file.path(paste0("../data/processed/",
                                    todaysdate,
                                    "_results/"))
-#results_folder <- file.path(paste0("results/processed/",todaysdate, "_results"))
 dir.create(results_folder)
 
 # Write each dataframe to a .csv file
@@ -628,9 +680,13 @@ write.csv(results_YOUth,file.path(paste0(results_folder, "/", todaysdate,
 write.csv(results_NTR,file.path(paste0(results_folder, "/", todaysdate, 
                                        "_results_NTR.csv")), row.names = TRUE)
 
-# Combine all cohorts in 1 file
-results_all <- rbind(results_TRAILS,results_GenR, results_RADAR, results_LCID, results_YOUth, results_NTR)
+# Combine all cohorts in 1 file (delete instrument nrs for easier analysis)
+results_all <- rbind(results_TRAILS,results_GenR, results_RADAR, 
+                     results_LCID, results_YOUth, results_NTR)
+
+results_all$Instrument_name <- str_replace_all(as.character(results_all$Instrument_name), 
+                                               "^[0-9]+_", "")
+
 write.csv(results_all, file.path(paste0(results_folder, "/", todaysdate, 
                                            "_results_all.csv")),row.names = TRUE)
-
 ```
