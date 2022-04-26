@@ -1,0 +1,129 @@
+"","Cohort","Instrument_name","Assessed","Keywords_survey","Keyword_count_survey","Keywords_pilot","Keyword_count_pilot","Categories_survey","Priority_scores_survey","Times_mentioned_survey","Respondents_survey","Categories_pilot","Priority_scores_pilot","Times_mentioned_pilot","Respondents_pilot","Keyword_respondents_survey"
+"1","LCID","Adolescent Social Connections and Coping during COVID-19 Questionnaire - Social connections and Prosocial","pilot",NA,NA,"covid-19,prosocial behavior","1,1",NA,NA,NA,NA,"covid-19,Life history,NA","0.75,0.25,0","1,1,38",1,NA
+"2","LCID","Adolescent Social Connections and Coping during COVID-19 Questionnaire - Social connections and Prosocial Behavior","survey","covid-19,prosocial behavior,social connections","1,1,1",NA,NA,"covid-19,Social and emotional development,Mental health,prosocial behavior,NA","0.4,0.3,0.2,0.1,0","1,1,1,1,190",1,NA,NA,NA,NA,1
+"3","LCID","Adult Temperament Questionnaire","pilot",NA,NA,"effortful control,orienting sensitivity,temperament","1,1,1",NA,NA,NA,NA,"Personality and individual differences,NA","1,0","1,39",1,NA
+"4","LCID","Alabama parenting questionnaire","pilot",NA,NA,"consistency,corporal punishment,involvement,monitoring,parenting,positive discipline,supervision","1,1,1,1,1,1,1",NA,NA,NA,NA,"Parenting,NA","1,0","1,39",1,NA
+"5","LCID","Alabama Parenting Questionnaire","survey","","",NA,NA,"NA","NaN","192",0,NA,NA,NA,NA,0
+"6","LCID","Attachment Script Assessment","both","attachment,parent-child relationship,secure base script","2,1,1","","","Parenting,Social cognition and behavior,NA","0.83,0.17,0","2,1,192",2,"NA","NaN","39",0,2
+"7","LCID","Behavioral Inhibition and Activation System","both","behavioral drive,behavioral inhibition","1,1","","","Social cognition and behavior,NA","1,0","1,192",1,"Personality and individual differences,NA","1,0","1,39",1,1
+"8","LCID","Brief Symptom Inventory","both","anxiety,depression,hostility,interpersonal sensitivity","1,1,1,1","anxiety,depression,hostility,interpersonal sensitivity,mental health","1,1,1,1,1","Mental health,NA","1,0","1,192",1,"Health,NA","1,0","1,39",1,1
+"9","LCID","Buitenschoolse activiteiten (out of school activities)","both","extracurricular activities,hobbies","1,1","","","daily routines,Social cognition and behavior,NA","0.67,0.33,0","1,1,191",1,"Lifestyle,NA","1,0","1,39",1,1
+"10","LCID","Cheating - Ball throwing","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"11","LCID","Cheating - Dog task","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"12","LCID","Cheating - Word puzzle","both","behavioral control,cheating","1,1","","","Social cognition and behavior,behavioral control,Social and emotional development,NA","0.5,0.33,0.17,0","1,1,1,191",1,"NA","NaN","39",0,1
+"13","LCID","Children's Behavior Questionnaire - Discomfort, Fear, Perceptual sensitivity","both","","","","","NA","NaN","192",0,"Health,Personality and individual differences,NA","0.8,0.2,0","1,1,39",1,0
+"14","LCID","Children's Behavior Questionnaire - Effortful control","both","behavioral regulation,effortful control,inhibitory control,parent report","1,1,1,1","attention,effortful control,inhibitory control","1,1,1","Personality,Social cognition and behavior,Social and emotional development,NA","0.33,0.33,0.33,0","1,1,1,192",1,"NA","NaN","39",0,1
+"15","LCID","CITO scores of the children","pilot",NA,NA,"","",NA,NA,NA,NA,"Life history,Cognition,Demographics,NA","0.56,0.33,0.11,0","1,1,1,39",1,NA
+"16","LCID","Cognitive Emotion Regulation Questoinnaire (short form)","pilot",NA,NA,"cognition,temperament","1,1",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"17","LCID","Competentiebelevingsschaal voor Adolescenten","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"18","LCID","Confusion, Hubbub and Order Scale","both","home environment,environmental chaos,household chaos","2,1,1","","","Lifestyle,environmental measures,NA","0.5,0.5,0","1,1,191",2,"NA","NaN","39",0,2
+"19","LCID","COVID-19 Open Questions","survey","","",NA,NA,"covid-19,pandemic,well-being,NA","0.5,0.33,0.17,0","1,1,1,189",2,NA,NA,NA,NA,2
+"20","LCID","Covid Open questions","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"21","LCID","Delay Discounting - Candy, real time","pilot",NA,NA,"cognition,development","1,1",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"22","LCID","Delay Discounting - Marshmallow task","pilot",NA,NA,"cognition,development","1,1",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"23","LCID","Delay Discounting - Money, hypothetical","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"24","LCID","Demographic family characteristics","pilot",NA,NA,"age,education,gender,socio-economic status","1,1,1,1",NA,NA,NA,NA,"Life history,Demographics,NA","0.8,0.2,0","1,1,39",1,NA
+"25","LCID","Dictator Game","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"26","LCID","DNA sample - Genetic markers","pilot",NA,NA,"dna,gwas?,how was the dna measure,snp?","1,1,1,1",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"27","LCID","DNA sample - Zygosity","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"28","LCID","Donating Task - Money","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"29","LCID","Donating Task - Stickers","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"30","LCID","Dutch Reactive and Proactive aggression Questionnaire","survey","","",NA,NA,"NA","NaN","192",0,NA,NA,NA,NA,0
+"31","LCID","Dutch Reactive and Proactive Agression Questionnaire","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"32","LCID","E-diary - Daily structure and activities of the children","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"33","LCID","Early Adolescent Temperament Questionnaire - Discomfort, Fear, Perceptual sensitivity","survey","adolescence,discomfort,fearfulness,perceptual sensitivity,temperament","1,1,1,1,1",NA,NA,"Personality,NA","1,0","1,192",1,NA,NA,NA,NA,1
+"34","LCID","Early Adolescent Temperament Questionnaire - Discomfort, Fear, Perceptual sensitivity (these are actually items from the TMCQ)","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"35","LCID","Early Adolescent Temperament Questionnaire - Effortful control","both","effortful control,adolescence,attentional control,inhibitory control,temperament","2,1,1,1,1","","","Social cognition and behavior,Personality,behavioral control,NA","0.67,0.17,0.17,0","2,1,1,191",2,"NA","NaN","39",0,2
+"36","LCID","EEG during the Face Processing Task","both","","","electroencephalogram,functional","1,1","NA","NaN","192",0,"NA","NaN","39",0,0
+"37","LCID","EEG during the Social Network Agression Task - Early Childhood","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"38","LCID","EEG during the Stop-Signal Task","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"39","LCID","EEG rest measurement","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"40","LCID","Emotion Recognition Task","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"41","LCID","Ethnicity","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"42","LCID","Faces paradigm","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"43","LCID","Family Assessment Device","both","communication,family functioning,family relationships,general functioning,parenting","1,1,1,1,1","","","Parenting,Lifestyle,Social and emotional development,NA","0.5,0.33,0.17,0","1,1,1,192",1,"NA","NaN","39",0,2
+"44","LCID","Family Interaction Task","both","parent-child interaction,family dynamics","2,1","","","Parenting,family interaction,NA","0.83,0.17,0","2,1,191",2,"NA","NaN","39",0,2
+"45","LCID","Fear of Negative Evaluation","both",",child report,negative evaluation,sensitivity to evaluation,social anxiety","1,1,1,1,1","","","Social cognition and behavior,Mental health,Social and emotional development,NA","0.5,0.33,0.17,0","1,1,1,192",2,"NA","NaN","39",0,2
+"46","LCID","Feeling and Thinking Questionnaire","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"47","LCID","Five-minute speech","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"48","LCID","fMRI during the Prosocial Cyberball Task","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"49","LCID","fMRI during the Self-concept Task","survey","fmri,neuroimaging,self-concept","1,1,1",NA,NA,"Social cognition and behavior,Social and emotional development,neurobiology,NA","0.4,0.4,0.2,0","1,1,1,191",1,NA,NA,NA,NA,1
+"50","LCID","fMRI during the Selfconcept Task","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"51","LCID","fMRI during the Social Network Agression Task","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"52","LCID","Hair samples - Cortisol & Pubertal hormones","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"53","LCID","Hairsamples","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"54","LCID","Headcircumference","pilot",NA,NA,"growth,newborn","1,1",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"55","LCID","Highly Sensitive Child Scale","both","child sensitivity,temperament","1,1","","","Personality,Social cognition and behavior,NA","0.67,0.33,0","1,1,192",1,"NA","NaN","39",0,1
+"56","LCID","Individual differences and preferences","both","individual differences,twins","1,1","","","Personality,NA","1,0","1,192",1,"NA","NaN","39",0,1
+"57","LCID","Interpersonal Reactivity Index","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"58","LCID","Inventory of Callous-Unemotional Traits","both","antiscocial behavior,callous-unemotional traits,social behavior","1,1,1","","","Social and emotional development,NA","1,0","1,192",1,"NA","NaN","39",0,1
+"59","LCID","Investment Models Scale","both","","","","","Mental health,Life history,NA","0.67,0.33,0","1,1,192",1,"NA","NaN","39",0,1
+"60","LCID","IQ - WISC","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"61","LCID","IQ - WPPSI","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"62","LCID","Language Environment Analysis","both","environmental recording,lena","1,1","","","environment,NA","1,0","1,191",1,"NA","NaN","39",0,1
+"63","LCID","Length","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"64","LCID","Life Events","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"65","LCID","MRI - Highres, 3DT1, DTI, restingstate","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"66","LCID","Musical Training Questionnaire","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"67","LCID","MyChild - Empathy","both","empathy,guilt,internalized conduct,prosocial behavior,social behavior","3,1,1,1,1","","","Social and emotional development,Social cognition and behavior,prosocial behavior,NA","0.67,0.28,0.06,0","3,2,1,191",3,"NA","NaN","39",0,3
+"68","LCID","MyChild - Guilt","both","child development,child report,conscience,guilt","1,1,1,1","","","Social and emotional development,Social cognition and behavior,NA","0.75,0.25,0","2,1,192",2,"NA","NaN","39",0,2
+"69","LCID","MyChild - Obedience","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"70","LCID","Observation Evening meal","both","evening meal,natural environment,observation,parent-child interaction","1,1,1,1","","","Parenting,family interaction,NA","0.67,0.33,0","1,1,191",1,"NA","NaN","39",0,1
+"71","LCID","Olweus Bully/Victim Questionnaire","both","behavioral control,bullying,empathy,social competence,social development,victimization","1,1,1,1,1,1","","","Social and emotional development,Mental health,Social cognition and behavior,Cognition,Personality,Parenting,NA","0.5,0.17,0.13,0.1,0.07,0.03,0","2,1,1,1,1,1,192",2,"NA","NaN","39",0,2
+"72","LCID","Pandemic Questionnaire","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"73","LCID","Parenting Attitudes Questionnaire","both","discipline,parent-child relationship,parental attitudes,parenting,parenting attitudes,self-report,sensitivity","1,1,1,1,1,1,1","","","Parenting,NA","1,0","2,192",2,"NA","NaN","39",0,2
+"74","LCID","Parenting Daily Hassles","both","parenting,daily hassles,parenting difficulties,self-report","2,1,1,1","","","Parenting,Mental health,NA","0.83,0.17,0","2,1,192",2,"NA","NaN","39",0,2
+"75","LCID","Parenting Practices Questionnaire - Warmth/involvement","both","parenting,involvement,parental warmth,parental affection,parental attention,parental involvement,parental sensitivity,self-report,warmth","3,2,2,1,1,1,1,1,1","","","Parenting,NA","1,0","3,192",3,"NA","NaN","39",0,3
+"76","LCID","Parenting Scale","both","parental aggression,parental laxness,parenting attitudes,parenting behavior","1,1,1,1","","","Parenting,NA","1,0","1,192",1,"NA","NaN","39",0,1
+"77","LCID","Parenting Scale - Overreactivity","both","overreactivity,parenting,parental laxness,parental overreactivity,parenting behavior,self-report","2,2,1,1,1,1","","","Parenting,NA","1,0","3,192",3,"NA","NaN","39",0,3
+"78","LCID","Perceived Stress Scale","both","anxiety,perceived stress,stress","1,1,1","anxiety,mental health,stress","1,1,1","Mental health,NA","1,0","1,192",1,"NA","NaN","39",0,1
+"79","LCID","Pregnancy and Birth","both","","","birth,pregnancy","1,1","NA","NaN","192",0,"NA","NaN","39",0,0
+"80","LCID","Previous Parenting Support","both","parenting,parenting support","1,1","","","Parenting,NA","1,0","1,192",1,"NA","NaN","39",0,1
+"81","LCID","Prosocial Cyberball Task","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"82","LCID","Prosocial Cyberball Task - Owl task","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"83","LCID","Prosocial Cyberball Task - Prosocial vignettes","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"84","LCID","Pubertal Developmental Scale","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"85","LCID","Purdue Home Stimulation Inventory - Observation, interview","both","home environment,household chaos","1,1","","","Lifestyle,home environment,NA","0.67,0.33,0","1,1,191",1,"NA","NaN","39",0,1
+"86","LCID","Questionnaire home environment - Daily routines (Sleep, Eat, Care, Media, Work)","both","care,eating,media,routines,sleep,work","1,1,1,1,1,1","family routines,parenting","1,1","Lifestyle,NA","1,0","1,192",1,"NA","NaN","39",0,1
+"87","LCID","Questions about school-going of the twins","survey","academic achievement,academic development,school","1,1,1",NA,NA,"Demographics,Cognition,Lifestyle,NA","0.5,0.33,0.17,0","1,1,1,192",1,NA,NA,NA,NA,1
+"88","LCID","Questions about schoolgoing of the twins","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"89","LCID","Questions about the hair sample","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"90","LCID","Reading ability","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"91","LCID","Saliva samples - Cortisol & Pubertal hormones (cheeck swab or passive drool)","pilot",NA,NA,"biological sample,hormones","1,1",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"92","LCID","Sally-Ann Task","both","theory of mind,child development,observation,tom","2,1,1,1","","","Social and emotional development,Social cognition and behavior,NA","0.67,0.33,0","2,1,192",2,"NA","NaN","39",0,2
+"93","LCID","Self-concept Task","survey","","",NA,NA,"NA","NaN","192",0,NA,NA,NA,NA,0
+"94","LCID","Selfconcept Task","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"95","LCID","Sensitive Discipline - Do","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"96","LCID","Sensitive Discipline - Don't","both","observation,parent-child relationship,parental sensitive discipline,parentin,parenting,sensitive discipline,sensitive limit-setting","1,1,1,1,1,1,1","","","Parenting,NA","1,0","2,192",2,"NA","NaN","39",0,2
+"97","LCID","Sensitivity - Etch-a-Sketch","both","parent-child interaction,parental sensitivity,observed parenting,parent-child collaboration","2,2,1,1","","","Parenting,parent-child interaction,observation,NA","0.67,0.17,0.17,0","2,1,1,190",2,"NA","NaN","39",0,2
+"98","LCID","Sensitivity - Family game (Familygame_quartet en Familygame_roach)","both","free play,observation,parent-child relationship,sensitivity","1,1,1,1","","","Parenting,NA","1,0","1,192",1,"NA","NaN","39",0,1
+"99","LCID","Sensitivity - Free play","both","parental sensitivity,parenting,sensitivity","1,1,1","","","Parenting,NA","1,0","1,192",1,"NA","NaN","39",0,1
+"100","LCID","Sensorimotor synchronization","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"101","LCID","Sleep routines","pilot",NA,NA,"routines,sleep","1,1",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"102","LCID","Sleeppatterns - Actigraph","pilot",NA,NA,"actigraphy,sleep","1,1",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"103","LCID","Social Contact","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,0
+"104","LCID","Social Emotional Questionnaire","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"105","LCID","Social Emotional Vignettes","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"106","LCID","Social media questionnaire","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"107","LCID","Social Media Questionnaire","both","self-report,social media","1,1","","","NA","NaN","192",0,"NA","NaN","39",0,1
+"108","LCID","Social Media Questionnaire","both","","","","","Lifestyle,Social cognition and behavior,NA","0.67,0.33,0","1,1,192",1,"NA","NaN","39",0,1
+"109","LCID","Social Network Agression Task","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"110","LCID","Social Network Agression Task - Early Childhood","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"111","LCID","Social Network Agression Task - Stories","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"112","LCID","Social Responsiveness Scale","pilot",NA,NA,"autism,autistic traits","1,1",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"113","LCID","Social Wellbeing questionnaire","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"114","LCID","Social Wellbeing Questionnaire","survey","social selfconcept,social wellbeing","1,1",NA,NA,"Mental health,Social and emotional development,NA","0.67,0.33,0","1,1,192",1,NA,NA,NA,NA,1
+"115","LCID","Stop-Signal Task - Arrows","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"116","LCID","Stop-Signal Task - Cars","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"117","LCID","Strength and Difficulties Questionnaire","both","conduct problems,emotional problems,externalizing,hyperactivity,internalizing,peer problems,prosocial","1,1,1,1,1,1,1","conduct problems,emotional problems,externalizing,hyperactivity,internalizing,mental health,peer problems,prosocial behaviour,sdq","1,1,1,1,1,1,1,1,1","Social and emotional development,Mental health,NA","0.67,0.33,0","1,1,192",1,"NA","NaN","39",0,1
+"118","LCID","Temperament in Middle Childhood Questionnaire - Discomfort, Fear, Perceptual sensitivity","both","differential susceptibility,discomfort,fear,perceptual sensitivity,temperament","1,1,1,1,1","","","Social cognition and behavior,Personality,NA","0.67,0.33,0","1,1,192",1,"NA","NaN","39",0,1
+"119","LCID","Temperament in Middle Childhood Questionnaire - Effortful control","both","effortful control,middle childhood,temperament","1,1,1","","","Personality,Social and emotional development,NA","0.67,0.33,0","1,1,192",1,"NA","NaN","39",0,1
+"120","LCID","Twin Social Interaction / Etch-a-Sketch among twins","survey","","",NA,NA,"Social and emotional development,Social cognition and behavior,NA","0.67,0.33,0","1,1,192",1,NA,NA,NA,NA,1
+"121","LCID","Twin Social Interaction / Etch a sketch among twins","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"122","LCID","Twin social skills or differences","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"123","LCID","Twin Social Skills or Differences","survey","individual differences,social competence,twins","1,1,1",NA,NA,"Personality,Social and emotional development,NA","0.5,0.5,0","1,1,192",1,NA,NA,NA,NA,1
+"124","LCID","Tympanic Membrane Temperature","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"125","LCID","Visual Analogue Scale - Scanner related stress","both","scanner related stress,stress experience","1,1","","","Mental health,neuroimaging,NA","0.67,0.33,0","1,1,191",1,"NA","NaN","39",0,1
+"126","LCID","Weight","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
+"127","LCID","Wildman items to screen for social desirability","both","","","","","NA","NaN","192",0,"NA","NaN","39",0,1
+"128","LCID","Zygosity questionnaire","pilot",NA,NA,"","",NA,NA,NA,NA,"NA","NaN","39",0,NA
