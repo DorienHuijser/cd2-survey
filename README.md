@@ -9,7 +9,7 @@ here.
 Below you will find what this survey is about and how the data are processed.
 
 You can read the script in html-form 
-[here](docs/CD2-vocabularies-survey-v1.2.html). The script itself is written in 
+[here](docs/CD2-vocabularies-survey-v1.3.html). The script itself is written in 
 Rmd and can be found [here](src/CD2-vocabularies-survey-v1.3.Rmd)
 
 **Table of contents**
