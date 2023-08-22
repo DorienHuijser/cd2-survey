@@ -1,0 +1,189 @@
+Instrument_nr;Instrument_name;Instrument_description
+1;Absenteeism;Questions about the absence from school or work.
+2;Achievement Goals and Beliefs about Success in Sport;Assessment of goal orientation, beliefs about success, and sports interest.
+3;ADHD DSM-IV Questionnaire ;Assessment of DSM oriented adult ADHD.
+4;Adolescent Cognitive Style Questionnaire (ACSQ);Assessment of cognitive vulnerability to depression.
+5;Adult Behaviour Checklist (ABCL);Assessment of psychiatric symptoms. Includes anxious/depressed, withdrawn/depressed, aggressive, and delinquent behaviour, somatic complaints, and social, thought, and attention problems during the past six months. Also includes DSM oriented scales.
+6;Adult Responses to Children's Symptoms (ARCS);Assessment of parental respons to child's pain. Includes protect, minimize, and encourage/monitor.
+7;Adult Self-Report (ASR);Assessment of psychiatric symptoms. Includes anxious/depressed, withdrawn/depressed, aggressive, and delinquent behaviour, somatic complaints, and social, thought, and attention problems during the past six months. Also includes DSM oriented scales.
+8;Adult Temperament Questionnaire (ATQ);Assessment of temperament. Only includes attention control.
+9;Adult’s Social Behavior Questionnaire (ASBQ);Assessment of autism spectrum problems (VISV). Includes social contact, empathy, social convention, social cognition, stereotyped behaviour, and fear and resistance to change.
+10;Ages and Stages Questionnaires: Social-Emotional (ASQ:SE);Assessment of social-emotional development.
+11;Alcohol Use Disorders Identification Test (AUDIT);Assessment of harmful alcohol consumption.
+12;ALSPAC positivity/negativity;Assessment of parenting. Includes warmth, support, rejection, and control.
+13;Amsterdam Neuropsychological Tasks (ANT);Assessment of cognition. Includes focused attention, sustained attention, shifting attention, memory search, face recognition, and identification of facial expressions. Without face recognition and identification of facial expressions at wave four.
+14;Antisocial Behaviour Questionnaire (ASBQ);Assessment of antisocial and delinquent behaviour.
+15;Approach-Avoidance Test (AAT);Assessment of implicit action tendencies (approach or avoid).
+16;Asthma;Questions about asthma.
+17;Baby movements;Assessment of baby movements for ten minutes.
+18;Bangor Gambling Task;Assessment of emotion-based decision making under uncertainty.
+19;Beck Anxiety Inventory (BAI);Assesment of DSM oriented somatic and cognitive anxiety problems.
+20;Bio-electrical impedance;Assessment of muscle mass and body fat.
+21;Biomarkers;Assessment of blood samples. Includes CRP, creatinine, ASAT, ALAT, cholesterol (HDL and LDL), glucose, insulin, lipoprotein, HbA1c, platelet serotonin, platelet tryptophan, IgE, IgG antibodies (HSV 1 and 2, EBV, human herpes virus 6, toxoplasma gondii, influenza A and B, gliadin, cytomegalovirus, ACTH, and alpha-MSH), and apoliprotein (A1 and B100).
+22;BIS/BAS Scale;Assessment of behavioural inhibition (BIS) and behavioural activation (BAS). Includes BAS drive, BAS fun seeking, and BAS reward responsiveness.
+23;Body Perception Questionnaire;Questions about perceived body size and body satisfaction.
+24;Cannabis Use Problems Identification Test (CUPIT);Assessment of harmful cannabis use.
+25;Cardiovascular measures;Assessment of heart rate, heart rate variability, blood pressure, and baroreflex sensitivity. Supine and standing.
+26;Care responsibilities;Questions about care responsibilities. Includes child-care, informal care, and division of housework and child-care tasks.
+27;Career and family planning;Questions about career and family planning.
+28;Caregiver-Teacher Report Form (C-TRF);Assessment of psychiatric symptoms. Includes emotionally reactive, anxious/depressed, somatic complaints, withdrawn, attention problems, and aggressive behaviour. Also includes DSM oriented scales.
+29;Child Behaviour Checklist (CBCL/6-18);Assessment of psychiatric symptoms. Includes anxious/depressed, withdrawn/depressed, aggressive, and delinquent behaviour, somatic complaints, and social, thought, and attention problems during the past six months. Also includes DSM oriented scales.
+30;Child Behaviour Checklist Preschool (CBCL/1½-5);Assessment of psychiatric symptoms. Includes emotionally reactive, anxious/depressed, somatic complaints, withdrawn, sleep problems, attention problems, and aggressive behaviour. Also includes DSM oriented scales.
+31;Childhood Executive Functioning Inventory (CHEXI);Assessment of executive functioning. Includes inhibition, regulation, working memory, and planning.
+32;Children’s Behavior Questionnaire (CBQ);Assessment of temperament. Includes activity level, approach, attentional focusing, discomfort, fear, frustration, high intensity pleasure, low intensity pleasure, impulsivity, inhibitory control, perceptual sensitivity, sadness, shyness, soothability, and smiling and laughter. Short version.
+33;Children’s Social Behavior Questionnaire (CSBQ);Assessment of autism spectrum problems (VISK). Includes tuning behaviour/emotion to the situation, social contact, social cognition, fear and resistance to change, stereotyped behaviour, and orientation problems in time, place or activity.
+34;Chronic conditions;Questions about fibromyalgia, chronic fatigue syndrome, and irritable bowel syndrome.
+35;Columbia Impairment Scale (CIS);Assessment of impairment in different domains of daily life. Includes interpersonal relations, broad psychopathological domains, functioning in job or schoolwork, and use of leisure time.
+36;Common health problems;Questions about accidents and common health problems.
+37;Community Assessment of Psychic Experiences (CAPE);Assessment of psychosis. Includes positive, negative, and depressive symptoms. Short version.
+38;Conflict in Adolescent Dating Relationships Inventory (CADRI);Assessment of inter-partner aggression. Includes threatening behaviour, physical abuse, and verbal emotional abuse both from and towards partner.
+39;Conflict Tactics Scale;Assessment of family violence. Includes corporal punishment and psychological aggression both from and towards parents.
+40;Confusion, Hubbub, and Order Scale (CHAOS);Assessment of home environment. Includes noise, confusion, clutter, hubub, frenetic activities, and disorganization.
+41;Copenhagen Psychosocial Questionnaire (COPSOQ);Assessment of job characteristics. Incudes quantitative demands, work pace, decision authority, and possibilities for development. Short version.
+42;Cortisol;Assessment of saliva. Includes cortisol levels after waking up, half an hour later, and at eight pm (only at wave one).
+43;Danish Psychosocial Questionnaire (DPQ);Assessment of job characteristics. Incudes quantitative demands, work organization, interpersonal relations, conflicts, and work situation. Short version.
+44;Depression Anxiety Stress Scale (DASS);Assessment of mental health. Includes depression, anxiety, and stress.
+45;Depression Impairment Scale for Parents (DISP);Assessment of disorder-associated impairment. Includes routine tasks/activities and family functioning. Related to the Adult Self-Report (ASR).
+46;Derryberry and Reed Task;Assessment of fear and appetitive attentional processes.
+47;Developmental history;Questions about perinatal circumstances and complications, timing of developmental stages, toilet-trainedness, and day-care use.
+48;Developmental milestones;Reported developmental milestones.
+49;Diagnostic Infant and Preschool Assessment (DIPA);Assessment of psychiatric symptoms. Only includes ADHD.
+50;Discrimination ;Questions about discrimination regarding race, sex or physical appearance.
+51;Disruptive Behavior Diagnostic Observation Schedule (DB-DOS);Assessment of disruptive behaviour. Includes behavioral regulation and anger modulation. Only includes fifteen minutes parent module.
+52;DNA;Assessment of genomewide SNP variations, selected length polymorphisms, and polygenic risk scores.
+53;Drinking Motive Questionnaire Revised (DMQ-R);Assessment of motivations to consume alcohol.
+54;Early Adolescent Temperament Questionnaire Revised (EATQ-R);Assessment of temperament. Includes fearfulness, frustration, shyness, surgency, affiliation, and effortful control. Self-report version also includes perceptual sensitivity and pleasure sensitivity. Selection of (age-appropriate) items at waves four and five.
+55;Early Childhood Behavior Questionnaire (ECBQ);Assessment of temperament. Includes activity level, attentional focusing, attentional shifting, cuddliness, discomfort, fear, frustration, high intensity pleasure, low intensity pleasure, impulsivity, inhibitory control, motor activation, perceptual sensitivity, positive anticipation, sadness, shyness, sociability, and soothability. Short version.
+56;Early Social Communication Scales (ESCS);Assessment of social behaviour. Includes joint attention, behavioural requests, and social interaction.
+57;Eating Disorder Diagnostic Scale (EDDS);Assessment of anorexia nervosa, bulimia nervosa, and binge-eating disorder. 
+58;Egna Minnen Betraffande Uppfostran Child (EMBU-C);Assessment of parental behaviour. Includes overprotection, emotional warmth, and rejection. Selection of eight most relevant items at wave four.
+59;Emotion Dysregulation Inventory (EDI);Assessment of emotional distress and problems with emotion regulation. Includes reactivity and dysphoria.
+60;Event History Calendar;Questions about life events during past five years.
+61;Familial pathology;Questions about handicaps, chronic diseases, and mental health problems of relatives.
+62;Familial psychopathology;Assessment of mental health. Includes depression, anxiety, addiction, antisocial behaviour, psychosis, ADHD, and PDD-NOS.
+63;Family Assessment Device (FAD);Assessment of family environment. Includes openess, support, and familiarity.
+64;Fear of Negative Social Evaluation Scale;Assessment of social anxiety.
+65;Financial debts;Questions about financial debts.
+66;Food Frequency Questionnaire;Assessment of diet. Includes consumption of various foods and beverages. Short version.
+67;Friendships;Questions about number and quality of friendships.
+68;Gaming;Questions about gaming.
+69;Generalized Anxiety Disorder Scale (GAD-7);Assessment of generalized anxiety disorder.
+70;Generalized Self-Efficacy (GSE);Assessment of perceived self-efficacy and coping skills. Subset of five out of ten items.
+71;Happiness;Reported happiness and satisfaction.
+72;Health services utilization;Questions about health services utilization. Includes various somatic and mental health services.
+73;Health Worries Questionnaire;Assessment of health worries (hypochondria).
+74;Impairment Rating Scale (IRS);Assessment of impairment. Includes relationships with peers and adults and academic progress.
+75;Infant Behavior Questionnaire Revised (IBQ-R);Assessment of temperament. Includes activity level, distress to limitations, approach, fear, duration of orienting, smiling and laughter, vocal reactivity, sadness, perceptual sensitivity, high intensity pleasure, low intensity pleasure, cuddliness, soothability, and falling reactivity. Short version.
+76;Infant/Toddler Home Observation for Measurement of the Environment (IT-HOME);Assessment of family resources. Includes responsivity, acceptance, organization, learning materials, involvement, and variety.
+77;Infant-Toddler Social and Emotional Assessment (ITSEA);Assessment of social-emotional problems and competencies. Includes externalizing, internalizing, dysregulation, and competence.
+78;Interactive Drawing Test;Assessment of reciprocity.
+79;Internet Gaming Disorder Scale;Assessment of internet gaming disorder. Includes preoccupation, tolerance, withdrawl, persistence, escape, problems, deception, displacement, and conflict.
+80;Internet use;Questions about internet use.
+81;Intimate relationships ;Questions about current and past intimate relationships.
+82;Intrasexual Competition Scale;Assessment of intrasexual competitiveness.
+83;Inventory of Attitudes towards Seeking Mental Health Services (IASMHS);Assessment of help-seeking attitudes. Includes psychological openness, help-seeking propensity, and indifference to stigma.
+84;Investment Model Scale;Assessment of romantic relationship safisfaction. Includes general satisfaction, alternatives, investment, and commitment.
+85;Kessler Psychological Distress Scale (K10);Assessment of mental health. Includes global distress, depression, and anxiety.
+86;Length and weight;Assessment of length and weight. Partner length and weight reported not measured.
+87;Life events;Questions about hospital admissions, moves to other houses, parental illness, death of loved one, parental divorce, and long stay away from home below age twelve.
+88;Life Events Questionnaire;Questions about life events during past two years.
+89;Life Experience Survey (LES);Assessment of live events. Includes marital separation, death of a family member, and trouble with employer.
+90;Life Stress Interview (LSI);Assessment of interviewer-rated life events between wave three and wave four.
+91;Lifestyle;Questions about lifestyle. Includes sports and diet.
+92;Lifetime Depression Assessment Self-report (LIDAS);Assessment of current and lifetime major depressive disorder.
+93;Long-term Difficulties Questionnaire;Questions about long-term difficulties. Includes chronic illness, performance pressure, and bullying.
+94;Medical aids;Questions about glasses, braces, and hearing aids.
+95;Medical history;Questions about medical history. Includes health services utilization and medication use.
+96;Medication use;Reported medication use.
+97;Mental health services utilization;Questions about medication use and mental health services utilization for specific psychiatric disorders.
+98;Methylation;Assessment of methylation of NR3C1, SLC6A4, and COMT.
+99;Motives for Behaviour Questionnaire;Assesment of behavioural motives. Includes hedonic, instrumental, and normative motives.
+100;Motor activity;Assessment of motor activity. Child wears an accelerometer for one day.
+101;Multidimensional Scale of Perceived Social Support;Assessment of social support. Includes family, friends, and partner.
+102;Need for care;Questions about need for care for emotional and behavioural problems.
+103;Negative Marital Interaction Scale;Assessment of negative marital interactions. Includes criticism, demands, being let down, and irritation.
+104;NEO Five-Factor Inventory (NEO-FFI);Assessment of personality. Includes openness to experience, conscientiousness, extraversion, agreeableness, and neuroticism.
+105;NEO Personality Inventory Revised (NEO-PI-R);Assessment of personality. Includes hostility, impulsivity, assertiveness, excitement seeking, self-discipline, and vulnerability. Parent and sibling-report versions also include self-consciousness, gregariousness, activity, competence, deliberation, achievement striving, altruism, tendermindedness, and action. Only includes neuroticism at wave five.
+106;Nijmeegse Ouderlijke Stress Index Kort (NOSI-K);Assessment of parental stress.
+107;Noise disturbance;Questions about disturbance experienced from different sources of noise.
+108;Nottingham Health Profile (NHP);Assessment of subjective health. Only includes sleep problems.
+109;Observed home environment;Assessment of home environment. Includes atmosphere, dirt, luxury, and space.
+110;Pain;Questions about pain. Includes headache and backpain.
+111;Parent Behavior Checklist (PBC);Assessment of parental behaviour. Includes expectations, nurturing, and discipline.
+112;Parental Cognitions and Conduct Toward the Infant Scale (PACOTIS);Assessment of parent-child interaction. Includes parental self-efficacy, perceived parental impact, parental coercive behaviours, and parental overprotection.
+113;Parental involvement;Questions about parental involvement. Includes putting to sleep, feeding, toilet visits, and taking to school/sports.
+114;Parental knowledge;Questions about parental knowlege. Includes friends, time spending, and drug use.
+115;Parental overprotection;Questions about parental overprotection.
+116;Parental religiosity;Questions about religiosity.
+117;Parent-child interaction;Assessment of parent-child interaction. Child spends at least ten minutes (wave two) or eighteen minutes (wave three) playing with mother and father seperately.
+118;Parent-child relationship;Questions about parent-child relationship. Includes child disclosure, parental solicitation, parental control, and parental reactions to disclosure.
+119;Parenting Stress Index (PSI);Assessment of parental distress and difficult child characteristics.
+120;Partner support;Questions about experienced partner support and arguments.
+121;Peak flow test;Assessment of physcial fitness. Also used to diagnose and monitor asthma.
+122;Peer status;Assessment of peer nominations. Includes liking, disliking, helping, and bullying. Additional items at wave two.
+123;Perceived stress;Ratings of perceived stress. Pertaining to ages 0-5, 6-11, 11-13, and 13-16 years.
+124;Perfectionism;Questions about perfectionism.
+125;Physical activity;Questions about physical activity and sports.
+126;Physical health;Reported physical health. Partner-report version also includes accidents.
+127;Physiological stress-reactivity;Assessment of physiological stress-reactivity during a number of experimental conditions. Experimental conditions include orthostatic stress, startle reflex task, and the Trier Social Stress Test. Physiological measures include heart rate, blood pressure, baroreflex sensitivity, pre-ejection period, respiratory sinus arrhythmia, eyeblink reflexes (only at startle reflex task), and salivary cortisol (only at the Trier Test).
+128;Positive and Negative Affect Scale (PANAS);Assessment of positive and negative affect.
+129;Postpartum Bonding Scale;Assessment of mother-infant relationship disorders. Includes rejection, pathological anger, infant-focused anxiety, and incipient abuse.
+130;Pregnancy course;Questions about pregnancy course. Includes what week of your pregnancy are you in?
+131;Pregnancy history;Questions about pregnancy history. Includes fetal development, perinatal complications, perinatal substance use, and parental context.
+132;Pregnancy status;Questions about pregnancy status. Includes are you still pregnant and what is the reason you are no longer pregnant?
+133;Pregnancy stress;Reported cheerfulness, anxiety, engergy level, sadness, calmness, apathy, number of negative events, and number of positive events.
+134;Preschool Behaviour List;Assessment of axiety, aggression, concentration, social skills, and motor skills.
+135;Preventive Child Healthcare Services;Recorded pregnancy and early-childhood factors as registered by Preventive Child Healthcare Services.
+136;Professional ambition;Questions about professional ambitions and expectations.
+137;Prosocial Behaviour Questionnaire;Assessment of social competence.
+138;Psychiatric Case Registry North Netherlands;Recorded mental health services utilization from 2000 to 2012 as registered by the Psychiatric Case Registry North Netherlands.
+139;Psychiatric diagnoses;Reported clinical diagnoses. Includes fifteen common DSM disorders.
+140;Pubertal Development Scale;Assessment of pubertal development. Includes body hair, facial hair, voice change, skin change, and growth spurt for males and body hair, skin change, breast development, growth spurt, and menarche for females. 
+141;Raisin task;Assessment of self-control.
+142;Relational Aggression Questionnaire;Questions about relational aggression. Includes perpetrations and victimization.
+143;Revised Child Anxiety and Depression Scale (RCADS);Assessment of DSM oriented anxious and depressive states. Depression not at wave three.
+144;Revised Class Play;Assessment of social competence. Includes sociability/leadership, aggressive/disruptive, and sensitive/isolated.
+145;Rey’s Verbal Learning Test;Assessment of verbal memory.
+146;Rey-Osterrieth Complex Figure test;Assessment of visual perception and long term visual memory.
+147;School records;Recorded language, arithmetic, sports, and creative skills as registered by the school. Also includes learning difficulties.
+148;Self-Efficacy for Parenting Tasks Index (SEPTI-TS);Assessment of parental efficacy. Only includes emotional availability and play scale.
+149;Self-Ordered Pointing Task (SOPT);Assessment of working memory.
+150;Self-Perception Profile for Children (SPPC);Assessment of self-perception. Includes learning, friends, sports, appearance, behaviour, and general self-competence.
+151;Sexuality;Questions about sexual experiences and contraceptives.
+152;Short trips;Questions about short trips. Includes going to pubs, festivals, cinemas, clubs, and arcades.
+153;Shuttle run test;Assessment of physcial fitness.
+154;Skinfold thickness;Assessment of body fat.
+155;Sleep and Settle Questionnaire (SSQ);Assessment of sleep. Includes sleep patterns, time to settle to sleep, duration of crying, baby temperament, parental confidence, parental attributions to solve unsettlement, and parental distress.
+156;Social Media Disorder Scale;Assessment of social media disorder. Includes preoccupation, tolerance, withdrawl, persistence, escape, problems, deception, displacement, and conflict.
+157;Social media use;Questions about social media use.
+158;Social Production Functions Questionnaire;Assessmentof of sources of wellbeing. Includes affection, behavioural confirmation, status, stimulation, and comfort from parents, teachers, and peers.
+159;Social Skills Rating System;Assessment of social skills. Includes cooperation, assertion, responsibility, empathy, and self-control.
+160;Social support;Questions about social support.
+161;Social Support List (SSL);Assessment of social support. Includes emotional interactions, problem-focused emotional support, esteem support, instrumental interactions, social companionship, and informational support.
+162;Socio-demographics;Questions about sex, age, ethnicity, religiosity, living conditions, family composition, education, work, and income.
+163;Socioeconomic status (SES);Assessment of parental socioeconomic status. Includes education, profession, and income.
+164;Strengths and Difficulties Questionnaire (SDQ);Assessment of psychiatric symptoms. Includes emotional problems, conduct problems, hyperactivity, peer problems, and prosocial.
+165;Subjective stress-reactivity;Assessment of subjective stress-reactivity during a number of experimental conditions. Experimental conditions include orthostatic stress, startle reflex task, and the Trier Social Stress Test. Subjective measures include the Self-Assessment Manikin, the Profiles of Moods Schedule (POMS), and the State-Trait Anxiety Inventory (STAI).
+166;Substance use;Reported substance use. Includes nicotine, alcohol, cannabis, and other drugs.
+167;Survey Work-Home Interaction Nijmegen (SWING);Assessment of work-life balance. Includes work-home and home-work interactions.
+168;Tanner Scale;Assessment of pubertal stages.
+169;Teacher Report Form (TRF);Questions about psychiatric symptoms. Includes anxious/depressed, withdrawn/depressed, aggressive, and delinquent behaviour, somatic complaints, and social, thought, and attention problems during the past six months. Also includes DSM oriented scales. Vignettes describing CBCL/YSR dimensions.
+170;Temperament Profiles List;Assessment of temperament. Includes activity level, biological rhythms, sensitivity, intensity of reaction, adaptability, approach/withdrawal, persistence, and distractibility.
+171;The Capability Set for Work;Assessment of work values. Includes use of knowledge and skills, development of knowledge and skills, involvement in important decisions, building and maintaining meaningful contacts, setting own goals, having a good income, and contributing to something valuable. 
+172;Time spending patterns;Assessment of time spending. Includes, transportation, studying, screen time, hobbies, socializing, and sports.
+173;Traumatic childhood events;Questions about traumatic childhood events before age sixteen. Includes abuse and violence.
+174;Turning Points Questionnaire;Questions about life course turning points.
+175;Unemployment;Questions about unemployment, job seeking behaviour, and reasons for inactivity.
+176;Utrecht Work Engagement Scale (UWES);Assessment of work engagement. Includes vigor, dedication, and absorption. Selection of three items.
+177;Utrechtse Burn-Out Schaal (UBOS);Assessment of burn-out. Includes (emotional) exhaustion, mental distance, and competence.
+178;Verbal Fluency Test;Assessment of verbal ability and executive control.
+179;Virginity loss;Reported age at first sexual intercourse.
+180;Waist and hip circumference;Assessment of waist and hip circumference.
+181;Wechsler Adult Intelligence Scale (WAIS-III);Assessment of intelligence. Includes block design, vocabulary, and digit span .
+182;Wechsler Intelligence Scale for Children (WISC-R);Assessment of intelligence. Includes block design and vocabulary.
+183;WHO Disability Assessment Schedule 2.0 (WHODAS 2.0);Assessment of disability. Includes cognition, mobility, self-care, getting along with people, life activities, and participation in society.
+184;Work and health;Questions about physical work factors.
+185;Work health balance;Questions about influence of work on health and health on work.
+186;Work Role Functioning Questionnaire 2.0 (WRFQ 2.0);Assessment of health-related work functioning.
+187;World Mental Health Composite International Diagnostic Interview (CIDI);Assessment of psychiatric symptoms. Includes depression, mania, panic disorder, specific phobia, social phobia, agoraphobia, generalized anxiety disorder, suicidality, alcohol use, illegal substance use, eating disorders, obsessive compulsive disorder, gambling, neurasthenia, attention deficit disorder, oppositional defiant disorder, conduct disorder, and separation anxiety.
+188;Youth Self-Report (YSR);Assessment of psychiatric symptoms. Includes anxious/depressed, withdrawn/depressed, aggressive, and delinquent behaviour, somatic complaints, and social, thought, and attention problems during the past six months. Also includes DSM oriented scales.
